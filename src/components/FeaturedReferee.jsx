@@ -105,7 +105,7 @@ export default function FeaturedReferee(){
                 <h5 className="flex">
                     Ver ranking completo
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_321_103)">
+                        <g clipPath="url(#clip0_321_103)">
                             <path d="M6.75 13.5L12 9L6.75 4.5V13.5Z" fill="white" />
                         </g>
                     </svg>

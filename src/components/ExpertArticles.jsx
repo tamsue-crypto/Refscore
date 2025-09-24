@@ -37,7 +37,7 @@ export default function ExpertArticles({context, id}) {
                 <h1 className='navigate-text'>
                     Opiniões &amp; Análises
                     <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0707 19.0002L13.4104 10.3399L15.0898 8.66042L25.4294 19.0002L15.0898 29.3398L13.4104 27.6605L22.0707 19.0002Z" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M22.0707 19.0002L13.4104 10.3399L15.0898 8.66042L25.4294 19.0002L15.0898 29.3398L13.4104 27.6605L22.0707 19.0002Z" />
                     </svg>    
                 </h1>
                 
@@ -81,23 +81,23 @@ export default function ExpertArticles({context, id}) {
                                 <p>{article.lead}</p>
                             </div>
 
-                            <div class="important-features">
-                                <span class="date">
+                            <div className="important-features">
+                                <span className="date">
                                     {article.date}
-                                    <div class="comments">
+                                    <div className="comments">
                                         <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_351_833)">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
+                                            <g clipPath="url(#clip0_351_833)">
+                                                <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                             </g>
                                         </svg>
                                         <span>{article.comments}</span>
                                     </div>
                                 </span>
 
-                                <span class="see-more">
+                                <span className="see-more">
                                     Ver Mais
                                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_72_467)">
+                                        <g clipPath="url(#clip0_72_467)">
                                             <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
                                         </g>
                                     </svg>

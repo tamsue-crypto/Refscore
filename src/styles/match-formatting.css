@@ -66,6 +66,16 @@
     margin: 5px auto;
 }
 
+.scoreboard{
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreboard small{
+    font-weight: 500;
+    font-size: 12px;
+}
+
 /*matches list*/
 #matches-container{
     margin-top: 40px;
@@ -88,6 +98,16 @@
 
 .championship-header.bl{
     background-image: linear-gradient(to right, #a80412, #d20515);
+}
+
+.championship-header.ucl{
+    background-image: linear-gradient(to right, #2a20ae, #0683d0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.championship-header.ucl img{
+    height: 25px;
 }
 
 .championship-header{
