@@ -1,0 +1,214 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.701);
+  z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    z-index: 1000;
+    width: 948px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-form {
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: white; /* ou o fundo que quiser */
+}
+
+/*Screens*/
+.modal-form h2{
+    font-family: "Space Grotesk";
+    font-weight: bold;
+}
+
+.modal-form span{
+    font-family: "DM-Sans";
+    font-size: 16px;
+    color: #aeaeae;
+}
+
+.auth-form{
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #cecece;
+    padding: 20px 0px;
+    margin: 18px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-container{
+    gap: 5px;
+}
+
+.info-container label{
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.info-container input{
+    border: 1px solid #cccccc;
+    border-radius: none;
+    height: 38px;
+    width: 380px;
+    outline: 0px;
+    font-family: "DM-Sans";
+    font-weight: 500;
+    font-size: 16px;
+    text-indent: 10px;
+}
+
+.info-container input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 0px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.pass-recovery{
+    font-size: 14px;
+    color: #aeaeae;
+    cursor: pointer;
+}
+
+.pass-recovery:hover{
+    text-decoration: underline;
+}
+
+.modal-form button{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.modal-image{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.auth-nav{
+    text-align: center;
+    color: #6e6e6e;
+    font-weight: 500;
+}
+
+.auth-nav span{
+    color: #000;
+}
+
+.auth-nav span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*selector*/
+.time-selector-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-select-display {
+    border: 1px solid #cccccc;
+    border-radius: none;
+    height: 38px;
+    width: 380px;
+    outline: 0px;
+    font-family: "DM-Sans";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.custom-select-display .placeholder {
+    position: relative;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.custom-select-display .placeholder svg {
+    position: absolute;
+    right: -100%;
+    top: -3px;
+}
+
+.custom-options {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.option {
+    padding: 8px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.option-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.option-content img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.scroll-container{
+    overflow-y: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-container::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 0; /* <-- aqui remove o arredondado */
+}

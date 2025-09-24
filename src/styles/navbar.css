@@ -1,0 +1,192 @@
+#main-header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    padding: 20px 18px;
+    background-color: #000;
+}
+
+/*main navbar*/
+
+#main-nav {
+  font-weight: bold;
+  color: #6e6e6e;
+}
+
+#main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+
+#main-nav ul li {
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+#main-nav ul li:hover {
+  color: #fff;
+  box-shadow: inset 0 -2px 0 var(--color-accent);
+}
+
+/*search button*/
+
+#search-area input{
+    width: 468px;
+    height: 35px;
+    border: none;
+    text-align: start;
+    box-sizing: border-box;
+    text-indent: 20px;
+    transition: all 0.3s ease;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: "DM-Sans";
+    font-weight: 500;
+}
+
+#search-area input::placeholder{
+    text-align: center;
+    font-size: 14px;
+    font-family: "DM-Sans";
+    font-weight: 400;
+    color: #cccccc;
+}
+
+#search-area input:focus{
+    outline: none;
+}
+
+#search-area button{
+    background-color: var(--color-accent);
+    border: 3px solid #fff;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#search-area button:hover{
+    background-color: var(--color-accent-hover);
+}
+
+/*quick access*/
+
+#actions-area{
+    gap: 34px;
+    color: #fff;
+}
+
+#actions-area button{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "DM-Sans";
+}
+
+#refs-btn{
+  border: none;
+  height: 35px;
+  width: 206px;
+  color: #fff;
+  background-color: #f0a04b;
+  cursor: pointer;
+}
+
+#login-btn{
+    gap: 10px;
+    height: 35px;
+    width: 116px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#refs-btn:hover{
+    background-color: var(--color-accent-hover);
+}
+
+#login-btn:hover{
+    background-color: #424242;
+}
+
+/*championships navbar*/
+
+#nav-leagues ul{
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+#nav-leagues ul li{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#champions-nav svg, #pl-nav svg, #ll-nav svg, #bl-nav svg, #sa-nav svg{
+    fill: #000;
+}
+
+#champions-nav:hover{
+    color: #1029CB;
+    box-shadow: inset 0px -2px 0px #1029CB;
+}
+
+#champions-nav:hover svg{
+    fill: #1029CB;
+}
+
+#pl-nav:hover{
+    color: #530059;
+    box-shadow: inset 0px -2px 0px #530059;
+}
+
+#pl-nav:hover svg{
+    fill: #530059;
+}
+
+#ll-nav:hover{
+    color: #FF4B44;
+    box-shadow: inset 0px -2px 0px #FF4B44;
+}
+
+#ll-nav:hover svg{
+    fill: #FF4B44;
+}
+
+#bl-nav:hover{
+    color: #D20515;
+    box-shadow: inset 0px -2px 0px #D20515;
+}
+
+#bl-nav:hover svg{
+    fill: #D20515;
+}
+
+#sa-nav:hover{
+    color: #034DFF;
+    box-shadow: inset 0px -2px 0px #034DFF;
+}
+
+#sa-nav:hover svg{
+    fill: #034DFF;
+}

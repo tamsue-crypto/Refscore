@@ -1,0 +1,134 @@
+.matches-championship-container{
+  border: 1px solid #cecece;
+}
+
+.matches {
+    background-color: #fff;
+    color: #1E1E3B;
+    border-bottom: 1px solid #cecece;
+    text-align: center;
+}
+
+.matches:last-child {
+    border: none;
+}
+
+.matches li:hover {
+    background-color: #ffb464;
+    border: none;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+}
+
+.matches .list li {
+    padding: 15px 56px;
+    border-bottom: 1px solid #cecece;
+}
+
+.matches .list li:last-child {
+    border-bottom: none;
+}
+
+.matches .list li .match {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: "DM-Sans";
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.home-team,
+.away-team {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.home-team img,
+.away-team img {
+    display: flex;
+    gap: 8px;
+    height: 25px;
+}
+
+.home-team img.national-team,
+.away-team img.national-team {
+    height: 16px;
+}
+
+.match{
+    font-weight: 600;
+    margin: 5px auto;
+}
+
+/*matches list*/
+#matches-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.championship-header.pl{
+    background-image: linear-gradient(to right, #420047, #6c0073);
+}
+
+.championship-header.sa{
+    background-image: linear-gradient(to right, #1c1495, #0995e9);
+}
+
+.championship-header.ll{
+    background-image: linear-gradient(to right, #d00b03, #ff4b44);
+}
+
+.championship-header.bl{
+    background-image: linear-gradient(to right, #a80412, #d20515);
+}
+
+.championship-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 56px;
+}
+
+.championship-logo{
+    height: 32px;
+    display: block;
+}
+
+.championship-name{
+    line-height: 32px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.referee-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+}
+
+.referee-name img{
+    height: 12px;
+}
+
+.referee-name span{
+    text-transform: capitalize;
+}
+
+.btn-area{
+    padding: 15px 56px;
+    background-color: #fff;
+    color: #1E1E3B;
+    text-align: center;
+    border-top: 1px solid #cecece;
+}

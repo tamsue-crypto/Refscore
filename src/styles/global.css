@@ -1,0 +1,200 @@
+/*fonts*/
+@font-face {
+    font-family: "DM-Sans";
+    src: url("../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Ornitons SerialB";
+  src: url("../assets/fonts/ORNITONS-SERIAL-BOLD.TTF");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Ucl";
+    src: url("../assets/fonts/ITC-Novarese-Book.ttf");
+}
+
+@font-face {
+    font-family: "Premier League";
+    src: url("../assets/fonts/RadikalTrial-Regular.otf");
+}
+
+@font-face {
+  font-family: "La Liga";
+  src: url("../assets//fonts/futura-maxi-cg-bold.otf");
+}
+
+@font-face {
+  font-family: "Bundesliga";
+  src: url("../assets/fonts/DFL\ SANS-BOLD.TTF");
+}
+
+@font-face {
+  font-family: "Serie A";
+  src: url("../assets/fonts/DINNextW1G-Bold.otf");
+}
+
+
+.ucl{font-family: "UCL"; text-transform: uppercase;}
+.pl{font-family: "Premier League"; font-weight: bold; font-size: 15px;}
+.ll{font-family: "La Liga";}
+.bl{font-family: "DFL sans"; text-transform: uppercase; font-size: 18px;}
+.sa{font-family: "Serie A"; text-transform: uppercase; font-size: 20px;}
+
+
+:root{
+    /*Main colors of the website theme*/
+    --color-accent: #f0a04b;
+    --color-accent-hover: #ffb464;
+
+    /*Football league colors*/
+    --color-champions-league: #1029CB;
+    --color-premier-league: #530059;
+    --color-la-liga: #FF4B44;
+    --color-bundesliga: #D20515;
+    --color-serie-a: #034DFF;
+}
+
+
+/*general*/
+
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: "DM-Sans";
+}
+
+::selection{
+    background-color: #f0a04b;
+    color: #fff;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transition: all 0.3s ease-out;
+}
+
+.general-btn {
+  position: relative;
+  text-align: center;
+  width: 215px;
+  height: 38px;
+  background-color: #f0a04b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "DM-Sans";
+  font-weight: bold;
+}
+
+.general-btn svg {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.general-btn:hover {
+  background-color: #ffb464;
+}
+
+/*logo*/
+
+.logo-area {
+  gap: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Space Grotesk";
+}
+
+.logo-area img {
+  height: 20px;
+}
+
+/*page*/
+.page-wrapper {
+  position: relative;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  z-index: 1;
+  position: relative;
+  gap: 70px;
+  top: 20px;
+  color: #fff;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/*ratings*/
+.avg-rating {
+  padding: 6px;
+  font-family: "DM-Sans";
+  font-weight: 600;
+  color: #fff;
+  max-width: 34px;
+  max-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfect {
+  background-color: #374df5;
+}
+
+.awesome {
+  background-color: #00adc4;
+}
+
+.good {
+  background-color: #00C424;
+}
+
+.average {
+  background-color: #d9af00;
+}
+
+.bad {
+  background-color: #ed7e07;
+}
+
+.taxes {
+  background-color: #dc0c0d;
+}
