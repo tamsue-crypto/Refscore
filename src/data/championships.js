@@ -28,5 +28,5 @@ export const championships = [
     name: "Liga dos Campeões",
     logo: "/images/championships_logos/ucl-logo.png",
     className: "ucl",
-  }
+  },
 ];
