@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 import "../styles/global.css";
 
@@ -5,10 +6,12 @@ export default function NavBar({onLoginClick}){
     return(
         <>
             <header id="main-header">
-                <div className="logo-area flex-center">
-                    <img src="/images/refscore-icon.png" alt=""/>
-                    <span>Refscore</span>
-                </div>
+                <Link to={`/`}>
+                    <div className="logo-area flex-center">
+                        <img src="/images/refscore-icon.png" alt=""/>
+                        <span>Refscore</span>
+                    </div>
+                </Link>
 
                 <div id="main-nav">
                     <ul>

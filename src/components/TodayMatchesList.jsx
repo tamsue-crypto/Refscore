@@ -4,7 +4,7 @@ import { teams } from "../data/teams.js";
 import { referees } from "../data/referees.js";
 import { championships } from "../data/championships.js";
 
-export default function TodayMatchesList({day}) {
+export default function TodayMatchesList({day, style}) {
     let matchesToDisplay = matches.filter(match => match.date === day);
 
     if (matchesToDisplay.length === 0) {
@@ -44,7 +44,7 @@ export default function TodayMatchesList({day}) {
 
     return (
         <>
-            <div id="matches-container">
+            <div id="matches-container" style={style}>
                 {championships.map((competition) => {
                     const matchList = groupedMatches[competition.name];
 

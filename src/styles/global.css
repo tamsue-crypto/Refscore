@@ -204,3 +204,8 @@ html, body{
 .taxes {
   background-color: #dc0c0d;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,6 +1,7 @@
 import '../styles/global.css';
 import '../styles/news.css';
 import { articles } from '../data/articles';
+import { Link } from 'react-router-dom';
 
 export default function FeaturedNews() {
     const getArticlesByUpvote = [...articles].sort((a, b) => {
@@ -20,18 +21,20 @@ export default function FeaturedNews() {
                 <div className='news-container flex'>
                     {mainArticle && (
                         <div className='news'>
-                            <div className='featured-img'>
-                                <img src={`/images/news/${mainArticle.image}`} className='bg-img' alt=''/>
+                            <Link to={`news/${mainArticle._id}`}>
+                                <div className='featured-img'>
+                                    <img src={`/images/news/${mainArticle.image}`} className='bg-img' alt=''/>
 
-                                <div className={`content ${mainArticle.layout}`}>
-                                    <img src={`images/championships_logos/${mainArticle.championshipLogo}`} alt=""/>
+                                    <div className={`content ${mainArticle.layout}`}>
+                                        <img src={`images/championships_logos/${mainArticle.championshipLogo}`} alt=""/>
 
-                                    <div>
-                                        <div className='tag'>{mainArticle.tag}</div>
-                                        <div className='title-news'>{mainArticle.title}</div>
+                                        <div>
+                                            <div className='tag'>{mainArticle.tag}</div>
+                                            <div className='title-news'>{mainArticle.title}</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
 
                             <div className='bottom-lead featured'>
                                 <p>{mainArticle.lead}</p>
@@ -46,18 +49,20 @@ export default function FeaturedNews() {
                                                 <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                             </g>
                                         </svg>
-                                        <span>{mainArticle.comments}</span>
+                                        <span>{mainArticle.commentsCount}</span>
                                     </div>
                                 </span>
 
-                                <span className="see-more">
-                                    Ver Mais
-                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clipPath="url(#clip0_72_467)">
-                                            <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
-                                        </g>
-                                    </svg>
-                                </span>
+                                <Link to={`/news/${mainArticle._id}`}>
+                                    <span className="see-more">
+                                        Ver Mais
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clipPath="url(#clip0_72_467)">
+                                                <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </Link>  
                             </div>
                         </div>
                     )}
@@ -65,18 +70,20 @@ export default function FeaturedNews() {
                     <div id='side-featured' className='flex flex-column'>
                         {sideArticles.map((sideArticle) =>
                             <div className='news' key={sideArticle._id}>
-                                <div className='side-featured-img'>
-                                    <img src={`/images/news/${sideArticle.image}`} alt="" className='bg-img' />
+                                <Link to={`news/${sideArticle._id}`}>
+                                    <div className='side-featured-img'>
+                                        <img src={`/images/news/${sideArticle.image}`} alt="" className='bg-img' />
 
-                                    <div className={`content ${sideArticle.layout}`}>
-                                        <img src={`/images/championships_logos/${sideArticle.championshipLogo}`} alt="" />
+                                        <div className={`content ${sideArticle.layout}`}>
+                                            <img src={`/images/championships_logos/${sideArticle.championshipLogo}`} alt="" />
 
-                                        <div>
-                                            <div className='tag'>{sideArticle.tag}</div>
-                                            <div className='title-news'>{sideArticle.title}</div>
+                                            <div>
+                                                <div className='tag'>{sideArticle.tag}</div>
+                                                <div className='title-news'>{sideArticle.title}</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
 
                                 <div className='important-features'>
                                     <span className="date">
@@ -87,18 +94,20 @@ export default function FeaturedNews() {
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                                 </g>
                                             </svg>
-                                            <span>{sideArticle.comments}</span>
+                                            <span>{sideArticle.commentsCount}</span>
                                         </div>
                                     </span>
 
-                                    <span className="see-more">
-                                        Ver Mais
-                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clipPath="url(#clip0_72_467)">
-                                                <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
-                                            </g>
-                                        </svg>
-                                    </span>
+                                    <Link to={`/news/${sideArticle._id}`}>
+                                        <span className="see-more">
+                                            Ver Mais
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clipPath="url(#clip0_72_467)">
+                                                    <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </Link>   
                                 </div>
                             </div>
                         )}

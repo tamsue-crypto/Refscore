@@ -116,6 +116,11 @@
 
 /*championships navbar*/
 
+#secondary-nav{
+    display: flex;
+    box-shadow: 0 -1px 6px black;
+}
+
 #nav-leagues ul{
     flex-direction: row;
     gap: 20px;

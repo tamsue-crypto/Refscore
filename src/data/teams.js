@@ -360,4 +360,20 @@ export const teams = [
         team_code: "slb",
         badge: "alternatives/sl-benfica.png"
     },
+    {
+        _id: '46',
+        name: 'FC Bayern Munique',
+        short_name: 'Bayern',
+        slug: 'fc-bayern',
+        team_code: 'fcb',
+        badge: 'bundesliga/bayern-munchen.svg'
+    },
+    {
+        _id: '47',
+        name: 'Atletico de Madrid',
+        short_name: 'Atletico Madrid',
+        slug: 'atleti',
+        team_code: 'atm',
+        badge: 'la-liga/atletico-madrid.png'
+    }
 ];

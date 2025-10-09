@@ -2,6 +2,7 @@ import '../styles/global.css';
 import '../styles/news.css';
 import { articles } from '../data/articles';
 import { journalists } from '../data/journalists';
+import { Link } from "react-router-dom";
 
 export default function ExpertArticles({context, id}) {
     let filteredArticles;
@@ -59,23 +60,25 @@ export default function ExpertArticles({context, id}) {
                                 </div>
                             </div>
 
-                            <div className='general-news-img'>
-                                <img src={`/images/news/${article.image}`} alt="" className='bg-img' />
+                            <Link to={`/news/${article._id}`}>
+                                <div className='general-news-img'>
+                                    <img src={`/images/news/${article.image}`} alt="" className='bg-img' />
 
-                                <div className={`content ${article.layout}`}>
-                                    <div className='header-ref-anl flex'>
-                                        <img src={`images/championships_logos/${article.championshipLogo}`} alt="" />
-                                        {article.tag === 'Análise' && (
-                                            <div className={`avg-rating ${getRatingClass(article.rating)}`}>{article.rating.toFixed(1)}</div>
-                                        )}
-                                    </div>
+                                    <div className={`content ${article.layout}`}>
+                                        <div className='header-ref-anl flex'>
+                                            <img src={`images/championships_logos/${article.championshipLogo}`} alt="" />
+                                            {article.tag === 'Análise' && (
+                                                <div className={`avg-rating ${getRatingClass(article.rating)}`}>{article.rating.toFixed(1)}</div>
+                                            )}
+                                        </div>
 
-                                    <div>
-                                        <div className='tag'>{article.tag}</div>
-                                        <div className='title-news'>{article.title}</div>
+                                        <div>
+                                            <div className='tag'>{article.tag}</div>
+                                            <div className='title-news'>{article.title}</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
 
                             <div className='bottom-lead general'>
                                 <p>{article.lead}</p>
@@ -90,18 +93,20 @@ export default function ExpertArticles({context, id}) {
                                                 <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                             </g>
                                         </svg>
-                                        <span>{article.comments}</span>
+                                        <span>{article.commentsCount}</span>
                                     </div>
                                 </span>
 
-                                <span className="see-more">
-                                    Ver Mais
-                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <g clipPath="url(#clip0_72_467)">
-                                            <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
-                                        </g>
-                                    </svg>
-                                </span>
+                                <Link to={`/news/${article._id}`}>
+                                    <span className="see-more">
+                                        Ver Mais
+                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clipPath="url(#clip0_72_467)">
+                                                <path d="M5.25 10.5L9.33333 7L5.25 3.5V10.5Z" fill="black" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </Link>            
                             </div>
                         </div>
                     )})}

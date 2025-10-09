@@ -69,7 +69,7 @@ export default function HomePage() {
                     </div>
 
                     <div> {/*jogos do dia*/}
-                        <TodayMatchesList day={todayDate}/>
+                        <TodayMatchesList day={todayDate} style={{marginTop: '40px'}}/>
                     </div>
                 </div>
             </div>
