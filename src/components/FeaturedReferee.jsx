@@ -20,82 +20,92 @@ export default function FeaturedReferee(){
                     <div className="matches">
                         <ul className="list">
                             <li>
-                                <div className="match flex-center">
-                                    <div className="home-team">
-                                        <span>PSG</span>
-                                        <img src="/images/club_badges/ligue-1/psg.png"/>
-                                    </div>
-                                    <span className="scoreboard">4 - 1</span>
-                                    <div className="away-team">
-                                        <img src="/images/club_badges/ligue-1/lille.png"/>
-                                        <span>LIL</span>
-                                    </div>
+                                <div className="match-container">
+                                    <div className="match flex-center">
+                                        <div className="home-team">
+                                            <span>PSG</span>
+                                            <img src="/images/club_badges/ligue-1/psg.png"/>
+                                        </div>
+                                        <span className="scoreboard">4 - 1</span>
+                                        <div className="away-team">
+                                            <img src="/images/club_badges/ligue-1/lille.png"/>
+                                            <span>LIL</span>
+                                        </div>
 
-                                    <div className="avg-rating awesome">8.2</div>
+                                        <div className="avg-rating awesome">8.2</div>
+                                    </div>
                                 </div>
                             </li>
 
                             <li>
-                                <div className="match flex-center">
-                                    <div className="home-team">
-                                        <span>SCB</span>
-                                        <img src="/images/club_badges/alternatives/bastia.png"/>
-                                    </div>
-                                    <span className="scoreboard">1 - 0</span>
-                                    <div className="away-team">
-                                        <img src="/images/club_badges/alternatives/martigues.png"/>
-                                        <span>FCM</span>
-                                    </div>
+                                <div className="match-container">
+                                    <div className="match flex-center">
+                                        <div className="home-team">
+                                            <span>SCB</span>
+                                            <img src="/images/club_badges/alternatives/bastia.png"/>
+                                        </div>
+                                        <span className="scoreboard">1 - 0</span>
+                                        <div className="away-team">
+                                            <img src="/images/club_badges/alternatives/martigues.png"/>
+                                            <span>FCM</span>
+                                        </div>
 
-                                    <div className="avg-rating good">7.6</div>
+                                        <div className="avg-rating good">7.6</div>
+                                    </div>
                                 </div>
                             </li>
 
                             <li>
-                                <div className="match flex-center">
-                                    <div className="home-team">
-                                        <span>FCB</span>
-                                        <img src="/images/club_badges/la-liga/barcelona.png"/>
-                                    </div>
-                                    <span className="scoreboard">3 - 1</span>
-                                    <div className="away-team">
-                                        <img src="/images/club_badges/alternatives/sl-benfica.png"/>
-                                        <span>SLB</span>
-                                    </div>
+                                <div className="match-container">
+                                    <div className="match flex-center">
+                                        <div className="home-team">
+                                            <span>FCB</span>
+                                            <img src="/images/club_badges/la-liga/barcelona.png"/>
+                                        </div>
+                                        <span className="scoreboard">3 - 1</span>
+                                        <div className="away-team">
+                                            <img src="/images/club_badges/alternatives/sl-benfica.png"/>
+                                            <span>SLB</span>
+                                        </div>
 
-                                    <div className="avg-rating good">7.8</div>
+                                        <div className="avg-rating good">7.8</div>
+                                    </div>  
                                 </div>
                             </li>
 
                             <li>
-                                <div className="match flex-center">
-                                    <div className="home-team">
-                                        <span>MSC</span>
-                                        <img src="/images/club_badges/ligue-1/montpellier.png"/>
-                                    </div>
-                                    <span className="scoreboard">0 - 2</span>
-                                    <div className="away-team">
-                                        <img src="/images/club_badges/ligue-1/saint-etiene.png"/>
-                                        <span>ASE</span>
-                                    </div>
+                                <div className="match-container">
+                                    <div className="match flex-center">
+                                        <div className="home-team">
+                                            <span>MSC</span>
+                                            <img src="/images/club_badges/ligue-1/montpellier.png"/>
+                                        </div>
+                                        <span className="scoreboard">0 - 2</span>
+                                        <div className="away-team">
+                                            <img src="/images/club_badges/ligue-1/saint-etiene.png"/>
+                                            <span>ASE</span>
+                                        </div>
 
-                                    <div className="avg-rating awesome">8.0</div>
+                                        <div className="avg-rating awesome">8.0</div>
+                                    </div>
                                 </div>
                             </li>
 
                             <li>
-                                <div className="match flex-center">
-                                    <div className="home-team">
-                                        <span>ITA</span>
-                                        <img src="/images/flag/italy.png" className="national-team"/>
-                                    </div>
-                                    <span className="scoreboard">1 - 2</span>
-                                    <div className="away-team">
-                                        <img src="/images/flag/germany.png" className="national-team"/>
-                                        <span>ALE</span>
-                                    </div>
+                                <div className="match-container">
+                                    <div className="match flex-center">
+                                        <div className="home-team">
+                                            <span>ITA</span>
+                                            <img src="/images/flag/italy.png" className="national-team"/>
+                                        </div>
+                                        <span className="scoreboard">1 - 2</span>
+                                        <div className="away-team">
+                                            <img src="/images/flag/germany.png" className="national-team"/>
+                                            <span>ALE</span>
+                                        </div>
 
-                                    <div className="avg-rating good">7.4</div>
+                                        <div className="avg-rating good">7.4</div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>

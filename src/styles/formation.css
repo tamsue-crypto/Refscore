@@ -1,0 +1,134 @@
+#formation-container{
+    width: 320px;
+    height: fit-content;
+    border: 2px solid #cecece;
+    display: flex;
+    flex-direction: column;
+}
+
+.selector{
+    text-transform: uppercase;
+    width: fit-content;
+    display: flex;
+    padding: 2px;
+    background-color: #D9D9D9;
+    margin: 12px auto 2px auto;
+}
+
+.selector span{
+    background-color: #D9D9D9;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selector .selected{
+    background-color: var(--color-accent);
+    color: #fff;
+}
+
+.player-item{
+    display: flex;
+    padding: 16px 12px;
+    align-items: center;
+    border-bottom: 2px solid #cecece;
+    font-family: "Bundesliga";
+    justify-content: space-between;
+}
+
+.player-item:last-child{
+    border-bottom: 0px;
+}
+
+.player-info{
+    display: flex;
+    gap: 10px;
+}
+
+.player-info img{
+    height: 14px;
+    width: auto;
+}
+
+.player-info-prefix{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.player-event{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.player-event span{
+    font-size: 10px;
+}
+
+.player-event img{
+    width: auto;
+    height: 14px;
+}
+
+.player-events{
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+}
+
+.hooked-icon{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/*tooltip*/
+.hooked-event {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.hooked-event .tooltip{
+    visibility: hidden;
+    opacity: 0;
+    bottom: 125%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 6px 10px;
+    white-space: nowrap;
+    transition: opacity 0.15s ease;
+    z-index: 10;
+    pointer-events: none;
+    border: 2px solid #cecece;
+}
+
+.hooked-event:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+
+.tooltip-player-info{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 4px;
+    border-bottom: 2px solid var(--color-accent);
+    padding: 5px;
+}

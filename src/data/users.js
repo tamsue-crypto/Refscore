@@ -28,5 +28,11 @@ export const users = [
         name: 'Jude',
         profilePicture: 'jude-pfp.jpg',
         favTeam: 'Real Madrid CF',
+    },
+    {
+        _id: '6',
+        name: 'Perluigi Collina',
+        profilePicture: 'pierluigi-pfp.jpg',
+        favTeam: 'Parma Calcio 1913',
     }
 ]

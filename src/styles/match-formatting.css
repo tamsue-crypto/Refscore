@@ -13,7 +13,7 @@
     border: none;
 }
 
-.matches li:hover {
+.matches .match-container:hover {
     background-color: #ffb464;
     border: none;
     cursor: pointer;
@@ -23,16 +23,12 @@
     list-style: none;
 }
 
-.matches .list li {
+.matches .list .match-container {
     padding: 15px 56px;
     border-bottom: 1px solid #cecece;
 }
 
-.matches .list li:last-child {
-    border-bottom: none;
-}
-
-.matches .list li .match {
+.matches .match{
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -62,7 +58,6 @@
 }
 
 .match{
-    font-weight: 600;
     margin: 5px auto;
 }
 
@@ -103,6 +98,12 @@
     background-image: linear-gradient(to right, #2a20ae, #0683d0);
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.championship-header.general-header{
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .championship-header.ucl img{
@@ -149,5 +150,4 @@
     background-color: #fff;
     color: #1E1E3B;
     text-align: center;
-    border-top: 1px solid #cecece;
 }

@@ -1,5 +1,5 @@
 export const matches = [
-    {
+    /*{
         _id: "1",
         referee: {
             referee_name: "Chris Kavanagh",
@@ -2004,9 +2004,9 @@ export const matches = [
             team_id: "2",
             formation: "3-4-2-1"
         }
-    },
+    },*/
     {
-        "_id": "21",
+        "_id": "1",
         "referee": {
             "referee_name": "Donatas Rumšas",
             "final_score": 7.6,
@@ -2043,7 +2043,7 @@ export const matches = [
         }
     },
     {
-        "_id": "x",
+        "_id": "2",
         "referee": {
             "referee_name": "Anthony Taylor",
             "final_score": 7.8,
@@ -2080,7 +2080,7 @@ export const matches = [
         }
     },
     {
-        "_id": "x",
+        "_id": "3",
         "referee": {
             "referee_name": "François Letexier",
             "final_score": 7.8,
@@ -2109,15 +2109,410 @@ export const matches = [
         },
         "home_team": {
             "team_name": "Juventus FC",
-            "formations": "3-4-2-1"
+            "formations": "3-4-2-1",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Michele Di Gregorio",
+                        "jersey_number": "16",
+                        "nationality": "italy"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pierre Kalulu",
+                        "jersey_number": "15",
+                        "nationality": "france"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Bremer",
+                        "jersey_number": "3",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lloyd Kelly",
+                        "jersey_number": "6",
+                        "nationality": "england"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Weston McKennie",
+                        "jersey_number": "22",
+                        "nationality": "united_states"
+                    },
+                    "statistics": {
+                        "minutes_played": 60,
+                        "hooked": 60
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Khéphren Thuram",
+                        "jersey_number": "19",
+                        "nationality": "france"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Teun Koopmeiners",
+                        "jersey_number": "8",
+                        "nationality": "netherlands"
+                    },
+                    "statistics": {
+                        "minutes_played": 69,
+                        "hooked": 69
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Andrea Cambiaso",
+                        "jersey_number": "27",
+                        "nationality": "italy"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonathan David",
+                        "jersey_number": "30",
+                        "nationality": "canada"
+                    },
+                    "statistics": {
+                        "minutes_played": 60,
+                        "hooked": 60
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lois Openda",
+                        "jersey_number": "20",
+                        "nationality": "belgium"
+                    },
+                    "statistics": {
+                        "minutes_played": 69,
+                        "hooked": 69
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kenan Yildiz",
+                        "jersey_number": "10",
+                        "nationality": "turkey"
+                    },
+                    "statistics": {
+                        "minutes_played": 87,
+                        "hooked": 87,
+                        "goals": 1,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "João Mário",
+                        "jersey_number": "25",
+                        "nationality": "portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 30,
+                        "entered": 60,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Vasilije Adzic",
+                        "jersey_number": "17",
+                        "nationality": "montenegro"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Manuel Locatelli",
+                        "jersey_number": "5",
+                        "nationality": "italy"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Edon Zhegrova",
+                        "jersey_number": "11",
+                        "nationality": "kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Dusan Vlahovic",
+                        "jersey_number": "9",
+                        "nationality": "serbia"
+                    },
+                    "statistics": {
+                        "minutes_played": 30,
+                        "entered": 60,
+                        "goals": 2,
+                        "goal_assist": 1
+                    }
+                }
+            ]
         },
         "away_team": {
             "team_name": "Borussia Dortmund",
-            "formation": "3-4-2-1"
+            "formation": "3-4-2-1",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Gregor Kobel",
+                        "jersey_number": "1",
+                        "nationality": "switzerland"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Ryerson",
+                        "jersey_number": "26",
+                        "nationality": "norway"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Waldemar Anton",
+                        "jersey_number": "3",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ramy Bensebaini",
+                        "jersey_number": "5",
+                        "nationality": "algeria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yan Couto",
+                        "jersey_number": "2",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marcel Sabitzer",
+                        "jersey_number": "20",
+                        "nationality": "austria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Felix Nmecha",
+                        "jersey_number": "8",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Daniel Svensson",
+                        "jersey_number": "24",
+                        "nationality": "sweden"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Karim Adeyemi",
+                        "jersey_number": "27",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Serhou Guirassy",
+                        "jersey_number": "9",
+                        "nationality": "guinea"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Maximilian Beier",
+                        "jersey_number": "14",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Brandt",
+                        "jersey_number": "10",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jobe Bellingham",
+                        "jersey_number": "7",
+                        "nationality": "england"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Pascal Gross",
+                        "jersey_number": "13",
+                        "nationality": "germany"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                }
+            ]
         }
     },
     {
-        "_id": "x",
+        "_id": "4",
         "referee": {
             "referee_name": "Irfan Peljto",
             "final_score": 7.8,
@@ -2146,15 +2541,427 @@ export const matches = [
         },
         "home_team": {
             "team_name": "Real Madrid CF",
-            "formations": "4-2-3-1"
+            "formations": "4-2-3-1",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Courtois",
+                        "jersey_number": "1",
+                        "nationality": "belgium"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Trent",
+                        "jersey_number": "12",
+                        "nationality": "england"
+                    },
+                    "statistics": {
+                        "minutes_played": 5,
+                        "hooked": 5
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Huijsen",
+                        "jersey_number": "24",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "É. Militão",
+                        "jersey_number": "3",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Á. Carreras",
+                        "jersey_number": "18",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Tchouaméni",
+                        "jersey_number": "14",
+                        "nationality": "france"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Valverde",
+                        "jersey_number": "8",
+                        "nationality": "uruguay"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mastantuono",
+                        "jersey_number": "30",
+                        "nationality": "argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 63,
+                        "hooked": 63
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Arda Güler",
+                        "jersey_number": "15",
+                        "nationality": "turkey"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "br_motm": true,
+                    "player": {
+                        "name": "Rodrygo",
+                        "jersey_number": "11",
+                        "nationality": "brazil",
+                    },
+                    "statistics": {
+                        "minutes_played": 63,
+                        "hooked": 63,
+                        "penalty_suffered": 1,
+                        "dribble_attempt": 3,
+                        "successful_dribble_attempt": 2
+                    },
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "player": {
+                        "name": "Mbappé",
+                        "jersey_number": "10",
+                        "nationality": "france",
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 2,
+                        "scoring_attempt": 10,
+                        "on_goal_scoring_attempt": 5,
+                        "dribble_attempt": 6,
+                        "successful_dribble_attempt": 4
+                    },
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Carvajal",
+                        "jersey_number": "2",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 85,
+                        "entered": 5,
+                        "red_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Asencio",
+                        "jersey_number": "17",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Brahim",
+                        "jersey_number": "21",
+                        "nationality": "morocco"
+                    },
+                    "statistics": {
+                        "minutes_played": 27,
+                        "entered": 63
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Vini Jr.",
+                        "jersey_number": "7",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 27,
+                        "entered": 63
+                    }
+                }
+            ]
         },
         "away_team": {
             "team_name": "Olympique Marselha",
-            "formation": "4-2-3-1"
+            "formation": "4-2-3-1",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Gerónimo Rulli",
+                        "jersey_number": "1",
+                        "nationality": "argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Benjamin Pavard",
+                        "jersey_number": "28",
+                        "nationality": "france"
+                    },
+                    "statistics": {
+                        "minutes_played": 88,
+                        "hooked": 88,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Facundo Medina",
+                        "jersey_number": "32",
+                        "nationality": "argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Leonardo Balerdi",
+                        "jersey_number": "5",
+                        "nationality": "argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Emerson Palmieri",
+                        "jersey_number": "33",
+                        "nationality": "italy"
+                    },
+                    "statistics": {
+                        "minutes_played": 78,
+                        "hooked": 78
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Geoffrey Kondogbia",
+                        "jersey_number": "19",
+                        "nationality": "central_african_republic"
+                    },
+                    "statistics": {
+                        "minutes_played": 67,
+                        "hooked": 67
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pierre Hojbjerg",
+                        "jersey_number": "23",
+                        "nationality": "denmark"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mason Greenwood",
+                        "jersey_number": "10",
+                        "nationality": "england"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1,
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Matt O'Riley",
+                        "jersey_number": "17",
+                        "nationality": "denmark"
+                    },
+                    "statistics": {
+                        "minutes_played": 66,
+                        "hooked": 66
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Timothy Weah",
+                        "jersey_number": "22",
+                        "nationality": "united_states"
+                    },
+                    "statistics": {
+                        "minutes_played": 78,
+                        "hooked": 78,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pierre Aubameyang",
+                        "jersey_number": "97",
+                        "nationality": "gabon"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Michael Murillo",
+                        "jersey_number": "62",
+                        "nationality": "panama"
+                    },
+                    "statistics": {
+                        "minutes_played": 12,
+                        "entered": 78
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "CJ Egan-Riley",
+                        "jersey_number": "4",
+                        "nationality": "england"
+                    },
+                    "statistics": {
+                        "minutes_played": 2,
+                        "entered": 88
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Arthur Vermeeren",
+                        "jersey_number": "18",
+                        "nationality": "belgium"
+                    },
+                    "statistics": {
+                        "minutes_played": 23,
+                        "entered": 67
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Igor Paixão",
+                        "jersey_number": "14",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 24,
+                        "entered": 66
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Amine Gouiri",
+                        "jersey_number": "9",
+                        "nationality": "algeria"
+                    },
+                    "statistics": {
+                        "minutes_played": 12,
+                        "entered": 78
+                    }
+                }
+            ]
         }
     },
     {
-        "_id": "x",
+        "_id": "5",
         "referee": {
             "referee_name": "Erik Lambrechts",
             "final_score": 7.8,
@@ -2191,7 +2998,7 @@ export const matches = [
         }
     },
     {
-        "_id": "x",
+        "_id": "6",
         "referee": {
             "referee_name": "Rade Obrenovic",
             "final_score": 7.8,
@@ -2220,11 +3027,427 @@ export const matches = [
         },
         "home_team": {
             "team_name": "Tottenham Hotspur",
-            "formations": "4-3-3"
+            "formations": "4-3-3",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Guglielmo Vicario",
+                        "jersey_number": "1",       
+                        "nationality": "italy"      
+                    },
+                    "statistics": {
+                        "minutes_played": 90        
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Djed Spence",      
+                        "jersey_number": "24",      
+                        "nationality": "england" 
+                    },
+                    "statistics": {
+                        "minutes_played": 69,       
+                        "hooked": 69
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Cristián Romero",  
+                        "jersey_number": "17",      
+                        "nationality": "argentina"  
+                    },
+                    "statistics": {
+                        "minutes_played": 90        
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pedro Porro",
+                        "jersey_number": "23",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Micky van de Ven",
+                        "jersey_number": "37",
+                        "nationality": "netherlands"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Xavi Simons",
+                        "jersey_number": "7",
+                        "nationality": "netherlands"
+                    },
+                    "statistics": {
+                        "minutes_played": 77,
+                        "hooked": 77,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lucas Bergvall",
+                        "jersey_number": "15",
+                        "nationality": "sweden"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pape Sarr",
+                        "jersey_number": "29",
+                        "nationality": "senegal"
+                    },
+                    "statistics": {
+                        "minutes_played": 69,
+                        "hooked": 69
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Rodrigo Bentancur",
+                        "jersey_number": "30",
+                        "nationality": "uruguay"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mohammed Kudus",
+                        "jersey_number": "20",
+                        "nationality": "ghana"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Richarlison",
+                        "jersey_number": "9",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 77,
+                        "hooked": 77,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Kevin Danso",
+                        "jersey_number": "4",
+                        "nationality": "austria"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Destiny Udogie",
+                        "jersey_number": "13",
+                        "nationality": "italy"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "João Palhinha",
+                        "jersey_number": "6",
+                        "nationality": "portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Randal Kolo Muani",
+                        "jersey_number": "39",
+                        "nationality": "france"
+                    },
+                    "statistics": {
+                        "minutes_played": 13,
+                        "entered": 77,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Brennan Johnson",
+                        "jersey_number": "22",
+                        "nationality": "wales"
+                    },
+                    "statistics": {
+                        "minutes_played": 13,
+                        "entered": 77
+                    }
+                }
+            ]
         },
         "away_team": {
             "team_name": "FC Villarreal",
-            "formation": "4-4-2"
+            "formation": "4-4-2",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Luiz Júnior",
+                        "jersey_number": "1",
+                        "nationality": "brazil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "own_goal": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Santiago Mouriño",
+                        "jersey_number": "15",
+                        "nationality": "uruguay"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Renato Veiga",
+                        "jersey_number": "12",
+                        "nationality": "portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Juan Foyth",
+                        "jersey_number": "8",
+                        "nationality": "argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Sergi Cardona",
+                        "jersey_number": "23",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 75,
+                        "hooked": 75
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pape Gueye",
+                        "jersey_number": "18",
+                        "nationality": "senegal"
+                    },
+                    "statistics": {
+                        "minutes_played": 78,
+                        "hooked": 78
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Santi Comesaña",
+                        "jersey_number": "14",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 78,
+                        "hooked": 78,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Tajon Buchanan",
+                        "jersey_number": "17",
+                        "nationality": "canada"
+                    },
+                    "statistics": {
+                        "minutes_played": 82,
+                        "hooked": 82
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nicolas Pépé",
+                        "jersey_number": "19",
+                        "nationality": "cote_divoire"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Georges Mikautadze",
+                        "jersey_number": "9",
+                        "nationality": "georgia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ayoze Pérez",
+                        "jersey_number": "22",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 75,
+                        "hooked": 75
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Alfonso Pedraza",
+                        "jersey_number": "24",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 15,
+                        "entered": 75
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Thomas Partey",
+                        "jersey_number": "16",
+                        "nationality": "ghana"
+                    },
+                    "statistics": {
+                        "minutes_played": 12,
+                        "entered": 78
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Dani Parejo",
+                        "jersey_number": "10",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 12,
+                        "entered": 78
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Alberto Moleiro",
+                        "jersey_number": "20",
+                        "nationality": "spain"
+                    },
+                    "statistics": {
+                        "minutes_played": 8,
+                        "entered": 82
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ilias Akhomach",
+                        "jersey_number": "11",
+                        "nationality": "morocco"
+                    },
+                    "statistics": {
+                        "minutes_played": 15,
+                        "entered": 75
+                    }
+                }
+            ]
         }
     },
 ];

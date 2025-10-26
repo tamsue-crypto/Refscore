@@ -67,7 +67,7 @@ export const articles = [
     lead: 'A Ifab, anunciou que as cobranças de pênaltis com dois toques na bola, como aconteceu com o atacante argentino Julián Álvarez, terão que ser repetidas.',
     date: 'Quarta 03.06.2025',
     dateFormatted: '03.06.2025',
-    commentsCount: 6,
+    commentsCount: 2,
     image: 'julian-alvarez-escorrega.jpg',
     matchId: null,
     refereeId: null,
@@ -75,7 +75,7 @@ export const articles = [
   },
   {
     _id: '3',
-    journalistId: '5',
+    journalistId: '2',
     upvotes: 67, 
     title: 'Fifa divulga lista com 117 árbitros para a Copa do Mundo de Clubes de 2025.',
     championshipLogo: 'fifa-logo.png',
@@ -84,10 +84,31 @@ export const articles = [
     tag: 'Árbitragem',
     lead: 'Após um processo de preparação que incluiu árbitros de todas as confederações, FIFA anunciou os árbitros que vão comandar os jogos no novo Mundial.',
     date: 'Segunda 14.04.2025',
+    dateFormatted: '14.04.2025',
     commentsCount: 24,
     image: 'cwc-refs-release.png',
     matchId: null,
     refereeId: null,
+    paragraphs: {
+      p1: 'Após um processo de preparação que incluiu seminários de árbitros FIFA de todas as seis confederações continentais, o Comitê de Arbitragem da FIFA anunciou os árbitros que vão comandar os jogos na edição inaugural do novo Mundial de Clubes da FIFA 2025™, que será realizado entre os dias 14 de junho e 13 de julho ao longo de 12 estádios e 11 cidades sedes nos Estados Unidos.',
+      p2: 'Ao todo, 117 profissionais - 35 árbitros, 58 assistentes e 24 árbitros de vídeo - de 41 federações-membro diferentes ficarão responsáveis pelas partidas.',
+      p3: 'Seguindo as mudanças nas Regras do Jogo, aprovadas pela International Football Association Board (IFAB), a FIFA vai implementar as novas regras estabelecidas para diminuir o tempo gasto pelos goleiros. Se um goleiro segurar a bola por mais de oito segundos (com o árbitro utilizando uma contagem regressiva visual de cinco segundos), o árbitro dará um escanteio para o time adversário (em vez de dar um tiro livre indireto por mais de seis segundos).',
+      p4: 'Além disso, seguindo o apoio do IFAB para os testes de câmeras corporais de árbitros para identificar usos possíveis e desenvolver padrões de qualidade e segurança, os árbitros utilizarão câmeras como teste no Mundial de Clubes da FIFA. A transmissão ao vivo destas imagens estará disponível para os fãs de todo o mundo via DAZN, a transmissora exclusiva global do Mundial de Clubes da FIFA 2025.',
+    },
+    comments: [
+      {
+          _id: '1',
+          authorId: '6',
+          message: 'Será um privilégio para os escolhidos participarem desta primeira edição do Mundial de Clubes da FIFA. Ao início de cada nova competição, os árbitros escolhidos estão entre que têm o privilégio de participar disso pela primeira vez, então tenho certeza que eles estarão todos empolgados.',
+          upvotes: '23',
+          downvotes: '1',
+          date: '16.05.2025'
+      },
+    ],
+    sideImages:{
+      i1: '/images/news/side-images/match-officials-appointed-fifacwc.jpg',
+    },
+    supportLine: 'Mudanças pro mundial',
   },
   {
     _id: '4',
