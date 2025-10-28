@@ -51,7 +51,7 @@
 .bl{font-family: "DFL sans"; text-transform: uppercase; font-size: 18px;}
 .sa{font-family: "Serie A"; text-transform: uppercase; font-size: 20px;}
 .cdr{font-family: "Copa do Rei"; font-size: 22px; font-weight: 600;}
-.general-header{font-size: 22px; font-weight: bold;}
+.general-header, .brmotm-header{font-size: 22px; font-weight: bold;}
 
 
 :root{
@@ -180,6 +180,7 @@ html, body{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: default;
 }
 
 .perfect {

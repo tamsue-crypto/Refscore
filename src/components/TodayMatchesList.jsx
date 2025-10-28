@@ -74,7 +74,7 @@ export default function TodayMatchesList({day, style}) {
 
                                         return (
                                             <li key={match._id}>
-                                                <Link to={`match/${match._id}`}>
+                                                <Link to={`/match/${match._id}`}>
                                                     <div className="match-container">
                                                         <div className="match">
                                                             <div className="home-team">

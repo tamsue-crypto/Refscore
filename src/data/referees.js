@@ -8,7 +8,7 @@ export const referees = [
         birthday: "04.09.1985",
         fifa_debut: "2019",
         d1_debut: "08/04/2017",
-        foto: "...",
+        photo: "...",
         stats: [
             {
                 season: "2024/25",
@@ -77,10 +77,11 @@ export const referees = [
         first_name: "François",
         second_name: "Letexier",
         nationality: "france",
+        formated_nationality: "França",
         birthday: "23.04.1989",
         fifa_debut: "2017",
         d1_debut: "23.01.2016",
-        foto: "...",
+        photo: "/images/referee_photos/letexier_pfp.png",
         stats: [
             {
                 season: "2024/25",
@@ -202,7 +203,7 @@ export const referees = [
         birthday: "06.10.1982",
         fifa_debut: "2009",
         d1_debut: "23.08.2008",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -214,7 +215,7 @@ export const referees = [
         birthday: "05.09.1983",
         fifa_debut: "2015",
         d1_debut: "31.03.2018",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -226,7 +227,7 @@ export const referees = [
         birthday: "20.10.1978",
         fifa_debut: "2013",
         d1_debut: "03.02.2010",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -238,7 +239,7 @@ export const referees = [
         birthday: "08.06.1980",
         fifa_debut: null,
         d1_debut: "27.08.2017",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -250,7 +251,7 @@ export const referees = [
         birthday: "17.06.1980",
         fifa_debut: null,
         d1_debut: "18.08.2019",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -262,7 +263,7 @@ export const referees = [
         birthday: "29.08.1983",
         fifa_debut: null,
         d1_debut: "20.08.2018",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -273,7 +274,7 @@ export const referees = [
         nationality: "spain",
         birthday: "15.06.1984",
         fifa_debut: null,
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -285,7 +286,7 @@ export const referees = [
         birthday: "08.12.1989",
         d1_debut: "16.09.2018",
         fifa_debut: "2022",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -297,7 +298,7 @@ export const referees = [
         birthday: "30.11.1986",
         fifa_debut: null,
         d1_debut: "25.01.2023",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -309,7 +310,7 @@ export const referees = [
         birthday: "25.02.1982",
         fifa_debut: "2019",
         d1_debut: "06.01.2013",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -321,7 +322,7 @@ export const referees = [
         birthday: "28.11.1981",
         fifa_debut: null,
         d1_debut: "18.05.2014",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -333,7 +334,7 @@ export const referees = [
         birthday: "10.11.1989",
         fifa_debut: null,
         d1_debut: "20.02.2021",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -345,7 +346,7 @@ export const referees = [
         birthday: "09.11.1992",
         fifa_debut: null,
         d1_debut: "30.11.2021",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -357,7 +358,7 @@ export const referees = [
         birthday: "19.08.1987",
         fifa_debut: null,
         d1_debut: "26.01.2020",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -369,7 +370,7 @@ export const referees = [
         birthday: "28.01.1985",
         fifa_debut: "2020",
         d1_debut: "10.09.2016",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -381,7 +382,7 @@ export const referees = [
         birthday: "16.02.1987",
         fifa_debut: "2025",
         d1_debut: "07.11.2020",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -393,7 +394,7 @@ export const referees = [
         birthday: "20.02.1985",
         fifa_debut: "2022",
         d1_debut: "21.08.2010",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -405,7 +406,7 @@ export const referees = [
         birthday: "21.03.1988",
         fifa_debut: "2016",
         d1_debut: "17.08.2011",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -414,10 +415,11 @@ export const referees = [
         first_name: "Irfan",
         second_name: "Peljto",
         nationality: "bosnia-and-herzegovina",
+        formated_nationality: "Bósnia",
         birthday: "18.07.1984",
         fifa_debut: "2015",
         d1_debut: "17.11.2012",
-        foto: "...",
+        photo: "/images/referee_photos/irfan_pfp.png",
         stats: [],
     },
     {
@@ -429,7 +431,7 @@ export const referees = [
         birthday: "17.09.1984",
         fifa_debut: "2014",
         d1_debut: "25.02.2012",
-        foto: "...",
+        photo: "...",
         stats: [],
     },
     {
@@ -438,10 +440,11 @@ export const referees = [
         first_name: "Rade",
         second_name: "Obrenovic",
         nationality: "slovenia",
+        formated_nationality: "Eslovenia",
         birthday: "28.08.1990",
         fifa_debut: "null",
         d1_debut: "10.06.2014",
-        foto: "...",
+        photo: "/images/referee_photos/rade_pfp.png",
         stats: [],
     },
 ];

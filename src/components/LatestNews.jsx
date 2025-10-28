@@ -19,7 +19,7 @@ export default function LatestNews({context}) {
                 <div className='news-container flex'>
                     {filteredArticles.map((article) =>
                         <div className='news' key={article._id}>
-                            <Link to={`news/${article._id}`}>
+                            <Link to={`/news/${article._id}`}>
                                 <div className='general-news-img'>
                                     <img src={`/images/news/${article.image}`} alt="" className='bg-img' />
 

@@ -2240,17 +2240,24 @@ export const matches = [
                 {
                     "substitute": false,
                     "captain": false,
+                    "motm": true,
                     "player": {
                         "name": "Kenan Yildiz",
                         "jersey_number": "10",
-                        "nationality": "turkey"
+                        "nationality": "turkey",
+                        "formated_nationality": "Turquia"
                     },
                     "statistics": {
                         "minutes_played": 87,
                         "hooked": 87,
                         "goals": 1,
-                        "goal_assist": 1
-                    }
+                        "goal_assist": 1,
+                        "motm_stat": {
+                            "Chutes (No Gol)": "4 (2)",
+                            "Passes Chave": "3",
+                        }
+                    },
+                    "photo": "/images/motm_pics/yildiz_motm_vs_dortmund.png",
                 },
                 {
                     "substitute": true,
@@ -2317,7 +2324,7 @@ export const matches = [
                         "minutes_played": 30,
                         "entered": 60,
                         "goals": 2,
-                        "goal_assist": 1
+                        "goal_assist": 1,
                     }
                 }
             ]
@@ -2379,15 +2386,22 @@ export const matches = [
                 {
                     "substitute": false,
                     "captain": false,
+                    "br_motm": true,
                     "player": {
                         "name": "Yan Couto",
                         "jersey_number": "2",
-                        "nationality": "brazil"
+                        "nationality": "brazil",
+                        "formated_nationality": "Brasil"
                     },
                     "statistics": {
                         "minutes_played": 90,
-                        "goals": 1
-                    }
+                        "goals": 1,
+                        "br_motm_stat": {
+                            "Chutes (No Gol)": "2 (2)",
+                            "passe no terço final": "5",
+                        }
+                    },
+                    "photo": "/images/motm_pics/yan_brmotm_vs_juventus.png",
                 },
                 {
                     "substitute": false,
@@ -2665,14 +2679,17 @@ export const matches = [
                         "name": "Rodrygo",
                         "jersey_number": "11",
                         "nationality": "brazil",
+                        "formated_nationality": "Brasil"
                     },
                     "statistics": {
                         "minutes_played": 63,
                         "hooked": 63,
-                        "penalty_suffered": 1,
-                        "dribble_attempt": 3,
-                        "successful_dribble_attempt": 2
+                        "br_motm_stat": {
+                            "Penaltis Sofridos": "1",
+                            "Dribles (Certos)": "3 (2)",
+                        }
                     },
+                    "photo": "/images/motm_pics/rodrygo_brmotm_vs_marseille.png",
                 },
                 {
                     "substitute": false,
@@ -2682,15 +2699,17 @@ export const matches = [
                         "name": "Mbappé",
                         "jersey_number": "10",
                         "nationality": "france",
+                        "formated_nationality": "França"
                     },
                     "statistics": {
                         "minutes_played": 90,
                         "goals": 2,
-                        "scoring_attempt": 10,
-                        "on_goal_scoring_attempt": 5,
-                        "dribble_attempt": 6,
-                        "successful_dribble_attempt": 4
+                        "motm_stat": {
+                            "Chutes (No Gol)": "10 (5)",
+                            "Dribles (Certos)": "6 (4)",
+                        }
                     },
+                    "photo": "/images/motm_pics/mbappe_motm_vs_marseille.png"
                 },
                 {
                     "substitute": true,

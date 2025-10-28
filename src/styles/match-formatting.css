@@ -106,6 +106,12 @@
     color: #fff;
 }
 
+.championship-header.brmotm-header{
+    background-image: linear-gradient(to right, #FAF100, #20BA15);
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .championship-header.ucl img{
     height: 25px;
 }

@@ -70,7 +70,7 @@ export default function FeaturedNews() {
                     <div id='side-featured' className='flex flex-column'>
                         {sideArticles.map((sideArticle) =>
                             <div className='news' key={sideArticle._id}>
-                                <Link to={`news/${sideArticle._id}`}>
+                                <Link to={`/news/${sideArticle._id}`}>
                                     <div className='side-featured-img'>
                                         <img src={`/images/news/${sideArticle.image}`} alt="" className='bg-img' />
 

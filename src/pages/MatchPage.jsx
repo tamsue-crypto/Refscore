@@ -4,10 +4,9 @@ import NavBar from "../components/NavBar";
 import AuthModal from "../components/AuthModal";
 import '../styles/global.css'
 import '../styles/article-page.css'
-import TodayMatchesList from "../components/TodayMatchesList";
 import MatchFormation from "../components/MatchFormation";
 import { useParams } from "react-router-dom";
-import { matches } from "../data/matches";
+import InfoCards from "../components/InfoCards";
 
 export default function MatchPage() {
     const { id } = useParams();
@@ -36,6 +35,9 @@ export default function MatchPage() {
         <>
             <NavBar onLoginClick={openLogin}/>
             <MatchFormation matchId={id} />
+            <InfoCards matchId={id} context={"ref"}/>
+            <InfoCards matchId={id} context={"motm"}/>
+            <InfoCards matchId={id} context={"brmotm"}/>
 
             {openedModal && (
                 <AuthModal

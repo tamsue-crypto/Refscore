@@ -46,7 +46,14 @@
 
 .player-info{
     display: flex;
+    align-items: center;
     gap: 10px;
+}
+
+.player-info span{
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .player-info img{

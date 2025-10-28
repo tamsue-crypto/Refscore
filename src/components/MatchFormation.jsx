@@ -16,12 +16,8 @@ export default function MatchFormation({matchId}){
     const homeTeam = getTeamInfo(match.home_team.team_name);
     const awayTeam = getTeamInfo(match.away_team.team_name);
 
-    // 4. Separa os jogadores em titulares e reservas (função Map aqui!)
     const home_starters = match.home_team.players.filter(p => !p.substitute);
-    const home_subs = match.home_team.players.filter(p => p.substitute);
-    
     const away_starters = match.away_team.players.filter(p => !p.substitute);
-    const away_subs = match.home_team.players.filter(p => p.substitute);
 
     const playersToRender = selectedTeam === 'home' ? home_starters : away_starters;
 
@@ -30,36 +26,21 @@ export default function MatchFormation({matchId}){
     };
 
     function getSubstitutePlayer(player) {
-        const teamPlayers =
-            selectedTeam === "home"
-            ? match.home_team.players
-            : match.away_team.players;
+        const teamPlayers = selectedTeam === "home" ? match.home_team.players : match.away_team.players;
 
         const minute = player.statistics.hooked;
 
         if (!minute) return null;
+        const hookedPlayers = teamPlayers.filter((p) => p.statistics.hooked === minute).sort((a, b) => a.player.jersey_number - b.player.jersey_number);
+        const enteredPlayers = teamPlayers.filter((p) => p.statistics.entered === minute).sort((a, b) => a.player.jersey_number - b.player.jersey_number);
 
-        // Todos que saíram e entraram no mesmo minuto
-        const hookedPlayers = teamPlayers
-            .filter((p) => p.statistics.hooked === minute)
-            .sort((a, b) => a.player.jersey_number - b.player.jersey_number);
-
-        const enteredPlayers = teamPlayers
-            .filter((p) => p.statistics.entered === minute)
-            .sort((a, b) => a.player.jersey_number - b.player.jersey_number);
-
-        // Pega o índice do jogador dentro da lista dos que saíram
-        const index = hookedPlayers.findIndex(
-            (p) => p.player.name === player.player.name
-        );
-
-        // Pareia com o substituto no mesmo índice
+        //pega o índice do jogador dentro da lista dos que saíram
+        const index = hookedPlayers.findIndex((p) => p.player.name === player.player.name);
+        //pareia com o substituto no mesmo índice
         const substitute = enteredPlayers[index] || null;
 
         return substitute;
     }
-
-
 
     return(
         <>
@@ -95,7 +76,7 @@ export default function MatchFormation({matchId}){
                                         <span>{player.player.jersey_number}</span>
                                         <img src={`/images/flag/${player.player.nationality}.png`} alt="" />
                                     </div>
-                                    <span>{player.player.name}</span>
+                                    <span>{player.player.name} {player.captain ? <img src="/images/player_events/captain.png" alt="captain" /> : ''}</span>
                                 </div>
                 
                                     {hasEvents && (
@@ -132,7 +113,7 @@ export default function MatchFormation({matchId}){
 
                                             {player.statistics.red_card > 0 && (
                                                 <div className="player-event">
-                                                    <img src="/images/player_events/yellow_card.png" alt="yellow" />
+                                                    <img src="/images/player_events/red_card.png" alt="yellow" />
                                                 </div>
                                             )}
 
@@ -200,13 +181,6 @@ export default function MatchFormation({matchId}){
                                                     </div>
                                                 );
                                             })()}
-
-
-                                            {player.captain && (
-                                                <div className="player-event">
-                                                    <img src="/images/player_events/captain.png" alt="captain" />
-                                                </div>
-                                            )}
                                         </div>
                                     )}
                             </li>
