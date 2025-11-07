@@ -64,7 +64,12 @@ export default function HomePage() {
                     <div className="main-content"> {/* arbitro destaque + noticias*/}
                         <FeaturedReferee/>
                         <FeaturedNews/>
-                        <LatestNews/>
+                        <div className="news-area">
+                            <h1 className='navigate-text'>
+                                Notícias Recentes
+                            </h1>
+                            <LatestNews/>
+                        </div>
                         <ExpertArticles/>
                     </div>
 

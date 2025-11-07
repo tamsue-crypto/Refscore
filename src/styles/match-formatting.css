@@ -1,5 +1,6 @@
 .matches-championship-container{
   border: 1px solid #cecece;
+  width: 322px;
 }
 
 .matches {
@@ -17,6 +18,11 @@
     background-color: #ffb464;
     border: none;
     cursor: pointer;
+}
+
+.matches .match-container.match-context:hover{
+    background-color: #fff;
+    cursor: default;
 }
 
 .list {
@@ -63,12 +69,26 @@
 
 .scoreboard{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 3px;
+    font-family: "Manrope";
+    color: #585a5b;
+    font-weight: 700;
+}
+
+.scoreboard.positive span:first-child{
+    color: #000;
+    font-weight: bold;
+}
+
+.scoreboard.negative span:last-child{
+    color: #000;
+    font-weight: bold;
 }
 
 .scoreboard small{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /*matches list*/
@@ -76,6 +96,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.match-container small{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Manrope";
 }
 
 .championship-header.pl{
@@ -129,6 +155,12 @@
     display: block;
 }
 
+.team-badge{
+    height: 32px;
+    position: absolute;
+    left: 20px;
+}
+
 .championship-name{
     line-height: 32px;
     font-size: 20px;
@@ -140,7 +172,9 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Manrope";
 }
 
 .referee-name img{
@@ -156,4 +190,11 @@
     background-color: #fff;
     color: #1E1E3B;
     text-align: center;
+}
+
+.team-name{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

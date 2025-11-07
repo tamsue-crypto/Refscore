@@ -1,0 +1,99 @@
+.analysis-container{
+    width: 320px;
+    border: 2px solid #cecece;
+}
+
+.analysis-container header{
+    display: flex;
+    gap: 20px;
+    padding: 8px 10px;
+    align-items: center;
+    color: #fff;
+    background-color: var(--color-accent);
+    border-bottom: 2px solid #cecece;
+}
+
+.analysis-container header img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #cecece;
+}
+
+.analysis-container header img:hover{
+    cursor: pointer;
+    filter: brightness(0.92);
+}
+
+.journalist-info-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.journalist-info-header span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.journalist-info-header span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.journalist-info-header small{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.breakdown-grades{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 16px;
+}
+
+.rating-breakdown{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    align-items: center;
+}
+
+.breakdown-header{
+    display: flex;
+    gap: 4px;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+}
+
+.rating-bar {
+  width: 200px;
+  height: 18px;
+  background-color: #ddd;
+  overflow: hidden;
+  position: relative;
+}
+
+.rating-fill {
+  height: 100%;
+  width: calc(var(--score) * 10%);
+  transition: width 0.6s ease;
+}
+
+.rating-bar span{
+    color: #ffffff;
+    position: absolute;
+    font-size: 12px;
+    left: 50%;
+    font-weight: 600;
+    font-family: "Manrope";
+}
+
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 600;
+}

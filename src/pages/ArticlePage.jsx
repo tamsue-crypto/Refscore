@@ -10,6 +10,7 @@ import { teams } from "../data/teams";
 import '../styles/global.css'
 import '../styles/article-page.css'
 import TodayMatchesList from "../components/TodayMatchesList";
+import { Link } from "react-router-dom";
 
 export default function ArticlePage() {
     const [openedModal, setOpenedModal] = useState(false);
@@ -76,14 +77,14 @@ export default function ArticlePage() {
                                     <div className="article-infos">
                                         <h1>{article.title}</h1>
                                         <div className="article-date">
-                                            <p>{`Publicado em: ${article.dateFormatted}`} </p>
+                                            <p>{`Publicado em: ${article.date.split(' ').pop()}`} </p>
                                         </div>
                                     </div>
 
                                     <div className="a-author">
-                                        <img src={`/images/journalists/${journalist.journalistImg}`} alt="pfp" />
+                                        <Link to={`/journalist-page/${journalist._id}`}><img src={`/images/journalists/${journalist.journalistImg}`} alt="pfp" /></Link>
                                         <div className="a-author-bio">
-                                            <span>Publicado por: <strong>{journalist.name}</strong></span>
+                                            <span>Publicado por: <Link to={`/journalist-page/${journalist._id}`}><strong>{journalist.name}</strong></Link></span>
                                             <span>{`Agenciado do ${journalist.broadcasterName}`}</span>
                                         </div>
                                     </div>
@@ -103,11 +104,10 @@ export default function ArticlePage() {
                                         <h3>COMENTÁRIOS</h3>
                                     </div>
 
-                                    {article.comments ? (
+                                    {article.comments?.length > 0 ? (
                                         article.comments.map((comment) => {
                                             const user = getUser(comment.authorId)
                                             const userTeam = getUserTeam(user.favTeam)
-                                            {console.log(userTeam.badge)}
 
                                             return(
                                                 <div className="comment-container" key={comment._id}>
@@ -146,8 +146,8 @@ export default function ArticlePage() {
                                             )
                                         })
                                     ) : (
-                                        <div>
-                                            Sem comentários
+                                        <div id="no-comments-container">
+                                            Ainda não há comentários
                                         </div>
                                     )}
                                 </div>
@@ -156,13 +156,19 @@ export default function ArticlePage() {
                             <div>
                                 <TodayMatchesList day={'06.10.2025'}/>
                                 
-                                <div className="photos">
-                                    {Object.values(article.sideImages).map((p, index) => 
-                                        <div className="side-photos" key={index}>
-                                            <img src={p} alt="imagem lateral" key={index}/>
-                                        </div>
-                                    )}
-                                </div>
+                                {article.sideImages ? <>
+                                    <div className="photos" style={{scale: '0.9'}}>
+                                        {Object.values(article.sideImages).map((p, index) =>
+                                            <div className="side-photos" key={index}>
+                                                <img src={p} alt="imagem lateral" key={index} />
+                                            </div>
+                                        )}
+                                    </div>
+                                </> : <>
+                                    <div>
+
+                                    </div>
+                                </>}
                             </div>
                         </div>
                     )

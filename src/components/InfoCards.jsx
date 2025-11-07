@@ -24,7 +24,6 @@ export default function InfoCards({matchId, context}){
         var photo = referee.photo
         var cardName = referee.name
         var nationality = referee.nationality
-        var for_nationality = referee.formated_nationality
         var birthday = referee.birthday
         var fifa_debut = referee.fifa_debut
     } else if(context === "brmotm"){
@@ -34,7 +33,6 @@ export default function InfoCards({matchId, context}){
         var photo = brMotm.photo
         var cardName = brMotm.player.name
         var nationality = brMotm.player.nationality
-        var for_nationality = brMotm.player.formated_nationality
         var stats = brMotm.statistics.br_motm_stat
     } else {
         var title = "Destaque da Partida"
@@ -43,7 +41,6 @@ export default function InfoCards({matchId, context}){
         var photo = motm.photo
         var cardName = motm.player.name
         var nationality = motm.player.nationality
-        var for_nationality = motm.player.formated_nationality
         var stats = motm.statistics.motm_stat
     }
     return(
@@ -79,7 +76,7 @@ export default function InfoCards({matchId, context}){
                                 <span className="info-title">Nacionalidade</span>
                                 <span className="infoself">
                                     <img src={`/images/flag/${nationality}.png`} alt="" />
-                                    {for_nationality}
+                                    {nationality}
                                 </span>
                             </div>
                         </li>

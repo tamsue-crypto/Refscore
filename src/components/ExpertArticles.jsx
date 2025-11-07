@@ -19,15 +19,6 @@ export default function ExpertArticles({context, id}) {
         }).sort((a, b) => b._id - a._id);
     }
 
-    function getRatingClass(rating) {
-        if (rating <= 5.0) return 'taxes';
-        if (rating <= 6.4) return 'bad';
-        if (rating <= 6.9) return 'average';
-        if (rating <= 7.9) return 'good';
-        if (rating <= 8.9) return 'awesome';
-        return 'perfect';
-    }
-
     function getJournalist(id) {
         return journalists.find(j => j._id === id);
     }
@@ -36,10 +27,7 @@ export default function ExpertArticles({context, id}) {
         <>
             <div className='news-area'>
                 <h1 className='navigate-text'>
-                    Opiniões &amp; Análises
-                    <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
-                        <path fillRule="evenodd" clipRule="evenodd" d="M22.0707 19.0002L13.4104 10.3399L15.0898 8.66042L25.4294 19.0002L15.0898 29.3398L13.4104 27.6605L22.0707 19.0002Z" />
-                    </svg>    
+                    Opiniões &amp; Análises 
                 </h1>
                 
                 <div className='news-container flex'>
@@ -67,9 +55,6 @@ export default function ExpertArticles({context, id}) {
                                     <div className={`content ${article.layout}`}>
                                         <div className='header-ref-anl flex'>
                                             <img src={`images/championships_logos/${article.championshipLogo}`} alt="" />
-                                            {article.tag === 'Análise' && (
-                                                <div className={`avg-rating ${getRatingClass(article.rating)}`}>{article.rating.toFixed(1)}</div>
-                                            )}
                                         </div>
 
                                         <div>
@@ -93,7 +78,7 @@ export default function ExpertArticles({context, id}) {
                                                 <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                             </g>
                                         </svg>
-                                        <span>{article.commentsCount}</span>
+                                        <span>{Array.isArray(article.comments) ? article.comments.length : 0}</span>
                                     </div>
                                 </span>
 

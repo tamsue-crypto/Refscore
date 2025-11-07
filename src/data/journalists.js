@@ -34,4 +34,11 @@ export const journalists = [
         broadcasterName: 'Tnt',
         journalistImg: '2_journalist.jpg',
     },
+    {
+        _id: '6',
+        name: 'Arthur Quezada',
+        broadcaster: 'tnt.jpg',
+        broadcasterName: 'Tnt',
+        journalistImg: 'arthur_quezada.jpg',
+    },
 ];

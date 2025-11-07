@@ -1,0 +1,87 @@
+#match-stats-container{
+    width: 774px;
+    height: fit-content;
+    border: 1px solid #cecece;
+    margin: 0 auto;
+}
+
+#match-stats-container h1{
+    color: #000;
+    font-family: "Manrope";
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+#match-stats-container header{
+    height: 55px;
+    background-color: var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cecece;
+}
+
+#match-stats-container ul{
+    list-style: none;
+}
+
+#match-stats-container ul li{
+    display: flex;
+    color: #000;
+    justify-content: center;
+    height: 42px;
+    align-items: center;
+    border-bottom: 1px solid #cecece;
+    font-weight: bold;
+}
+
+#match-stats-container ul li.positive .stat-container:last-child{
+    color: #585a5b;
+    font-weight: 700;
+}
+
+#match-stats-container ul li.negative .stat-container:first-child{
+    color: #585a5b;
+    font-weight: 700;
+}
+
+#match-stats-container ul li.null .stat-container:first-child, #match-stats-container ul li.null .stat-container:last-child{
+    color: #585a5b;
+    font-weight: 700;
+}
+
+
+#match-stats-container ul li:last-child{
+    border: none;
+}
+
+#match-stats-container ul li:nth-child(odd){
+    background-color: #fff;
+}
+
+#match-stats-container ul li:nth-child(even){
+    background-color: #F5F2F5;
+}
+
+.stat-container{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 30px;
+    width: 258px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Manrope";
+}
+
+.team-container img{
+    height: 28px;
+}

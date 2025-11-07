@@ -1,0 +1,91 @@
+#result-container{
+    width: 840px;
+    height: 362px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+}
+
+#result-container header{
+    height: 56px;
+    background-color: var(--color-accent);
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    justify-content: center;
+}
+
+.matchday-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-data{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info-data img{
+    height: 16px;
+}
+
+.team-results{
+    display: flex;
+    font-size: 36px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    gap: 8px;
+}
+
+.team-results img{
+    height: 92px;
+}
+
+.result-scoreboard{
+    font-size: 36px;
+    color: #000;
+    display: flex;
+    gap: 6px;
+    font-weight: bold;
+}
+
+#score-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    padding: 30px 0px;
+    border-bottom: 2px solid #cecece;
+}
+
+.result-events{
+    display: flex;
+    gap: 10px;
+    color: #000;
+    align-items: center;
+}
+
+.result-events.home{
+    justify-content: right;
+}
+
+.result-events.away{
+    justify-content: left;
+}
+
+.result-events img{
+    height: 14px;
+}
+
+.goals-events{
+    display: flex;
+    gap: 4px;
+}
+
+.container-result-goals{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}

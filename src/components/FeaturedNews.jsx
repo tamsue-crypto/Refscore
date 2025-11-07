@@ -49,7 +49,7 @@ export default function FeaturedNews() {
                                                 <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                             </g>
                                         </svg>
-                                        <span>{mainArticle.commentsCount}</span>
+                                        <span>{Array.isArray(mainArticle.comments) ? mainArticle.comments.length : 0}</span>
                                     </div>
                                 </span>
 
@@ -94,7 +94,7 @@ export default function FeaturedNews() {
                                                     <path fillRule="evenodd" clipRule="evenodd" d="M9.30401 0.516602V7.68173H5.88624L2.93501 10.633V7.68173H0.546631V0.516602H9.30401ZM5.32418 4.49731H2.935V5.11653H5.32418L5.32418 4.49731ZM6.91564 2.90426H2.935V3.52347H6.91563V2.90426H6.91564Z" fill="black" />
                                                 </g>
                                             </svg>
-                                            <span>{sideArticle.commentsCount}</span>
+                                            <span>{Array.isArray(sideArticle.comments) ? sideArticle.comments.length : 0}</span>
                                         </div>
                                     </span>
 

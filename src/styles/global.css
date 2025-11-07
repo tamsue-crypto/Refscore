@@ -44,6 +44,11 @@
   src: url("../assets/fonts/Exo2-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets//fonts/Manrope-VariableFont_wght.ttf");
+}
+
 
 .ucl{font-family: "UCL"; text-transform: uppercase;}
 .pl{font-family: "Premier League"; font-weight: bold; font-size: 15px;}
@@ -164,6 +169,12 @@ html, body{
   color: #fff;
 }
 
+.wrapper-side-info{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .main-content{
   display: flex;
   flex-direction: column;
@@ -210,4 +221,28 @@ html, body{
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.result-card-container{
+  margin-top: 65px;
+}
+
+.result-card-container h1{
+  text-align: center;
+  color: #000;
+  font-family: "Manrope";
+  font-size: 22px;
+  margin: 10px 0px;
+}
+
+.news-infos-container{
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-infos-container .side{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

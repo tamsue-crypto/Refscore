@@ -1,9 +1,11 @@
 #formation-container{
-    width: 320px;
+    width: 322px;
     height: fit-content;
     border: 2px solid #cecece;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    color: #000;
 }
 
 .selector{

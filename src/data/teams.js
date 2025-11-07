@@ -315,7 +315,7 @@ export const teams = [
     {
         _id: "40",
         name: "Union Saint-Gilloise",
-        short_name: "U. Saint-Gilloise",
+        short_name: "Union St. Gilloise",
         slug: "union-saint-gilloise",
         team_code: "usg",
         badge: "alternatives/usg.png",
@@ -375,5 +375,77 @@ export const teams = [
         slug: 'atleti',
         team_code: 'atm',
         badge: 'la-liga/atletico-madrid.png'
-    }
+    },
+    {
+        _id: '48',
+        name: 'RB Leipzig',
+        short_name: 'RB Leipzig',
+        slug: 'leipzig',
+        team_code: 'rbl',
+        badge: 'bundesliga/rbleipzig.png'
+    },
+    {
+        _id: '49',
+        name: 'Sporting CP',
+        short_name: 'Sporting',
+        slug: 'sporting',
+        team_code: 'scp',
+        badge: 'alternatives/sportingcp.png'
+    },
+    {
+        _id: '50',
+        name: 'FC Copenhague',
+        short_name: 'Copenhague',
+        slug: 'copenhague',
+        team_code: 'cph',
+        badge: 'alternatives/fcopenhague.png'
+    },
+    {
+        _id: '50',
+        name: 'Besiktas JK',
+        short_name: 'Besiktas',
+        slug: 'besiktas',
+        team_code: 'bjk',
+        badge: 'alternatives/besiktas.png'
+    },
+    {
+        _id: '51',
+        name: 'FC Basel',
+        short_name: 'Basel',
+        slug: 'basel',
+        team_code: 'fcb',
+        badge: 'alternatives/basel.png'
+    },
+    {
+        _id: '52',
+        name: 'Locomotiv Moscou',
+        short_name: 'Lokomotiv',
+        slug: 'locomotiv',
+        team_code: 'mow',
+        badge: 'alternatives/locomotiv.png'
+    },
+    {
+        _id: '53',
+        name: 'Molde FK 1911',
+        short_name: 'Molde FK',
+        slug: 'molde-fk',
+        team_code: 'mfk',
+        badge: 'alternatives/molde_fk.png'
+    },
+    {
+        _id: "54",
+        name: "SC Freiburg",
+        short_name: "Freiburg",
+        slug: "sc-freiburg",
+        team_code: "scf",
+        badge: "bundesliga/sc-freiburg.png",
+    },
+    {
+        _id: "55",
+        name: "FC Bate Borisov",
+        short_name: "Bate Borisov",
+        slug: "bate-borisov",
+        team_code: "blr",
+        badge: "alternatives/bate-borisov.png",
+    },
 ];
