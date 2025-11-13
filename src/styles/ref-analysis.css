@@ -1,6 +1,7 @@
 .analysis-container{
     width: 320px;
     border: 2px solid #cecece;
+    background-color: #fff;
 }
 
 .analysis-container header{
@@ -96,4 +97,45 @@
     flex-direction: column;
     gap: 2px;
     font-weight: 600;
+}
+
+/*rating breakdown context jour*/
+
+#rating-breakdown-teams{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.rating-breakdown-team-results{
+    height: 25px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    gap: 5px;
+}
+
+.rating-breakdown-result-scoreboard{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    font-family: "Manrope";
+    color: #585a5b;
+    font-weight: 700;
+}
+
+
+.rating-breakdown-result-scoreboard.positive span:first-child{
+    color: #000;
+    font-weight: bold;
+}
+
+.rating-breakdown-result-scoreboard.negative span:last-child{
+    color: #000;
+    font-weight: bold;
+}
+
+.rating-breakdown-result-scoreboard small{
+    font-weight: 500;
+    font-size: 14px;
 }

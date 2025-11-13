@@ -1,10 +1,11 @@
 export const journalists = [
     {
         _id: '1',
-        name: 'Vitor Sergio Rodrigues',
+        name: 'VSR',
         broadcaster: 'tnt.jpg',
         broadcasterName: 'Tnt',
         journalistImg: '1_journalist.jpeg',
+        favTeam: 'CR Flamengo',
     },
     {
         _id: '2',
@@ -19,13 +20,15 @@ export const journalists = [
         broadcaster: 'caze-tv.jpeg',
         broadcasterName: 'Caze Tv',
         journalistImg: '4_journalist.jpg',
+        favTeam: 'Fluminense FC'
     },
     {
         _id: '5',
-        name: 'João Castelo-Branco',
+        name: 'Castelo-Branco',
         broadcaster: 'espn.png',
         broadcasterName: 'Espn',
         journalistImg: '3_journalist.jpg',
+        favTeam: 'FC Arsenal',
     },
     {
         _id: '3',
@@ -33,6 +36,7 @@ export const journalists = [
         broadcaster: 'tnt.jpg',
         broadcasterName: 'Tnt',
         journalistImg: '2_journalist.jpg',
+        favTeam: 'CR Flamengo',
     },
     {
         _id: '6',
@@ -40,5 +44,13 @@ export const journalists = [
         broadcaster: 'tnt.jpg',
         broadcasterName: 'Tnt',
         journalistImg: 'arthur_quezada.jpg',
+        favTeam: 'SC Corinthians'
+    },
+    {
+        _id: '7',
+        name: 'Archivo Var',
+        broadcaster: 'archivo_var.jpg',
+        broadcasterName: 'Archivo Var',
+        journalistImg: 'archivo_var.jpg',
     },
 ];

@@ -3,8 +3,10 @@ import '../styles/ref-analysis.css'
 import { journalists } from '../data/journalists';
 import { analysis } from '../data/match-analysis';
 import { Link } from 'react-router-dom';
+import { matches } from '../data/matches';
+import { teams } from '../data/teams';
 
-export default function RefereeAnalysis({match}){
+export default function RefereeAnalysis({match, jourId}){
 
     function getRatingClass(rating) {
         if (rating <= 5.9) return 'taxes';
@@ -19,15 +21,36 @@ export default function RefereeAnalysis({match}){
         return journalists.find(j => j._id === id)
     }
 
-    const analysisToDisplay = analysis.filter(a => a.matchId === match._id).flatMap(a => a.analysis)
+    function getMatch(id){
+        return matches.find(m => m._id === id)
+    }
 
-    console.log(analysisToDisplay)
+    function getTeam(id) {
+        return teams.find(t => t.name === id);
+    }
+
+    let analysisToDisplay = [];
+
+    if (jourId){
+        analysisToDisplay = analysis.flatMap(match => match.analysis.filter(a => a.journalistId === jourId).map(a => ({matchId: match.matchId, ...a}))).slice(0, 4);
+        var style = '700px'
+    } else {
+        analysisToDisplay = analysis.filter(a => a.matchId === match._id).flatMap(a => a.analysis)
+    }
 
     return(
-        <div style={{display: 'flex', gap: '8px', flexWrap: 'wrap', margin: '0 auto', justifyContent: 'center'}}>
+        <div style={{display: 'flex', gap: '8px', flexWrap: 'wrap', margin: '0 auto', justifyContent: 'center', style}}>
             {analysisToDisplay.length > 0 ? <>
                 {analysisToDisplay.map((item, index) => {
                     const journalist = getJournalist(item.journalistId)
+                    const match = getMatch(item.matchId)
+                    const home = getTeam(match.home_team.team_name);
+                    const away = getTeam(match.away_team.team_name);
+
+                    const goals = match.statistics?.item?.find((stat) => stat.group_name === "Gols");
+                    const homeGoals = goals?.home ?? "";
+                    const awayGoals = goals?.away ?? "";
+                    const matchWinner = match.statistics?.item?.find((stat) => stat.statistic_type).statistic_type
 
                     return (
                         <div className='analysis-container' key={index}>
@@ -39,6 +62,25 @@ export default function RefereeAnalysis({match}){
                                 </div>
                             </header>
                             <div className='rating-breakdown'>
+                                {jourId && (
+                                    <section id='rating-breakdown-teams'>
+                                        <div className="rating-breakdown-team-results">
+                                            <span>{home.team_code}</span>
+                                            <img src={`/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                                        </div>
+                                        <Link to={`/match/${match._id}`}>
+                                            <div className={`rating-breakdown-result-scoreboard ${matchWinner}`}>
+                                                <span>{homeGoals}</span>
+                                                <span>-</span>
+                                                <span>{awayGoals}</span>
+                                            </div>
+                                        </Link>
+                                        <div className="rating-breakdown-team-results">
+                                            <img src={`/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                                            <span>{away.team_code}</span>
+                                        </div>
+                                    </section>
+                                )}
                                 <div className='breakdown-header'>
                                     <div className={`avg-rating ${getRatingClass(item['final-score'].toFixed(1))}`} style={{ scale: '0.7' }}>{item['final-score']}</div>
                                     <span>Detalhamento da Classificação</span>
@@ -59,7 +101,9 @@ export default function RefereeAnalysis({match}){
                     )
                 })}
             </> : <>
-                Nada
+                    <div className="hollow-container">
+                        Sem análises disponíveis
+                    </div>
             </>}
         </div>
     )   

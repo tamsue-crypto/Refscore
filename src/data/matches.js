@@ -3431,4 +3431,446 @@ export const matches = [
             "team_name": "FC Basel",
         }
     },
+    {
+        "competition_name": "Liga Europa",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 6.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sevilla FC",
+        },
+        "away_team": {
+            "team_name": "AS Roma",
+        }
+    },
+    {
+        "competition_name": "Mundial de Clubes",
+        "year": "2023",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "5",
+                    "away": "3",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "Al-Hilal SFC",
+        }
+    },
+    {
+        "competition_name": "Supercopa da UEFA",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.5,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Bayern Munique",
+        },
+        "away_team": {
+            "team_name": "Sevilla FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Inglaterra",
+        "year": "19/20",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Chelsea Football Club",
+        }
+    },
+    {
+        "competition_name": "Championship Playoff",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Fulham",
+        },
+        "away_team": {
+            "team_name": "Aston Villa FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Inglaterra",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Chelsea Football Club",
+        }
+    },
+    {
+        "competition_name": "Supercopa da Inglaterra",
+        "year": "15/16",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Chelsea Football Club",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga Inglesa",
+        "year": "14/15",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.9,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "Tottenham Hotspur",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "François Letexier",
+            "final_score": 7.9,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Olympique Lyon",
+        },
+        "away_team": {
+            "team_name": "FC Paris Saint-Germain",
+        }
+    },
+    {
+        "competition_name": "Supercopa da Uefa",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "François Letexier",
+            "final_score": 7.9,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Manchester City FC",
+        },
+        "away_team": {
+            "team_name": "Sevilla FC",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "François Letexier",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+        },
+        "away_team": {
+            "team_name": "AS Monaco",
+        }
+    },
+    {
+        "competition_name": "Liga Conferencia",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Irfan Peljto",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Betis Balompié",
+        },
+        "away_team": {
+            "team_name": "Chelsea Football Club",
+        }
+    },
+    {
+        "competition_name": "Croky Cup",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Erik Lambrechts",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Union Saint-Gilloise",
+        },
+        "away_team": {
+            "team_name": "Royal Antuérpia FC",
+        }
+    },
+    {
+        "competition_name": "Supercopa Volkswagen",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Erik Lambrechts",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Club Brugge",
+        },
+        "away_team": {
+            "team_name": "KAA Gent",
+        }
+    },
+    {
+        "competition_name": "Croky Cup",
+        "year": "18/19",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Erik Lambrechts",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "KAA Gent",
+        },
+        "away_team": {
+            "team_name": "KV Mechelen",
+        }
+    },
+    {
+        "competition_name": "Supercopa Volkswagen",
+        "year": "15/16",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Erik Lambrechts",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "KAA Gent",
+        },
+        "away_team": {
+            "team_name": "Club Brugge",
+        }
+    },
+    {
+        "competition_name": "Copa da Eslovenia",
+        "year": "19/20",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Rade Obrenovic",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "NK Nafta 1903",
+        },
+        "away_team": {
+            "team_name": "NK Mura",
+        }
+    },
 ];

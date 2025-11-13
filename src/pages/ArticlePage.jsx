@@ -146,7 +146,7 @@ export default function ArticlePage() {
                                             )
                                         })
                                     ) : (
-                                        <div id="no-comments-container">
+                                        <div className="hollow-container">
                                             Ainda não há comentários
                                         </div>
                                     )}

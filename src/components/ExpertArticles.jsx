@@ -38,10 +38,12 @@ export default function ExpertArticles({context, id}) {
                         
                         <div className='news' key={article._id}>
                             <div className='author'>
-                                <div className='journalist'>
-                                    <img src={`/images/journalists/${journalist.journalistImg}`} alt="" />
-                                    <span>{journalist.name}</span>
-                                </div>
+                                <Link to={`/journalist-page/${journalist._id}`}>
+                                    <div className='journalist'>
+                                        <img src={`/images/journalists/${journalist.journalistImg}`} alt="" />
+                                        <span>{journalist.name}</span>
+                                    </div>
+                                </Link>
 
                                 <div className='journalist broadcaster'>
                                     <img src={`/images/broadcasters/${journalist.broadcaster}`} alt="" />

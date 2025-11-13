@@ -3,14 +3,16 @@ import '../styles/news.css';
 import { articles } from '../data/articles';
 import { Link } from 'react-router-dom';
 
-export default function LatestNews({context, homeTeam, awayTeam, match, referee}) {
+export default function LatestNews({context, homeTeam, awayTeam, match, referee, jourId}) {
     let filteredArticles = [];
-
-    console.log(homeTeam, awayTeam, referee)
 
     if (context === "match") {
         filteredArticles = articles.filter(article => article.teamId?.includes(homeTeam) || article.teamId?.includes(awayTeam) || article.referee === referee || article.matchId === match._id).slice(0, 4);
-    } else {
+    } else if(context === 'jour'){
+        filteredArticles = articles.filter(article => article.journalistId === jourId)
+    } else if(context === 'ref') {
+        filteredArticles = articles.filter(article => article.referee === referee)
+    }else {
         filteredArticles = articles.filter(article => article.tag !== "Opinião" && article.tag !== "Análise").sort((a, b) => b._id - a._id).slice(0, 2);
     }
 
@@ -18,10 +20,17 @@ export default function LatestNews({context, homeTeam, awayTeam, match, referee}
         <>
             <div className=''>
                 {filteredArticles.length === 0 ? <>
-                    <div className='no-news-container'>
-                        <img src="/images/no-news.png" alt="" />
-                        <h1>Infelizmente não há notícias registradas</h1>
-                    </div>
+                    {context === 'match' ? <>
+                        <div className='no-news-container'>
+                            <img src="/images/no-news.png" alt="" />
+                            <h1>Infelizmente não há notícias registradas</h1>
+                        </div>
+                    </> : <>
+                        <div className='horizontal-no-news'>
+                            <img src="/images/no-news.png" alt="" />
+                            <h1>Infelizmente não há notícias registrada</h1>
+                        </div>
+                    </>}
                 </> : <>
                     <div className={`news-container flex ${context}`}>
                         {filteredArticles.map((article) =>

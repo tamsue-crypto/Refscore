@@ -1,0 +1,42 @@
+.journalist-infos-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.journalist-infos-container h3{
+    font-size: 80px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.journalist-infos-container h3 img{
+    height: 50px;
+    border: none;
+}
+
+.journalist-infos-container h5 img{
+    height: 25px;
+}
+
+.journalist-infos-container h5{
+    font-size: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.journalist-infos-container img{
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #cecece;
+}
+
+.jour-articles-container{
+    padding: 10px;
+    width: fit-content;
+    background: linear-gradient(135deg, #f9fafb 0%, #eef2f7 100%);
+    color: #000;
+}

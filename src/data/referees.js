@@ -50,7 +50,7 @@ export const referees = [
                         average_score: 6.5,
                     },
                     {
-                        competition_name: "Champions League",
+                        competition_name: "Liga dos Campeões",
                         matches: 1,
                         yellow_card: 6,
                         second_yellow_card: 0,
@@ -83,6 +83,38 @@ export const referees = [
         photo: "/images/referee_photos/letexier_pfp.png",
         stats: [
             {
+                season: "2025/26",
+                competitions: [
+                    {
+                        competition_name: "Ligue 1",
+                        matches: 7,
+                        yellow_card: 36,
+                        second_yellow_card: 1,
+                        red_card: 4,
+                        penalty: 1,
+                        average_score: 7.5,
+                    },
+                    {
+                        competition_name: "Liga dos Campeões",
+                        matches: 3,
+                        yellow_card: 7,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 1,
+                        average_score: 8.2,
+                    },
+                    {
+                        competition_name: "Quali. Liga Campeões",
+                        matches: 2,
+                        yellow_card: 9,
+                        second_yellow_card: 0,
+                        red_card: 1,
+                        penalty: 1,
+                        average_score: 6.6,
+                    },
+                ],
+            },
+            {
                 season: "2024/25",
                 competitions: [
                     {
@@ -95,7 +127,7 @@ export const referees = [
                         average_score: 7.2,
                     },
                     {
-                        competition_name: "Champions League",
+                        competition_name: "Liga dos Campeões",
                         matches: 7,
                         yellow_card: 32,
                         second_yellow_card: 1,
@@ -131,66 +163,7 @@ export const referees = [
                         average_score: 6.3,
                     },
                 ],
-            },
-            {
-                season: "2023/24",
-                competitions: [
-                    {
-                        competition_name: "Ligue 1",
-                        matches: 15,
-                        yellow_card: 68,
-                        second_yellow_card: 0,
-                        red_card: 0,
-                        penalty: 2,
-                        average_score: 7.4,
-                    },
-                    {
-                        competition_name: "Champions League",
-                        matches: 5,
-                        yellow_card: 15,
-                        second_yellow_card: 0,
-                        red_card: 1,
-                        penalty: 2,
-                        average_score: 7.2,
-                    },
-                    {
-                        competition_name: "Eurocopa",
-                        matches: 4,
-                        yellow_card: 14,
-                        second_yellow_card: 0,
-                        red_card: 0,
-                        penalty: 2,
-                        average_score: 6.9,
-                    },
-                    {
-                        competition_name: "Europa League",
-                        matches: 4,
-                        yellow_card: 18,
-                        second_yellow_card: 0,
-                        red_card: 0,
-                        penalty: 1,
-                        average_score: 7.9,
-                    },
-                    {
-                        competition_name: "Supercopa Uefa",
-                        matches: 1,
-                        yellow_card: 3,
-                        second_yellow_card: 0,
-                        red_card: 0,
-                        penalty: 0,
-                        average_score: 6.9,
-                    },
-                    {
-                        competition_name: "Olímpiadas",
-                        matches: 1,
-                        yellow_card: 5,
-                        second_yellow_card: 0,
-                        red_card: 1,
-                        penalty: 0,
-                        average_score: 7.2,
-                    },
-                ],
-            },
+            }
         ],
     },
     {
@@ -227,7 +200,40 @@ export const referees = [
         fifa_debut: "2013",
         d1_debut: "03.02.2010",
         photo: "/images/referee_photos/anthony_taylor_pfp.png",
-        stats: [],
+        stats: [
+            {
+                season: "2025/26",
+                competitions: [
+                    {
+                        competition_name: "Liga dos Campeões",
+                        matches: 3,
+                        yellow_card: 10,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 1,
+                        average_score: 6.9,
+                    },
+                    {
+                        competition_name: "Quali. Liga Campeões",
+                        matches: 1,
+                        yellow_card: 7,
+                        second_yellow_card: 1,
+                        red_card: 0,
+                        penalty: 1,
+                        average_score: 8.8,
+                    },
+                    {
+                        competition_name: "Premier League",
+                        matches: 9,
+                        yellow_card: 26,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 2,
+                        average_score: 7.6,
+                    },
+                ],
+            },
+        ],
     },
     {
         _id: "6",
@@ -406,7 +412,49 @@ export const referees = [
         fifa_debut: "2016",
         d1_debut: "17.08.2011",
         photo: "/images/referee_photos/donatas_pfp.png",
-        stats: [],
+        stats: [
+            {
+                season: "2025/26",
+                competitions: [
+                    {
+                        competition_name: "Liga dos Campeões",
+                        matches: 2,
+                        yellow_card: 5,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 0,
+                        average_score: 6.5,
+                    },
+                    {
+                        competition_name: "Quali. Liga Campeões",
+                        matches: 1,
+                        yellow_card: 3,
+                        second_yellow_card: 1,
+                        red_card: 0,
+                        penalty: 0,
+                        average_score: 7.3,
+                    },
+                    {
+                        competition_name: "Quali. Liga Europa",
+                        matches: 1,
+                        yellow_card: 4,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 1,
+                        average_score: 7.9,
+                    },
+                    {
+                        competition_name: "Saudi Pro League",
+                        matches: 1,
+                        yellow_card: 2,
+                        second_yellow_card: 0,
+                        red_card: 0,
+                        penalty: 0,
+                        average_score: 6.8,
+                    },
+                ],
+            },
+        ],
     },
     {
         _id: "21",
@@ -418,7 +466,49 @@ export const referees = [
         fifa_debut: "2015",
         d1_debut: "17.11.2012",
         photo: "/images/referee_photos/irfan_pfp.png",
-        stats: [],
+        stats: [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Premijer Liga Bosne",
+                        "matches": 4,
+                        "yellow_card": 18,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 2,
+                        "average_score": 6.2
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.0
+                    },
+                    {
+                        "competition_name": "Quali. Liga Campeões",
+                        "matches": 1,
+                        "yellow_card": 1,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.8
+                    }
+                ]
+            }
+        ],
     },
     {
         _id: "22",
@@ -430,7 +520,58 @@ export const referees = [
         fifa_debut: "2014",
         d1_debut: "25.02.2012",
         photo: "/images/referee_photos/erik_lambrechts_pfp.png",
-        stats: [],
+        stats: [
+            {
+            "season": "2025/26",
+            "competitions": [
+                        {
+                            "competition_name": "Jupiler Pro League",
+                            "matches": 6,
+                            "yellow_card": 31,
+                            "second_yellow_card": 0,
+                            "red_card": 0,
+                            "penalty": 2,
+                            "average_score": 7.6
+                        },
+                        {
+                            "competition_name": "Liga dos Campeões",
+                            "matches": 2,
+                            "yellow_card": 4,
+                            "second_yellow_card": 0,
+                            "red_card": 1,
+                            "penalty": 1,
+                            "average_score": 7.1
+                        },
+                        {
+                            "competition_name": "Quali. Liga Europa",
+                            "matches": 2,
+                            "yellow_card": 7,
+                            "second_yellow_card": 0,
+                            "red_card": 0,
+                            "penalty": 0,
+                            "average_score": 6.3
+                        },
+                        {
+                            "competition_name": "Liga Europa",
+                            "matches": 1,
+                            "yellow_card": 4,
+                            "second_yellow_card": 0,
+                            "red_card": 0,
+                            "penalty": 1,
+                            "average_score": 8.2
+                        },
+                        {
+                            "competition_name": "Saudi Pro League",
+                            "matches": 1,
+                            "yellow_card": 5,
+                            "second_yellow_card": 0,
+                            "red_card": 0,
+                            "penalty": 0,
+                            "average_score": 7.6
+                        }
+                    ]
+                    }
+                ],
     },
     {
         _id: "23",
@@ -442,6 +583,66 @@ export const referees = [
         fifa_debut: "2017",
         d1_debut: "10.06.2014",
         photo: "/images/referee_photos/rade_pfp.png",
-        stats: [],
+        stats: [
+            {
+            "season": "2025/26",
+            "competitions": [
+                {
+                    "competition_name": "Prva Liga",
+                    "matches": 5,
+                    "yellow_card": 26,
+                    "second_yellow_card": 1,
+                    "red_card": 0,
+                    "penalty": 1,
+                    "average_score": 7.6
+                },
+                {
+                    "competition_name": "Liga dos Campeões",
+                    "matches": 2,
+                    "yellow_card": 12,
+                    "second_yellow_card": 1,
+                    "red_card": 0,
+                    "penalty": 0,
+                    "average_score": 8.8
+                },
+                {
+                    "competition_name": "Liga Europa",
+                    "matches": 1,
+                    "yellow_card": 6,
+                    "second_yellow_card": 0,
+                    "red_card": 0,
+                    "penalty": 0,
+                    "average_score": 7.2
+                },
+                {
+                    "competition_name": "Quali. Liga Europa",
+                    "matches": 1,
+                    "yellow_card": 2,
+                    "second_yellow_card": 0,
+                    "red_card": 0,
+                    "penalty": 0,
+                    "average_score": 7.5
+                },
+                {
+                    "competition_name": "Quali. Liga Campeões",
+                    "matches": 1,
+                    "yellow_card": 11,
+                    "second_yellow_card": 0,
+                    "red_card": 0,
+                    "penalty": 0,
+                    "average_score": 6.1
+                },
+                {
+                    "competition_name": "Saudi Pro League",
+                    "matches": 1,
+                    "yellow_card": 5,
+                    "second_yellow_card": 0,
+                    "red_card": 1,
+                    "penalty": 2,
+                    "average_score": 6.4
+                }
+            ]
+            }
+        ],
     },
 ];

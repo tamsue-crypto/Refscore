@@ -1,0 +1,82 @@
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 10px;
+}
+
+td:not(:last-child), th:not(:last-child) {
+  border-right: 1px solid #cecece;
+}
+
+tr:last-child td {
+  border-top: 2px solid #a2a2a2;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.referee-stats{
+    border: 2px solid #cecece;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.season-selector{
+    background-color: #f0a04b;
+    padding: 12px 8px;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.competition-name{
+    text-align: start;
+    width: 200px;
+    font-weight: 600;
+}
+
+#seasonSelect{
+    border: none;
+    display: flex;
+    height: 25px;
+    width: 75px;
+    font-family: "Manrope";
+    font-weight: 500;
+    align-items: center;
+    outline: none;
+}
+
+.stats-table{
+    padding: 15px 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.stats-table tr th{
+    height: 30px;
+    width: 90px;
+}
+
+.stats-table tr th img{
+    width: 15px;
+    margin-top: 4px;
+}
+
+.stats{
+    text-align: center;
+    padding: 5px 8px;
+}
+
+.avg-rating-cell {
+    display: flex;
+    justify-content: center;
+}

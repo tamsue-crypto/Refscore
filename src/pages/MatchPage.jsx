@@ -94,8 +94,8 @@ export default function MatchPage() {
                 </div>
             </div>
 
-            <div className="result-card-container" style={{ marginTop: '40px' }}>
-                <h1>Análises</h1>
+            <div className="result-card-container" style={{ marginTop: '40px'}}>
+                <h1  style={{color: 'black', textAlign: 'center', marginBottom: '15px'}}>Análises</h1>
                 <RefereeAnalysis match={match} matchRef={matchRef}/>
             </div>
 

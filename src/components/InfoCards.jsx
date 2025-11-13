@@ -2,9 +2,11 @@ import { referees } from "../data/referees"
 import { matches } from "../data/matches"
 import "../styles/info-cards.css";
 import "../styles/global.css";
+import { Link } from "react-router-dom";
 
-export default function InfoCards({matchId, context}){
+export default function InfoCards({matchId, context, ref}){
     let match = matches.find(m => m._id === matchId)
+    let referee = referees.find(r => r.name === ref)
 
     const allPlayers = [...match.away_team.players, ...match.home_team.players]
 
@@ -17,7 +19,7 @@ export default function InfoCards({matchId, context}){
         return 'perfect';
     }
 
-    if(context === "ref"){
+    if(context === "ref" && matchId){
         var title = "Dados Pessoais"
         var header = "general"
         const referee = referees.find(r => r.name === match.referee.referee_name)
@@ -34,7 +36,15 @@ export default function InfoCards({matchId, context}){
         var cardName = brMotm.player.name
         var nationality = brMotm.player.nationality
         var stats = brMotm.statistics.br_motm_stat
-    } else {
+    } else if (context === "ref" && ref) {
+        var title = "Dados Pessoais"
+        var header = "general"
+        var photo = referee.photo
+        var cardName = referee.name
+        var nationality = referee.nationality
+        var birthday = referee.birthday
+        var fifa_debut = referee.fifa_debut
+    }else {
         var title = "Destaque da Partida"
         var header = "general"
         const motm = allPlayers.find(p => p.motm)
@@ -48,7 +58,7 @@ export default function InfoCards({matchId, context}){
             <div className="info-card">
                 <section className={`championship-header ${header}-header`}>
                     <span>{title}</span>
-                    {context === "ref" &&
+                    {context === "ref" && matchId &&
                         <div className={`avg-rating ${getRatingClass(match.referee.final_score)}`} style={{transform: 'scale(0.6)', padding: '5px'}}>
                             {match.referee.final_score}
                             <div className="rating-tooltip">
@@ -68,7 +78,11 @@ export default function InfoCards({matchId, context}){
                         <li>
                             <div className="sla">
                                 <span className="info-title">Nome</span>
-                                <span className="infoself">{cardName}</span>
+                                {context === "ref" && matchId ? <>
+                                    <Link to={`/referee/${cardName}`}><span className="infoself">{cardName}</span></Link>
+                                </>: <>
+                                    <span className="infoself">{cardName}</span>
+                                </>}
                             </div>
                         </li>
                         <li>
