@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Refscore/static/css/main.cdd14e9b.css",
+    "main.js": "/Refscore/static/js/main.648b7c47.js",
+    "static/media/Exo2-VariableFont_wght.ttf": "/Refscore/static/media/Exo2-VariableFont_wght.0dd085f670224d154034.ttf",
+    "static/media/DMSans-VariableFont_opsz,wght.ttf": "/Refscore/static/media/DMSans-VariableFont_opsz,wght.39867822ec01fc077cb5.ttf",
+    "static/media/Manrope-VariableFont_wght.ttf": "/Refscore/static/media/Manrope-VariableFont_wght.efe78270bd691bb8d70b.ttf",
+    "static/media/DINNextW1G-Bold.otf": "/Refscore/static/media/DINNextW1G-Bold.eb2cd2cc0b73461cce1e.otf",
+    "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/Refscore/static/media/SpaceGrotesk-VariableFont_wght.f0f1fce4a59e46198487.ttf",
+    "static/media/DFL SANS-BOLD.TTF": "/Refscore/static/media/DFL SANS-BOLD.5d4b2910a29378838201.TTF",
+    "static/media/ORNITONS-SERIAL-BOLD.TTF": "/Refscore/static/media/ORNITONS-SERIAL-BOLD.094618f8d1838281ffb9.TTF",
+    "static/media/ITC-Novarese-Book.ttf": "/Refscore/static/media/ITC-Novarese-Book.44cb5d26e8007c0af4ec.ttf",
+    "static/media/futura-maxi-cg-bold.otf": "/Refscore/static/media/futura-maxi-cg-bold.50c9e2d52b5b121cb4b0.otf",
+    "static/media/RadikalTrial-Regular.otf": "/Refscore/static/media/RadikalTrial-Regular.3c91863945e370e18fe3.otf",
+    "index.html": "/Refscore/index.html",
+    "main.cdd14e9b.css.map": "/Refscore/static/css/main.cdd14e9b.css.map",
+    "main.648b7c47.js.map": "/Refscore/static/js/main.648b7c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdd14e9b.css",
+    "static/js/main.648b7c47.js"
+  ]
+}
