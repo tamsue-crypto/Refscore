@@ -11,7 +11,7 @@ function App() {
   
   return (
     <>
-      <Router basename="/Refscore">
+      <Router basename="/Refscore/">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage/>}/>
