@@ -77,7 +77,7 @@ export default function MatchResult({match}) {
                                 </div>
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="./images/player_events/goal.png" alt="ball" key={index} />
+                                        <img src="../images/player_events/goal.png" alt="ball" key={index} />
                                     ))}
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ export default function MatchResult({match}) {
                                 </div>
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="./images/player_events/own_goal.png" alt="ball" key={index} />
+                                        <img src="../images/player_events/own_goal.png" alt="ball" key={index} />
                                     ))}
                                 </div>
                             </div>
