@@ -40,23 +40,23 @@ export default function ExpertArticles({context, id}) {
                             <div className='author'>
                                 <Link to={`/journalist-page/${journalist._id}`}>
                                     <div className='journalist'>
-                                        <img src={`../images/journalists/${journalist.journalistImg}`} alt="" />
+                                        <img src={process.env.PUBLIC_URL + `/images/journalists/${journalist.journalistImg}`} alt="" />
                                         <span>{journalist.name}</span>
                                     </div>
                                 </Link>
 
                                 <div className='journalist broadcaster'>
-                                    <img src={`../images/broadcasters/${journalist.broadcaster}`} alt="" />
+                                    <img src={process.env.PUBLIC_URL + `/images/broadcasters/${journalist.broadcaster}`} alt="" />
                                 </div>
                             </div>
 
                             <Link to={`/news/${article._id}`}>
                                 <div className='general-news-img'>
-                                    <img src={`../images/news/${article.image}`} alt="" className='bg-img' />
+                                    <img src={process.env.PUBLIC_URL + `/images/news/${article.image}`} alt="" className='bg-img' />
 
                                     <div className={`content ${article.layout}`}>
                                         <div className='header-ref-anl flex'>
-                                            <img src={`../images/championships_logos/${article.championshipLogo}`} alt="" />
+                                            <img src={process.env.PUBLIC_URL + `/images/championships_logos/${article.championshipLogo}`} alt="" />
                                         </div>
 
                                         <div>

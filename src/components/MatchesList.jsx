@@ -31,7 +31,7 @@ export default function MatchesList({context, team, referee}) {
                             </section>
                         </> : <>
                             <section className={`championship-header general-header`}>
-                                <img src={`../images/club_badges/${ThisTeam.badge}`} className="team-badge" alt={`${ThisTeam.short_name} Badge`}/>
+                                <img src={process.env.PUBLIC_URL + `/images/club_badges/${ThisTeam.badge}`} className="team-badge" alt={`${ThisTeam.short_name} Badge`}/>
                                 <span className="team-name">
                                     Histórico Com
                                     <span>{ThisTeam.short_name.toUpperCase()}</span>
@@ -59,7 +59,7 @@ export default function MatchesList({context, team, referee}) {
                                                         <div className="match">
                                                             <div className="home-team">
                                                                 <span>{home.team_code}</span>
-                                                                <img src={`../images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                                                                <img src={process.env.PUBLIC_URL + `/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                                                             </div>
                                                             <span className={`scoreboard ${matchWinner}`}>
                                                                 <span>{homeGoals}</span>
@@ -67,7 +67,7 @@ export default function MatchesList({context, team, referee}) {
                                                                 <span>{awayGoals}</span>
                                                             </span>
                                                             <div className="away-team">
-                                                                <img src={`../images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                                                                <img src={process.env.PUBLIC_URL + `/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                                                                 <span>{away.team_code}</span>
                                                             </div>
                                                         </div>
@@ -82,7 +82,7 @@ export default function MatchesList({context, team, referee}) {
                                                     <div className="match">
                                                         <div className="home-team">
                                                             <span>{home.team_code}</span>
-                                                            <img src={`../images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                                                            <img src={process.env.PUBLIC_URL + `/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                                                         </div>
                                                         <span className={`scoreboard ${matchWinner}`}>
                                                             <span>{homeGoals}</span>
@@ -90,7 +90,7 @@ export default function MatchesList({context, team, referee}) {
                                                             <span>{awayGoals}</span>
                                                         </span>
                                                         <div className="away-team">
-                                                            <img src={`../images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                                                            <img src={process.env.PUBLIC_URL + `/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                                                             <span>{away.team_code}</span>
                                                         </div>
                                                     </div>

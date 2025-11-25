@@ -23,10 +23,10 @@ export default function FeaturedNews() {
                         <div className='news'>
                             <Link to={`news/${mainArticle._id}`}>
                                 <div className='featured-img'>
-                                    <img src={`../images/news/${mainArticle.image}`} className='bg-img' alt=''/>
+                                    <img src={process.env.PUBLIC_URL + `/images/news/${mainArticle.image}`} className='bg-img' alt=''/>
 
                                     <div className={`content ${mainArticle.layout}`}>
-                                        <img src={`../images/championships_logos/${mainArticle.championshipLogo}`} alt=""/>
+                                        <img src={process.env.PUBLIC_URL + `/images/championships_logos/${mainArticle.championshipLogo}`} alt=""/>
 
                                         <div>
                                             <div className='tag'>{mainArticle.tag}</div>
@@ -72,10 +72,10 @@ export default function FeaturedNews() {
                             <div className='news' key={sideArticle._id}>
                                 <Link to={`/news/${sideArticle._id}`}>
                                     <div className='side-featured-img'>
-                                        <img src={`../images/news/${sideArticle.image}`} alt="" className='bg-img' />
+                                        <img src={process.env.PUBLIC_URL + `/images/news/${sideArticle.image}`} alt="" className='bg-img' />
 
                                         <div className={`content ${sideArticle.layout}`}>
-                                            <img src={`../images/championships_logos/${sideArticle.championshipLogo}`} alt="" />
+                                            <img src={process.env.PUBLIC_URL + `/images/championships_logos/${sideArticle.championshipLogo}`} alt="" />
 
                                             <div>
                                                 <div className='tag'>{sideArticle.tag}</div>

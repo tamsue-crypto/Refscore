@@ -22,12 +22,12 @@ export default function LatestNews({context, homeTeam, awayTeam, match, referee,
                 {filteredArticles.length === 0 ? <>
                     {context === 'match' ? <>
                         <div className='no-news-container'>
-                            <img src="../images/no-news.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/no-news.png"} alt="" />
                             <h1>Infelizmente não há notícias registradas</h1>
                         </div>
                     </> : <>
                         <div className='horizontal-no-news'>
-                            <img src="../images/no-news.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/no-news.png"} alt="" />
                             <h1>Infelizmente não há notícias registrada</h1>
                         </div>
                     </>}
@@ -37,10 +37,10 @@ export default function LatestNews({context, homeTeam, awayTeam, match, referee,
                             <div className='news' key={article._id}>
                                 <Link to={`/news/${article._id}`}>
                                     <div className='general-news-img'>
-                                        <img src={`../images/news/${article.image}`} alt="" className='bg-img' />
+                                        <img src={process.env.PUBLIC_URL + `/images/news/${article.image}`} alt="" className='bg-img' />
 
                                         <div className={`content ${article.layout}`}>
-                                            <img src={`../images/championships_logos/${article.championshipLogo}`} alt="" />
+                                            <img src={process.env.PUBLIC_URL + `/images/championships_logos/${article.championshipLogo}`} alt="" />
 
                                             <div>
                                                 <div className='tag'>{article.tag}</div>
