@@ -9,7 +9,7 @@ export default function FeaturedReferee(){
 
                 <div id="ref-container" className="flex" style={{ border: "1px solid #fff" }}> {/*data container*/}
                     <div id="feature-ref">
-                        <img src="./images/news/featured-ref-march.png" className="bg-img" />
+                        <img src="../images/news/featured-ref-march.png" className="bg-img" />
 
                         <div className="ref-name flex-center">
                             <div className="name">#1 - François Letexier</div>
@@ -24,11 +24,11 @@ export default function FeaturedReferee(){
                                     <div className="match flex-center">
                                         <div className="home-team">
                                             <span>PSG</span>
-                                            <img src="./images/club_badges/ligue-1/psg.png"/>
+                                            <img src="../images/club_badges/ligue-1/psg.png"/>
                                         </div>
                                         <span className="scoreboard">4 - 1</span>
                                         <div className="away-team">
-                                            <img src="./images/club_badges/ligue-1/lille.png"/>
+                                            <img src="../images/club_badges/ligue-1/lille.png"/>
                                             <span>LIL</span>
                                         </div>
 
@@ -42,11 +42,11 @@ export default function FeaturedReferee(){
                                     <div className="match flex-center">
                                         <div className="home-team">
                                             <span>SCB</span>
-                                            <img src="./images/club_badges/alternatives/bastia.png"/>
+                                            <img src="../images/club_badges/alternatives/bastia.png"/>
                                         </div>
                                         <span className="scoreboard">1 - 0</span>
                                         <div className="away-team">
-                                            <img src="./images/club_badges/alternatives/martigues.png"/>
+                                            <img src="../images/club_badges/alternatives/martigues.png"/>
                                             <span>FCM</span>
                                         </div>
 
@@ -60,11 +60,11 @@ export default function FeaturedReferee(){
                                     <div className="match flex-center">
                                         <div className="home-team">
                                             <span>FCB</span>
-                                            <img src="./images/club_badges/la-liga/barcelona.png"/>
+                                            <img src="../images/club_badges/la-liga/barcelona.png"/>
                                         </div>
                                         <span className="scoreboard">3 - 1</span>
                                         <div className="away-team">
-                                            <img src="./images/club_badges/alternatives/sl-benfica.png"/>
+                                            <img src="../images/club_badges/alternatives/sl-benfica.png"/>
                                             <span>SLB</span>
                                         </div>
 
@@ -78,11 +78,11 @@ export default function FeaturedReferee(){
                                     <div className="match flex-center">
                                         <div className="home-team">
                                             <span>MSC</span>
-                                            <img src="./images/club_badges/ligue-1/montpellier.png"/>
+                                            <img src="../images/club_badges/ligue-1/montpellier.png"/>
                                         </div>
                                         <span className="scoreboard">0 - 2</span>
                                         <div className="away-team">
-                                            <img src="./images/club_badges/ligue-1/saint-etiene.png"/>
+                                            <img src="../images/club_badges/ligue-1/saint-etiene.png"/>
                                             <span>ASE</span>
                                         </div>
 
@@ -96,11 +96,11 @@ export default function FeaturedReferee(){
                                     <div className="match flex-center">
                                         <div className="home-team">
                                             <span>ITA</span>
-                                            <img src="./images/flag/italy.png" className="national-team"/>
+                                            <img src="../images/flag/italy.png" className="national-team"/>
                                         </div>
                                         <span className="scoreboard">1 - 2</span>
                                         <div className="away-team">
-                                            <img src="./images/flag/germany.png" className="national-team"/>
+                                            <img src="../images/flag/germany.png" className="national-team"/>
                                             <span>ALE</span>
                                         </div>
 

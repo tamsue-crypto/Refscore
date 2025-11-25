@@ -72,17 +72,17 @@ export default function JournalistPage() {
                 <div className="content-wrapper">
                     <div className="main-content">
                         <div className="journalist-infos-container">
-                            <img src={`./images/journalists/${journalist.journalistImg}`} alt="" />
+                            <img src={`../images/journalists/${journalist.journalistImg}`} alt="" />
                             <div className="journalist-infos">
                                 <h3>
                                     {journalist.name}
                                     {journalist.favTeam && (
-                                        <img src={`./images/club_badges/${favTeam.badge}`} alt="" />
+                                        <img src={`../images/club_badges/${favTeam.badge}`} alt="" />
                                     )}
                                 </h3>
                                 <h5>
                                     {`Agenciado por ${journalist.broadcasterName}`}
-                                    <img src={`./images/broadcasters/${journalist.broadcaster}`} alt="" />
+                                    <img src={`../images/broadcasters/${journalist.broadcaster}`} alt="" />
                                 </h5>
                             </div>
                         </div>

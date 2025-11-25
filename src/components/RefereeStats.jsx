@@ -43,10 +43,10 @@ export default function RefereeStatsTable({ ref }) {
                     <tr>
                         <th style={{textAlign: 'start'}}>Competição</th>
                         <th>Partidas</th>
-                        <th><img src="./images/player_events/yellow_card.png" alt="yellow" title="Cartão Amarelo"/></th>
-                        <th><img src="./images/player_events/second_yellow.png" alt="second_yellow" title="Segundo Cartão Amarelo"/></th>
-                        <th><img src="./images/player_events/red_card.png" alt="yellow" title="Cartão Vermelho"/></th>
-                        <th><img src="./images/player_events/penalti.png" alt="penalti" title="Penalti"/></th>
+                        <th><img src="../images/player_events/yellow_card.png" alt="yellow" title="Cartão Amarelo"/></th>
+                        <th><img src="../images/player_events/second_yellow.png" alt="second_yellow" title="Segundo Cartão Amarelo"/></th>
+                        <th><img src="../images/player_events/red_card.png" alt="yellow" title="Cartão Vermelho"/></th>
+                        <th><img src="../images/player_events/penalti.png" alt="penalti" title="Penalti"/></th>
                         <th>Nota</th>
                     </tr>
                 </thead>

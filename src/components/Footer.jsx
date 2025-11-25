@@ -6,7 +6,7 @@ export default function Footer(){
         <>
             <footer className="flex-center">
                 <div className="logo-area">
-                    <img src="./images/refscore-icon.png"/>
+                    <img src="../images/refscore-icon.png"/>
                     <span>Refscore</span>
                 </div>
 

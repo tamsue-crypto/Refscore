@@ -8,7 +8,7 @@ export default function NavBar({onLoginClick}){
             <header id="main-header">
                 <Link to={`/`}>
                     <div className="logo-area flex-center">
-                        <img src="./images/refscore-icon.png" alt=""/>
+                        <img src="../images/refscore-icon.png" alt=""/>
                         <span>Refscore</span>
                     </div>
                 </Link>
