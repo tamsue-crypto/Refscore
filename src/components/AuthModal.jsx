@@ -42,7 +42,7 @@ export default function AuthModal({screen, closeModal, changeToLogin, changeToLo
                             </div>
 
                             <div className="modal-image">
-                                <img src="/images/style/mbappe-celebrate.jpg" alt=""/>
+                                <img src="./images/style/mbappe-celebrate.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ export default function AuthModal({screen, closeModal, changeToLogin, changeToLo
                             </div>
 
                             <div className="modal-image">
-                                <img src="/images/style/raphinha.jpg" alt=""/>
+                                <img src="./images/style/raphinha.jpg" alt=""/>
                             </div>
                         </div>
                     </div>

@@ -73,7 +73,7 @@ export default function InfoCards({matchId, context, ref}){
                 </section>
 
                 <section className="infos-container">
-                    <img src={photo} alt="" className="card-photo"/>
+                    <img src={`./${photo}`} alt="" className="card-photo"/>
                     <ul className="infos">
                         <li>
                             <div className="sla">
@@ -89,7 +89,7 @@ export default function InfoCards({matchId, context, ref}){
                             <div className="sla">
                                 <span className="info-title">Nacionalidade</span>
                                 <span className="infoself">
-                                    <img src={`/images/flag/${nationality}.png`} alt="" />
+                                    <img src={`./images/flag/${nationality}.png`} alt="" />
                                     {nationality}
                                 </span>
                             </div>

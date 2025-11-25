@@ -90,7 +90,7 @@ export default function ArticlePage() {
                                     </div>
                                 </div>
 
-                                <img src={`/images/news/${article.image}`} alt="thumb" className="article-thumb"/>
+                                <img src={`./images/news/${article.image}`} alt="thumb" className="article-thumb"/>
                             
                                 <div className="a-content">
                                     {Object.values(article.paragraphs).map((p, index) => 
@@ -113,12 +113,12 @@ export default function ArticlePage() {
                                                 <div className="comment-container" key={comment._id}>
                                                     <div className="comment-user-info">
                                                         <div className="user-pfp">
-                                                            <img src={`/images/users_pfp/${user.profilePicture}`} alt="pfp" />
+                                                            <img src={`./images/users_pfp/${user.profilePicture}`} alt="pfp" />
                                                         </div>
                                                         <div className="user-data">
                                                             <div className="user-name">
                                                                 <h3>{user.name}</h3>
-                                                                <img src={`/images/club_badges/${userTeam.badge}`} alt="fav-team" title={userTeam.name} />
+                                                                <img src={`./images/club_badges/${userTeam.badge}`} alt="fav-team" title={userTeam.name} />
                                                             </div>
                                                             <span>{`Data de postagem: ${comment.date}`}</span>
                                                         </div>
@@ -160,7 +160,7 @@ export default function ArticlePage() {
                                     <div className="photos" style={{scale: '0.9'}}>
                                         {Object.values(article.sideImages).map((p, index) =>
                                             <div className="side-photos" key={index}>
-                                                <img src={p} alt="imagem lateral" key={index} />
+                                                <img src={`./${p}`} alt="imagem lateral" key={index} />
                                             </div>
                                         )}
                                     </div>

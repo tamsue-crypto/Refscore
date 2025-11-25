@@ -55,7 +55,7 @@ export default function RefereeAnalysis({match, jourId}){
                     return (
                         <div className='analysis-container' key={index}>
                             <header>
-                                <Link to={`/journalist-page/${journalist._id}`}><img src={`/images/journalists/${journalist.journalistImg}`} alt="journalistIMG"/></Link>
+                                <Link to={`/journalist-page/${journalist._id}`}><img src={`./images/journalists/${journalist.journalistImg}`} alt="journalistIMG"/></Link>
                                 <div className='journalist-info-header'>
                                     <span className='name-analysis-info'><Link to={`/journalist-page/${journalist._id}`}>{journalist.name}</Link></span>
                                     <small>{`Agenciado ${journalist.broadcasterName}`}</small>
@@ -66,7 +66,7 @@ export default function RefereeAnalysis({match, jourId}){
                                     <section id='rating-breakdown-teams'>
                                         <div className="rating-breakdown-team-results">
                                             <span>{home.team_code}</span>
-                                            <img src={`/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                                            <img src={`./images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                                         </div>
                                         <Link to={`/match/${match._id}`}>
                                             <div className={`rating-breakdown-result-scoreboard ${matchWinner}`}>
@@ -76,7 +76,7 @@ export default function RefereeAnalysis({match, jourId}){
                                             </div>
                                         </Link>
                                         <div className="rating-breakdown-team-results">
-                                            <img src={`/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                                            <img src={`./images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                                             <span>{away.team_code}</span>
                                         </div>
                                     </section>

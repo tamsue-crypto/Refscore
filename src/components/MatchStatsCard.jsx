@@ -13,10 +13,10 @@ export default function MatchStatsCard({match}) {
                 <header>
                     <div className="team-container">
                         <span>{homeTeam.short_name}</span>
-                        <img src={`/images/club_badges/${homeTeam.badge}`} alt="" />
+                        <img src={`./images/club_badges/${homeTeam.badge}`} alt="" />
                     </div>
                     <div className="team-container">
-                        <img src={`/images/club_badges/${awayTeam.badge}`} alt="" />
+                        <img src={`./images/club_badges/${awayTeam.badge}`} alt="" />
                         <span>{awayTeam.short_name}</span>
                     </div>
                 </header>

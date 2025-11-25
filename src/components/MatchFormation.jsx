@@ -74,9 +74,9 @@ export default function MatchFormation({matchId}){
                                 <div className="player-info">
                                     <div className="player-info-prefix">
                                         <span>{player.player.jersey_number}</span>
-                                        <img src={`/images/flag/${player.player.nationality}.png`} alt="" />
+                                        <img src={`./images/flag/${player.player.nationality}.png`} alt="" />
                                     </div>
-                                    <span>{player.player.name} {player.captain ? <img src="/images/player_events/captain.png" alt="captain" /> : ''}</span>
+                                    <span>{player.player.name} {player.captain ? <img src="./images/player_events/captain.png" alt="captain" /> : ''}</span>
                                 </div>
                 
                                     {hasEvents && (
@@ -84,7 +84,7 @@ export default function MatchFormation({matchId}){
                                             {player.statistics.goals > 0 && (
                                                 <div className="player-event">
                                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                                        <img src="/images/player_events/goal.png" alt="ball" key={index}/>
+                                                        <img src="./images/player_events/goal.png" alt="ball" key={index}/>
                                                     ))}
                                                 </div>
                                             )}
@@ -92,7 +92,7 @@ export default function MatchFormation({matchId}){
                                             {player.statistics.own_goal > 0 && (
                                                 <div className="player-event">
                                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                                        <img src="/images/player_events/own_goal.png" alt="ball" key={index}/>
+                                                        <img src="./images/player_events/own_goal.png" alt="ball" key={index}/>
                                                     ))}
                                                 </div>
                                             )}
@@ -100,20 +100,20 @@ export default function MatchFormation({matchId}){
                                             {player.statistics.goal_assist > 0 && (
                                                 <div className="player-event">
                                                     {[...Array(player.statistics.goal_assist)].map((_, index) => (
-                                                        <img src="/images/player_events/assist.png" alt="assist" key={index}/>
+                                                        <img src="./images/player_events/assist.png" alt="assist" key={index}/>
                                                     ))}
                                                 </div>
                                             )}
 
                                             {player.statistics.yellow_card > 0 && (
                                                 <div className="player-event">
-                                                    <img src="/images/player_events/yellow_card.png" alt="yellow" />
+                                                    <img src="./images/player_events/yellow_card.png" alt="yellow" />
                                                 </div>
                                             )}
 
                                             {player.statistics.red_card > 0 && (
                                                 <div className="player-event">
-                                                    <img src="/images/player_events/red_card.png" alt="yellow" />
+                                                    <img src="./images/player_events/red_card.png" alt="yellow" />
                                                 </div>
                                             )}
 
@@ -123,7 +123,7 @@ export default function MatchFormation({matchId}){
                                                 return (
                                                     <div className="player-event hooked-event">
                                                     <div className="hooked-icon">
-                                                        <img src="/images/player_events/hooked.png" alt="hooked" />
+                                                        <img src="./images/player_events/hooked.png" alt="hooked" />
                                                         <span>{`${player.statistics.hooked}'`}</span>
                                                     </div>
 
@@ -132,7 +132,7 @@ export default function MatchFormation({matchId}){
                                                             <div className="tooltip-player">
                                                                 <div className="tooltip-player-info">
                                                                     <span className="tooltip-number">{sub.player.jersey_number}</span>
-                                                                    <img src={`/images/flag/${sub.player.nationality}.png`} alt={sub.player.nationality}/>
+                                                                    <img src={`./images/flag/${sub.player.nationality}.png`} alt={sub.player.nationality}/>
                                                                     <span className="tooltip-name">{sub.player.name}</span>
                                                                 </div>
 
@@ -141,7 +141,7 @@ export default function MatchFormation({matchId}){
                                                                         {sub.statistics.goals > 0 && (
                                                                             <div className="player-event">
                                                                                 {[...Array(sub.statistics.goals)].map((_, index) => (
-                                                                                    <img src="/images/player_events/goal.png" alt="ball" key={index}/>
+                                                                                    <img src="./images/player_events/goal.png" alt="ball" key={index}/>
                                                                                 ))}
                                                                             </div>
                                                                         )}
@@ -149,7 +149,7 @@ export default function MatchFormation({matchId}){
                                                                         {sub.statistics.own_goal > 0 && (
                                                                             <div className="player-event">
                                                                                 {[...Array(sub.statistics.goals)].map((_, index) => (
-                                                                                    <img src="/images/player_events/own_goal.png" alt="ball" key={index}/>
+                                                                                    <img src="./images/player_events/own_goal.png" alt="ball" key={index}/>
                                                                                 ))}
                                                                             </div>
                                                                         )}
@@ -157,20 +157,20 @@ export default function MatchFormation({matchId}){
                                                                         {sub.statistics.goal_assist > 0 && (
                                                                             <div className="player-event">
                                                                                 {[...Array(sub.statistics.goal_assist)].map((_, index) => (
-                                                                                    <img src="/images/player_events/assist.png" alt="assist" key={index}/>
+                                                                                    <img src="./images/player_events/assist.png" alt="assist" key={index}/>
                                                                                 ))}
                                                                             </div>
                                                                         )}
 
                                                                         {sub.statistics.yellow_card > 0 && (
                                                                             <div className="player-event">
-                                                                                <img src="/images/player_events/yellow_card.png" alt="yellow" />
+                                                                                <img src="./images/player_events/yellow_card.png" alt="yellow" />
                                                                             </div>
                                                                         )}
 
                                                                         {sub.statistics.red_card > 0 && (
                                                                             <div className="player-event">
-                                                                                <img src="/images/player_events/red_card.png" alt="yellow" />
+                                                                                <img src="./images/player_events/red_card.png" alt="yellow" />
                                                                             </div>
                                                                         )}
                                                                     </div>

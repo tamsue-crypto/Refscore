@@ -10,7 +10,7 @@ export default function TeamSelector({ selectedTeam, setSelectedTeam }) {
             <div className="custom-select-display flex-center" onClick={() => setOpened((prev) => !prev)}>
                 {selectedTeam ? (
                     <div className="option-content">
-                        <img src={`/images/club_badges/${selectedTeam.badge}`} alt="" />
+                        <img src={`./images/club_badges/${selectedTeam.badge}`} alt="" />
                         <span>{selectedTeam.short_name}</span>
                     </div>
                 ) : (
@@ -30,7 +30,7 @@ export default function TeamSelector({ selectedTeam, setSelectedTeam }) {
                     {teams.map((team) => (
                         <div key={team.id} className="option" onClick={() => { setSelectedTeam(team); setOpened(false);}}>
                             <div className="option-content">
-                                <img src={`/images/club_badges/${team.badge}`} alt={team.name} />
+                                <img src={`./images/club_badges/${team.badge}`} alt={team.name} />
                                 <span>{team.short_name}</span>
                             </div>
                         </div>
