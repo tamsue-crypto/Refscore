@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Refscore/static/css/main.cdd14e9b.css",
-    "main.js": "/Refscore/static/js/main.db861345.js",
+    "main.js": "/Refscore/static/js/main.f8ae4813.js",
     "static/media/Exo2-VariableFont_wght.ttf": "/Refscore/static/media/Exo2-VariableFont_wght.0dd085f670224d154034.ttf",
     "static/media/DMSans-VariableFont_opsz,wght.ttf": "/Refscore/static/media/DMSans-VariableFont_opsz,wght.39867822ec01fc077cb5.ttf",
     "static/media/Manrope-VariableFont_wght.ttf": "/Refscore/static/media/Manrope-VariableFont_wght.efe78270bd691bb8d70b.ttf",
@@ -14,10 +14,10 @@
     "static/media/RadikalTrial-Regular.otf": "/Refscore/static/media/RadikalTrial-Regular.3c91863945e370e18fe3.otf",
     "index.html": "/Refscore/index.html",
     "main.cdd14e9b.css.map": "/Refscore/static/css/main.cdd14e9b.css.map",
-    "main.db861345.js.map": "/Refscore/static/js/main.db861345.js.map"
+    "main.f8ae4813.js.map": "/Refscore/static/js/main.f8ae4813.js.map"
   },
   "entrypoints": [
     "static/css/main.cdd14e9b.css",
-    "static/js/main.db861345.js"
+    "static/js/main.f8ae4813.js"
   ]
 }
