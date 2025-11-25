@@ -108,7 +108,7 @@ export default function MatchResult({match}) {
                             <div className="result-events away">
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="./images/player_events/goal.png" alt="ball" key={index} />
+                                        <img src="../images/player_events/goal.png" alt="ball" key={index} />
                                     ))}
                                 </div>
                                 <div style={{gap: '5px', display: 'flex'}}>
