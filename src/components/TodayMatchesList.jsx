@@ -57,7 +57,7 @@ export default function TodayMatchesList({day, style}) {
                     return (
                         <div key={competition.id} className="matches-championship-container">
                             <section className={`championship-header ${competition.className}`}>
-                                <img src={`.${competition.logo}`} className="championship-logo" alt={`${competition.name} logo`} />
+                                <img src={process.env.PUBLIC_URL + `${competition.logo}`} className="championship-logo" alt={`${competition.name} logo`} />
                                 <span className={`championship-name ${competition.className}`}>{competition.name}</span>
                             </section>
 
@@ -80,7 +80,7 @@ export default function TodayMatchesList({day, style}) {
                                                         <div className="match">
                                                             <div className="home-team">
                                                                 <span>{home.team_code}</span>
-                                                                <img src={`./images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                                                                <img src={process.env.PUBLIC_URL + `/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                                                             </div>
                                                             {homeGoals === "" || awayGoals === "" ? (
                                                                 <span className="scoreboard">
@@ -95,7 +95,7 @@ export default function TodayMatchesList({day, style}) {
                                                                 </span>
                                                             )}
                                                             <div className="away-team">
-                                                                <img src={`./images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                                                                <img src={process.env.PUBLIC_URL + `/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                                                                 <span>{away.team_code}</span>
                                                             </div>
                                                         </div>
@@ -109,7 +109,7 @@ export default function TodayMatchesList({day, style}) {
                                                             ) : (
                                                                 <span>{`: ${ref.name}`}</span>
                                                             )}
-                                                            <img src={`../images/flag/${ref.nationality}.png`} alt={`${ref.nationality} flag`} />
+                                                            <img src={process.env.PUBLIC_URL + `/images/flag/${ref.nationality}.png`} alt={`${ref.nationality} flag`} />
                                                         </small>
                                                     </div>
                                                 </Link>

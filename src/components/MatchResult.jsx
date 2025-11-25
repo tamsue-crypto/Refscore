@@ -27,16 +27,16 @@ export default function MatchResult({match}) {
                 <header>
                     <div className="matchday-info">
                         <div className="info-data">
-                            <img src="../images/style/matchday.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/style/matchday.png"} alt="" />
                             <span>{match.day}</span>
                             <span>{match.date}</span>
                         </div>
                         <div className="info-data">
-                            <img src="../images/style/date.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/style/date.png"} alt="" />
                             {match.time}
                         </div>
                         <div className="info-data">
-                            <img src="../images/style/location.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/style/location.png"} alt="" />
                             <span>{match.stadium}</span>
                             <span>{`(${match.stadium_loc})`}</span>
                         </div>
@@ -46,7 +46,7 @@ export default function MatchResult({match}) {
                 <section id="score-container">
                     <div className="team-results">
                         <span>{home.team_code}</span>
-                        <img src={`../images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                        <img src={process.env.PUBLIC_URL + `/images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                     </div>
                     <div className={`result-scoreboard ${matchWinner}`}>
 
@@ -56,7 +56,7 @@ export default function MatchResult({match}) {
 
                     </div>
                     <div className="team-results">
-                        <img src={`../images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                        <img src={process.env.PUBLIC_URL + `/images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                         <span>{away.team_code}</span>
                     </div>
                 </section>
@@ -77,7 +77,7 @@ export default function MatchResult({match}) {
                                 </div>
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="../images/player_events/goal.png" alt="ball" key={index} />
+                                        <img src={process.env.PUBLIC_URL + "/images/player_events/goal.png"} alt="ball" key={index} />
                                     ))}
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ export default function MatchResult({match}) {
                                 </div>
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="../images/player_events/own_goal.png" alt="ball" key={index} />
+                                        <img src={process.env.PUBLIC_URL + "/images/player_events/own_goal.png"} alt="ball" key={index} />
                                     ))}
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ export default function MatchResult({match}) {
                             <div className="result-events away">
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="../images/player_events/goal.png" alt="ball" key={index} />
+                                        <img src={process.env.PUBLIC_URL + "/images/player_events/goal.png"} alt="ball" key={index} />
                                     ))}
                                 </div>
                                 <div style={{gap: '5px', display: 'flex'}}>
@@ -127,7 +127,7 @@ export default function MatchResult({match}) {
                             <div className="result-events away">
                                 <div className="goals-events">
                                     {[...Array(player.statistics.goals)].map((_, index) => (
-                                        <img src="../images/player_events/own_goal.png" alt="ball" key={index} />
+                                        <img src={process.env.PUBLIC_URL + "/images/player_events/own_goal.png"} alt="ball" key={index} />
                                     ))}
                                 </div>
                                 <div style={{gap: '5px', display: 'flex'}}>
