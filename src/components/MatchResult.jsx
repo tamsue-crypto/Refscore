@@ -27,16 +27,16 @@ export default function MatchResult({match}) {
                 <header>
                     <div className="matchday-info">
                         <div className="info-data">
-                            <img src="./images/style/matchday.png" alt="" />
+                            <img src="../images/style/matchday.png" alt="" />
                             <span>{match.day}</span>
                             <span>{match.date}</span>
                         </div>
                         <div className="info-data">
-                            <img src="./images/style/date.png" alt="" />
+                            <img src="../images/style/date.png" alt="" />
                             {match.time}
                         </div>
                         <div className="info-data">
-                            <img src="./images/style/location.png" alt="" />
+                            <img src="../images/style/location.png" alt="" />
                             <span>{match.stadium}</span>
                             <span>{`(${match.stadium_loc})`}</span>
                         </div>
@@ -46,7 +46,7 @@ export default function MatchResult({match}) {
                 <section id="score-container">
                     <div className="team-results">
                         <span>{home.team_code}</span>
-                        <img src={`./images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
+                        <img src={`../images/club_badges/${home.badge}`} alt={`${home.team_code} badge`} />
                     </div>
                     <div className={`result-scoreboard ${matchWinner}`}>
 
@@ -56,7 +56,7 @@ export default function MatchResult({match}) {
 
                     </div>
                     <div className="team-results">
-                        <img src={`./images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
+                        <img src={`../images/club_badges/${away.badge}`} alt={`${away.team_code} badge`} />
                         <span>{away.team_code}</span>
                     </div>
                 </section>
