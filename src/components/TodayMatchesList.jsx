@@ -118,12 +118,14 @@ export default function TodayMatchesList({day, style}) {
                                     })}
                                 </ul>
                                 <div className="btn-area">
-                                    <button className="general-btn">
-                                        <span>Ver todos os jogos</span>
-                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.6666 6.99998H2.33329M11.6666 6.99998L9.33329 9.33331M11.6666 6.99998L9.33329 4.66665" stroke="white" strokeWidth="1.83444" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </button>
+                                    <Link to={`championship/${competition.id}`}>
+                                        <button className="general-btn">
+                                            <span>Ver todos os jogos</span>
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M11.6666 6.99998H2.33329M11.6666 6.99998L9.33329 9.33331M11.6666 6.99998L9.33329 4.66665" stroke="white" strokeWidth="1.83444" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </Link>
                                 </div>
                             </section>
                         </div>
