@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Refscore/static/css/main.26e501c3.css",
-    "main.js": "/Refscore/static/js/main.7da7e21d.js",
+    "main.js": "/Refscore/static/js/main.5cf5f58b.js",
     "static/media/Exo2-VariableFont_wght.ttf": "/Refscore/static/media/Exo2-VariableFont_wght.0dd085f670224d154034.ttf",
     "static/media/DMSans-VariableFont_opsz,wght.ttf": "/Refscore/static/media/DMSans-VariableFont_opsz,wght.39867822ec01fc077cb5.ttf",
     "static/media/Manrope-VariableFont_wght.ttf": "/Refscore/static/media/Manrope-VariableFont_wght.efe78270bd691bb8d70b.ttf",
@@ -14,10 +14,10 @@
     "static/media/RadikalTrial-Regular.otf": "/Refscore/static/media/RadikalTrial-Regular.3c91863945e370e18fe3.otf",
     "index.html": "/Refscore/index.html",
     "main.26e501c3.css.map": "/Refscore/static/css/main.26e501c3.css.map",
-    "main.7da7e21d.js.map": "/Refscore/static/js/main.7da7e21d.js.map"
+    "main.5cf5f58b.js.map": "/Refscore/static/js/main.5cf5f58b.js.map"
   },
   "entrypoints": [
     "static/css/main.26e501c3.css",
-    "static/js/main.7da7e21d.js"
+    "static/js/main.5cf5f58b.js"
   ]
 }
