@@ -16,7 +16,7 @@ export default function NavBar({onLoginClick}){
                 <div id="main-nav">
                     <ul>
                         <li>Rankings</li>
-                        <li>Notícias</li>
+
                         <li>Partidas</li>
                     </ul>
                 </div>

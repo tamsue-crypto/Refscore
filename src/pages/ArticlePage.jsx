@@ -13,24 +13,14 @@ import TodayMatchesList from "../components/TodayMatchesList";
 import { Link } from "react-router-dom";
 
 export default function ArticlePage() {
-    const [openedModal, setOpenedModal] = useState(false);
-    const [screen, setScreen] = useState("login");
+    const[openedModal, setOpenedModal] = useState(false);
 
     const openLogin = () => {
         setOpenedModal(true);
-        setScreen("login");
     };
 
     const closeModal = () => {
         setOpenedModal(false);
-    };
-
-    const changeToLogup = () => {
-        setScreen("register");
-    };
-
-    const changeToLogin = () => {
-        setScreen("login");
     };
 
     const { id } = useParams();
@@ -52,14 +42,7 @@ export default function ArticlePage() {
         <>
             <NavBar onLoginClick={openLogin}/>
 
-            {openedModal && (
-                <AuthModal
-                    screen={screen}
-                    closeModal={closeModal}
-                    changeToLogin={changeToLogin}
-                    changeToLogup={changeToLogup}
-                />
-            )}
+            {openedModal && (<AuthModal closeModal={closeModal}/>)}
 
             <div>
                 {article.map((article) => {

@@ -212,3 +212,14 @@
   background: #999;
   border-radius: 0; /* <-- aqui remove o arredondado */
 }
+
+.form{
+    border-top: 2px solid #cecece;
+    border-bottom: 2px solid #cecece;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 20px 0px;
+    margin: 18px 0px;
+}

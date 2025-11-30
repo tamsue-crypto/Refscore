@@ -27,6 +27,7 @@
 #main-nav ul li {
   padding: 7px 0;
   cursor: pointer;
+  transition: box-shadow 0.3s;
 }
 
 #main-nav ul li:hover {

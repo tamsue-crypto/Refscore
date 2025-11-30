@@ -24,43 +24,26 @@ export default function MatchPage() {
         ...match.away_team.players
     ];
 
-    const [openedModal, setOpenedModal] = useState(false);
-    const [screen, setScreen] = useState("login");
-
     const homeTeam = match.home_team.team_name;
     const awayTeam = match.away_team.team_name;
     const matchRef = match.referee.referee_name;
 
 
+    const[openedModal, setOpenedModal] = useState(false);
+
     const openLogin = () => {
         setOpenedModal(true);
-        setScreen("login");
     };
 
     const closeModal = () => {
         setOpenedModal(false);
     };
 
-    const changeToLogup = () => {
-        setScreen("register");
-    };
-
-    const changeToLogin = () => {
-        setScreen("login");
-    };
-
     return(
         <>
             <NavBar onLoginClick={openLogin}/>
 
-            {openedModal && (
-                <AuthModal
-                    screen={screen}
-                    closeModal={closeModal}
-                    changeToLogin={changeToLogin}
-                    changeToLogup={changeToLogup}
-                />
-            )}
+            {openedModal && (<AuthModal closeModal={closeModal}/>)}
 
             <div className="page-wrapper flex">
                 <Jumbotron />

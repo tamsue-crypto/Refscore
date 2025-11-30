@@ -18,23 +18,13 @@ export default function JournalistPage() {
     const journalist = journalists.find(j => j._id === id)
 
     const[openedModal, setOpenedModal] = useState(false);
-    const[screen, setScreen] = useState("login");
 
     const openLogin = () => {
         setOpenedModal(true);
-        setScreen("login");
     };
 
     const closeModal = () => {
         setOpenedModal(false);
-    };
-
-    const changeToLogup = () => {
-        setScreen("register");
-    };
-
-    const changeToLogin = () => {
-        setScreen("login");
     };
 
     const today = new Date();
@@ -57,14 +47,7 @@ export default function JournalistPage() {
         <>
             <NavBar onLoginClick={openLogin}/>
 
-            {openedModal && (
-                <AuthModal
-                    screen={screen}
-                    closeModal={closeModal}
-                    changeToLogin={changeToLogin}
-                    changeToLogup={changeToLogup}
-                />
-            )}
+            {openedModal && (<AuthModal closeModal={closeModal}/>)}
 
             <div className="page-wrapper flex">
                 <Jumbotron />
