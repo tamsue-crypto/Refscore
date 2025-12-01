@@ -8,7 +8,7 @@ export const referees = [
         birthday: "04.09.1985",
         fifa_debut: "2019",
         d1_debut: "08/04/2017",
-        photo: "...",
+        photo: "/images/referee_photos/chris_kavanagh_pfp.png",
         stats: [
             {
                 season: "2024/25",

@@ -3,6 +3,8 @@
     gap: 40px;
     background-color: white;
     padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .comp-ref-card{
@@ -17,7 +19,7 @@
     font-size: 16px;
     font-weight: 600;
     margin-left: 8px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .comp-ref-card.scores h4:hover{
@@ -44,4 +46,131 @@
 
 .comp-ref-card-info.scores img{
     height: 12px;
+}
+
+/*outros rankings*/
+
+.others-rankings-conteiner{
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    gap: 20px;
+}
+
+.stats-conteiner{
+    width: 300px;
+
+}
+
+.highest-stat{
+    display: flex;
+    background: linear-gradient(to bottom right, #f0a04b, #f0a04b, #d68835);
+    color: white;
+    border: 2px solid #cecece;
+    height: 153px;
+}
+
+.highest-stat img{
+    height: 150px;
+}
+
+.ref-info-container{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ref-info-container a:hover{
+    text-decoration: underline;
+}
+
+.nationality-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.nationality-container img{
+    height: 12px;
+}
+
+.stats-span{
+    font-size: 14px;
+}
+
+.below-stats{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 4px 8px;
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #cecece;
+}
+
+.below-stats img{
+    height: 20px;
+}
+
+.below-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.below-infos a:hover{
+    text-decoration: underline;
+}
+
+.ref-name-stats{
+    font-weight: 500;
+}
+
+.ref-nat-stats{
+    font-size: 12px;
+    opacity: .8;
+}
+
+/* recent matches */
+.recent-matches{
+    margin-top: 50px;
+}
+
+.recent-matches-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recent-match-container{
+    padding: 20px 20px;
+    border: 2px solid #cecece;
+}
+
+.recent-match-container.clickable:hover{
+    background: linear-gradient(to bottom right, #f0a04b, #f0a04b, #d68835);
+    cursor: pointer;
+}
+
+
+.recent-match-card{
+    display: flex;
+    gap: 20px;
+}
+
+.home-team,
+.away-team{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.recent-header{
+    background-color: #f0a04b;
+    padding: 6px 8px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    border-top: 2px solid #cecece;
+    border-left: 2px solid #cecece;
+    border-right: 2px solid #cecece;
 }

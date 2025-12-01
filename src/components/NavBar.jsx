@@ -18,12 +18,14 @@ export default function NavBar({onLoginClick}){
                     </div>
                 </Link>
 
+                {/*
                 <div id="main-nav">
                     <ul>
                         <Link to={'/rankings/'}><li>Rankings</li></Link>
                     </ul>
-                </div>
+                </div>*/}
 
+                {/*
                 <div id="search-area" className="flex">
                     <input type="text" placeholder="Pesquisar no Refscore"/>
                     <button type="submit" className="flex-center">
@@ -31,10 +33,10 @@ export default function NavBar({onLoginClick}){
                             <path d="M9.7275 19.4325C9.52151 19.4323 9.3202 19.371 9.14902 19.2564C8.97784 19.1419 8.84448 18.9791 8.76578 18.7887C8.68709 18.5984 8.66661 18.3889 8.70692 18.1869C8.74724 17.9849 8.84654 17.7994 8.99227 17.6538L14.1521 12.5011L8.99939 7.34133C8.80977 7.14474 8.70496 6.88154 8.70752 6.60842C8.71008 6.3353 8.81982 6.07411 9.01308 5.88111C9.20635 5.68811 9.46769 5.57874 9.74081 5.57656C10.0139 5.57437 10.277 5.67955 10.4733 5.86943L16.362 11.7662C16.5571 11.9617 16.6666 12.2267 16.6664 12.5029C16.6662 12.7791 16.5564 13.0439 16.3609 13.2391L10.4642 19.1278C10.2687 19.323 10.0037 19.4326 9.7275 19.4325Z" fill="white"/>
                         </svg>
                     </button>
-                </div>
+                </div>*/}
 
                 <div id="actions-area" className="flex">
-                    <button id="refs-btn"><span>Ver Árbitros</span></button>
+                    {/*<button id="refs-btn"><span>Ver Árbitros</span></button>*/}
                     <button id="login-btn" className="flex-center" onClick={onLoginClick}>
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.0042 3.5H21V21.5H12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

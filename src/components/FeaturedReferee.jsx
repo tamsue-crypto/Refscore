@@ -5,7 +5,7 @@ export default function FeaturedReferee(){
     return(
         <>
             <section id="notable-ref-container">
-                <h4 style={{fontSize: "24px"}}>Árbitros destaque de Março</h4>
+                <h4 style={{fontSize: "24px"}}>Árbitro destaque de Março</h4>
 
                 <div id="ref-container" className="flex" style={{ border: "1px solid #fff" }}> {/*data container*/}
                     <div id="feature-ref">
@@ -111,15 +111,6 @@ export default function FeaturedReferee(){
                         </ul>
                     </div>
                 </div>
-
-                <h5 className="flex">
-                    Ver ranking completo
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clipPath="url(#clip0_321_103)">
-                            <path d="M6.75 13.5L12 9L6.75 4.5V13.5Z" fill="white" />
-                        </g>
-                    </svg>
-                </h5>
             </section>
         </>
     );
