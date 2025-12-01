@@ -136,6 +136,7 @@
     align-items: center;
     gap: 5px;
     cursor: pointer;
+    transition: all 0.2s ease-out;
 }
 
 .subtitle {
@@ -150,49 +151,51 @@
 
 #champions-nav svg, #pl-nav svg, #ll-nav svg, #bl-nav svg, #sa-nav svg{
     fill: #000;
+    transition: fill 0.2s ease-out;
 }
 
-#champions-nav:hover{
+#champions-nav:hover, #champions-nav.active{
     color: #1029CB;
     box-shadow: inset 0px -2px 0px #1029CB;
 }
 
-#champions-nav:hover svg{
+
+#champions-nav:hover svg, #champions-nav.active svg{
     fill: #1029CB;
 }
 
-#pl-nav:hover{
+#pl-nav:hover, #pl-nav.active{
     color: #530059;
     box-shadow: inset 0px -2px 0px #530059;
 }
 
-#pl-nav:hover svg{
+#pl-nav:hover svg, #pl-nav.active svg{
     fill: #530059;
 }
 
-#ll-nav:hover{
+#ll-nav:hover, #ll-nav.active{
     color: #FF4B44;
     box-shadow: inset 0px -2px 0px #FF4B44;
 }
 
-#ll-nav:hover svg{
+#ll-nav:hover svg, #ll-nav.active svg{
     fill: #FF4B44;
 }
 
-#bl-nav:hover{
+#bl-nav:hover, #bl-nav.active{
     color: #D20515;
     box-shadow: inset 0px -2px 0px #D20515;
 }
 
-#bl-nav:hover svg{
+#bl-nav:hover svg, #bl-nav.active svg{
     fill: #D20515;
 }
 
-#sa-nav:hover{
+#sa-nav:hover, #sa-nav.active{
     color: #034DFF;
     box-shadow: inset 0px -2px 0px #034DFF;
 }
 
-#sa-nav:hover svg{
+#sa-nav:hover svg, #sa-nav.active svg{
     fill: #034DFF;
 }

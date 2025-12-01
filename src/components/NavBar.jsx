@@ -1,8 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../styles/navbar.css";
 import "../styles/global.css";
 
 export default function NavBar({onLoginClick}){
+    const location = useLocation();
+
+    const currentChamp = decodeURIComponent(location.pathname.split("/").pop());
+    console.log(currentChamp)
+
     return(
         <>
             <header id="main-header">
@@ -46,7 +51,7 @@ export default function NavBar({onLoginClick}){
                     <ul className="flex">
                         {/*Champions League*/}
                         <Link to={`/championship/liga dos campeões`}>
-                            <li id="champions-nav">
+                            <li id="champions-nav" className={currentChamp === "liga dos campeões" ? "active" : ""}>
                                 <div className="flex flex-column">
                                     <span className="subtitle ucl">Champions</span>
                                     <span className="title ucl">League</span>
@@ -62,7 +67,7 @@ export default function NavBar({onLoginClick}){
 
                         {/*Premier League*/}
                         <Link to={`/championship/premier_league`}>
-                            <li id="pl-nav">
+                            <li id="pl-nav"  className={currentChamp === "premier_league" ? "active" : ""}>
                                 <div className="flex flex-column">
                                     <span className="pl">Premier</span>
                                     <span className="pl">League</span>
@@ -76,7 +81,7 @@ export default function NavBar({onLoginClick}){
 
                         {/*La Liga*/}
                         <Link to={`/championship/laliga`}>
-                            <li id="ll-nav">
+                            <li id="ll-nav"  className={currentChamp === "laliga" ? "active" : ""}>
                                 <span className="ll">LaLiga</span>
                                 <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.87868 0H12.0813C9.78819 3.19919 7.49144 6.3958 5.1978 9.59447C6.69592 9.59473 8.19377 9.59421 9.69189 9.59499C7.41016 10.7434 5.12842 11.8917 2.84617 13.0393C2.69162 12.7947 2.50083 12.5754 2.33075 12.3417C1.981 11.8811 1.631 11.4208 1.28126 10.9603C0.939028 10.5065 0.750566 9.93955 0.752119 9.37106C0.750307 8.81551 0.929708 8.26126 1.25693 7.81211C3.13119 5.20833 5.00287 2.60274 6.87868 0ZM16.5969 0H22.2479C18.5121 5.32146 14.7741 10.6416 11.038 15.9628C12.7904 15.9633 14.543 15.9623 16.2953 15.9633C13.6221 17.3096 10.9485 18.6551 8.27454 20C7.69233 19.2265 7.09821 18.4618 6.51108 17.6919C6.37413 17.5202 6.25246 17.3359 6.16004 17.1366C5.85043 16.4834 5.83878 15.7006 6.12018 15.036C6.27421 14.6537 6.54551 14.3381 6.77254 13.999C10.0478 9.33301 13.3195 4.66443 16.5969 0Z" />
@@ -86,7 +91,7 @@ export default function NavBar({onLoginClick}){
 
                         {/*Bundesliga*/}
                         <Link to={`/championship/bundesliga`}>
-                            <li id="bl-nav">
+                            <li id="bl-nav" className={currentChamp === "bundesliga" ? "active" : ""}>
                                 <span className="bl">Bundesliga</span>
                                 <svg width="26" height="21" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M27.1667 0.333313H0.5V21.6666H27.1667V0.333313Z" />
@@ -97,7 +102,7 @@ export default function NavBar({onLoginClick}){
 
                         {/*Serie A*/}
                         <Link to={`/championship/serie_a`}>
-                            <li id="sa-nav">
+                            <li id="sa-nav" className={currentChamp === "serie_a" ? "active" : ""}>
                                 <span className="sa">Serie A</span>
                                 <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.333328 14.3846H5.43215L8.66252 19.6662L0.333328 14.3846Z" />

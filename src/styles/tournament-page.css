@@ -1,0 +1,47 @@
+.highest-scores-container{
+    display: flex;   
+    gap: 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+.comp-ref-card{
+    border: 2px solid #cecece;
+}
+
+.comp-ref-card.scores img{
+    height: 260px;
+}
+
+.comp-ref-card.scores h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+}
+
+.comp-ref-card.scores h4:hover{
+    box-shadow: inset 0px -2px 0px white;
+}
+
+.ref-pic{
+    transition: all 0.3s ease;
+}
+
+.ref-pic:hover{
+    filter: brightness(0.9);
+}
+
+.comp-ref-card-info{
+    display: flex;
+    background-color: var(--color-accent);
+    padding: 8px 12px;
+    align-items: center;
+    border-top: 2px solid #cecece;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.comp-ref-card-info.scores img{
+    height: 12px;
+}
