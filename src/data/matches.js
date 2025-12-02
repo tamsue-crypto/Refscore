@@ -3873,4 +3873,420 @@ export const matches = [
             "team_name": "NK Mura",
         }
     },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.2,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "5",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.1,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Barcelona",
+        },
+        "away_team": {
+            "team_name": "Athletic Club de Bilbao",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.6,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "5",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sevilla FC",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sevilla FC",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Alejandro Hernández Hernández",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Betis Balompié",
+        },
+        "away_team": {
+            "team_name": "Valencia CF",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Alejandro Hernández Hernández",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Barcelona",
+        },
+        "away_team": {
+            "team_name": "Sevilla FC",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Ricardo De Burgos Bengoetxea",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Barcelona",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espahola",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Ricardo De Burgos Bengoetxea",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Ricardo De Burgos Bengoetxea",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Barcelona",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "César Soto Grado",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Athletic Club de Bilbao",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "José Luis Munuera Montero",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Athletic Club de Bilbao",
+        },
+        "away_team": {
+            "team_name": "RCD Mallorca",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Juan Martínez Munuera",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "4",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Juan Martínez Munuera",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Athletic Club de Bilbao",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "Copa de Rei",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "José María Sánchez Martínez",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "CA Osasuna",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "19/20",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "José María Sánchez Martínez",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "Atletico de Madrid",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "José María Sánchez Martínez",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
 ];

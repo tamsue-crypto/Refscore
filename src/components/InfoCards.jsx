@@ -79,9 +79,17 @@ export default function InfoCards({matchId, context, ref}){
                             <div className="sla">
                                 <span className="info-title">Nome</span>
                                 {context === "ref" && matchId ? <>
-                                    <Link to={`/referee/${cardName}`}><span className="infoself">{cardName}</span></Link>
+                                    {nationality === "Espanha" ? <>
+                                        <Link to={`/referee/${cardName}`}><span className="infoself">{referee.second_name}</span></Link>
+                                    </> : <>
+                                        <Link to={`/referee/${cardName}`}><span className="infoself">{cardName}</span></Link>
+                                    </>}
                                 </>: <>
-                                    <span className="infoself">{cardName}</span>
+                                    {nationality === "Espanha" ? <>
+                                        <span className="infoself">{referee.second_name}</span>
+                                    </> : <>
+                                        <span className="infoself">{cardName}</span>
+                                    </>}
                                 </>}
                             </div>
                         </li>

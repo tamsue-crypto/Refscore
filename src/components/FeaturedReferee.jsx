@@ -1,6 +1,15 @@
 import "../styles/featured-referee.css";
 import "../styles/match-formatting.css";
 
+function getRatingClass(rating) {
+    if (rating <= 5.0) return 'taxes';
+    if (rating <= 6.4) return 'bad';
+    if (rating <= 6.9) return 'average';
+    if (rating <= 7.9) return 'good';
+    if (rating <= 8.9) return 'awesome';
+    return 'perfect';
+}
+
 export default function FeaturedReferee(){
     return(
         <>
@@ -13,7 +22,7 @@ export default function FeaturedReferee(){
 
                         <div className="ref-name flex-center">
                             <div className="name">#1 - François Letexier</div>
-                            <div className="avg-rating good">7.8</div>
+                            <div  className={`avg-rating ${getRatingClass(8.2)}`}>8.2</div>
                         </div>
                     </div>
 

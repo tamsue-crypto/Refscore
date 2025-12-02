@@ -76,6 +76,15 @@ export default function TournamentPage() {
         }).filter(Boolean);
 
     //criar o top3 da estatistica
+    function getTop5(refs, statKey, highestWins = true) {
+        return [...refs]
+            .sort((a, b) =>
+                highestWins
+                    ? b.compStats[statKey] - a.compStats[statKey] // maior é melhor
+                    : a.compStats[statKey] - b.compStats[statKey] // menor é melhor
+            ).slice(0, 5);
+    }
+
     function getTop3(refs, statKey, highestWins = true) {
         return [...refs]
             .sort((a, b) =>
@@ -85,10 +94,10 @@ export default function TournamentPage() {
             ).slice(0, 3);
     }
 
-    const topPenalties = getTop3(refereesInChampionship, "penalty");
+    const topPenalties = getTop5(refereesInChampionship, "penalty");
     const topAvgScore = getTop3(refereesInChampionship, "average_score");
-    const topRedCards = getTop3(refereesInChampionship, "red_card");
-    const topYellowCards = getTop3(refereesInChampionship, "yellow_card");
+    const topRedCards = getTop5(refereesInChampionship, "red_card");
+    const topYellowCards = getTop5(refereesInChampionship, "yellow_card");
 
     const matchesToDisplay = matches.filter(c => c.competition_name ===championship.name).slice(0, 10)
     function getTeam(id) {
@@ -119,7 +128,11 @@ export default function TournamentPage() {
                                     </Link>
                                     <div className="comp-ref-card-info scores">
                                         <img src={process.env.PUBLIC_URL + `/images/flag/${ref.nationality}.png`} alt="" />
-                                        <Link to={`/referee/${ref.name}`}><h4>{ref.name}</h4></Link>
+                                        {ref.nationality === "Espanha" ? <>
+                                            <Link to={`/referee/${ref.name}`}><h4>{ref.second_name}</h4></Link>
+                                        </> : <>
+                                            <Link to={`/referee/${ref.name}`}><h4>{ref.name}</h4></Link>
+                                        </>}
                                         <div className={`avg-rating ${getRatingClass(ref.compStats.average_score)}`} style={{transform: 'scale(0.6)', padding: '5px'}}>
                                             {ref.compStats.average_score}
                                         </div>

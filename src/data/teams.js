@@ -504,4 +504,11 @@ export const teams = [
         team_code: 'nkm',
         badge: 'alternatives/nk-mura.png'
     },
+    {
+        name: 'RCD Mallorca',
+        short_name: 'Mallorca',
+        slug: 'rcd-mallorca',
+        team_code: 'RCM',
+        badge: 'la-liga/rcd-mallorca.png'
+    },
 ];
