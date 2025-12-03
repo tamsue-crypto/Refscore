@@ -4289,4 +4289,602 @@ export const matches = [
             "team_name": "FC Barcelona",
         }
     },
+    {
+        "competition_name": "Supercopa da Inglaterra",
+        "year": "25/26",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Chris Kavanagh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "2",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Crystal Palace FC",
+        },
+        "away_team": {
+            "team_name": "FC Liverpool",
+        }
+    },
+    {
+        "competition_name": "Championship Playoffs",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Chris Kavanagh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sheffield United",
+        },
+        "away_team": {
+            "team_name": "AFC Sunderland",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Chris Kavanagh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "FC Liverpool",
+        }
+    },
+    {
+        "competition_name": "Championship Playoffs",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Chris Kavanagh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Brentford FC",
+        },
+        "away_team": {
+            "team_name": "Swansea City AFC",
+        }
+    },
+    {
+        "competition_name": "Championship Playoffs",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Coventry City",
+        },
+        "away_team": {
+            "team_name": "Luton Town",
+        }
+    },
+    {
+        "competition_name": "Supercopa da Uefa",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Madrid CF",
+        },
+        "away_team": {
+            "team_name": "SG Eintracht Frankfurt",
+        }
+    },
+    {
+        "competition_name": "FA Cup",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "Leicester City",
+        }
+    },
+    {
+        "competition_name": "FA Cup",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "Manchester United FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga",
+        "year": "15/16",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Liverpool",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "Community Shield",
+        "year": "14/15",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "FA Cup",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Stuart Attwell",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Crystal Palace FC",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "Community Shield",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Stuart Attwell",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Stuart Attwell",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "FC Liverpool",
+        }
+    },
+    {
+        "competition_name": "Community Shield",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Liverpool",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "FA Cup",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "FC Liverpool",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "Community Shield",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Leicester City",
+        },
+        "away_team": {
+            "team_name": "Manchester United FC",
+        }
+    },
+    {
+        "competition_name": "FA Cup",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Andrew Madley",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Manchester City FC",
+        },
+        "away_team": {
+            "team_name": "Manchester United FC",
+        }
+    },
+    {
+        "competition_name": "Community Shield",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jarred Gillet",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Manchester United FC",
+        },
+        "away_team": {
+            "team_name": "Manchester City FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "John Brooks",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Liverpool",
+        },
+        "away_team": {
+            "team_name": "Newcastle United",
+        }
+    },
+    {
+        "competition_name": "Championship Playoff",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "John Brooks",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Leeds United",
+        },
+        "away_team": {
+            "team_name": "Southampton FC",
+        }
+    },
+    {
+        "competition_name": "Copa do Rei",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Alejandro Hernández",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Betis Balompié",
+        },
+        "away_team": {
+            "team_name": "Valencia CF",
+        }
+    },
+    {
+        "competition_name": "Supercopa Espanhola",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Alejandro Hernández",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Barcelona",
+        },
+        "away_team": {
+            "team_name": "Sevilla FC",
+        }
+    },
 ];

@@ -2,14 +2,12 @@ export const teams = [
     {        
         name: "Newcastle United",
         short_name: "Newcastle",
-        slug: "newcastle-united",
         team_code: "new",
         badge: "premier-league/newcastle-united.png",
     },
     {        
         name: "Manchester United FC",
         short_name: "Manchester United",
-        slug: "manchester-united",
         team_code: "utd",
         badge: "premier-league/man-united.png",
     },
@@ -510,5 +508,70 @@ export const teams = [
         slug: 'rcd-mallorca',
         team_code: 'RCM',
         badge: 'la-liga/rcd-mallorca.png'
+    },
+    {
+        name: 'Crystal Palace FC',
+        short_name: 'Crystal Palace',
+        slug: 'crystal-palace',
+        team_code: 'cpa',
+        badge: 'premier-league/crystal-palace.png'
+    },
+    {
+        name: 'Brentford FC',
+        short_name: 'Brentford',
+        slug: 'brentford',
+        team_code: 'bfc',
+        badge: 'premier-league/brentford.png'
+    },
+    {
+        name: 'Swansea City AFC',
+        short_name: 'Swansea',
+        slug: 'swansea',
+        team_code: 'afc',
+        badge: 'premier-league/swansea.png'
+    },
+    {
+        name: 'Sheffield United',
+        short_name: 'Sheffield',
+        slug: 'sheffield',
+        team_code: 'shu',
+        badge: 'premier-league/sheffield-utd.png'
+    },
+    {
+        name: 'AFC Sunderland',
+        short_name: 'Sunderland',
+        slug: 'sunderland',
+        team_code: 'sun',
+        badge: 'premier-league/sunderland.png'
+    },
+    {
+        name: 'Coventry City',
+        short_name: 'Coventry',
+        team_code: 'cov',
+        badge: 'premier-league/coventry-city.png'
+    },
+    {
+        name: 'Luton Town',
+        short_name: 'Luton',
+        team_code: 'lut',
+        badge: 'premier-league/luton-town.png'
+    },
+    {
+        name: 'Leicester City',
+        short_name: 'Leicester',
+        team_code: 'lei',
+        badge: 'premier-league/leicester-city.png'
+    },
+    {
+        name: 'Southampton FC',
+        short_name: 'Southampton',
+        team_code: 'sfc',
+        badge: 'premier-league/southampton.png'
+    },
+    {
+        name: 'Leeds United',
+        short_name: 'Leeds',
+        team_code: 'luf',
+        badge: 'premier-league/leeds-united.png'
     },
 ];

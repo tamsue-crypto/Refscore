@@ -73,12 +73,16 @@ export default function InfoCards({matchId, context, ref}){
                 </section>
 
                 <section className="infos-container">
-                    <img src={process.env.PUBLIC_URL + `/${photo}`} alt="" className="card-photo"/>
+                    {context === "ref" ? <>
+                        <Link to={`/referee/${cardName}`}><img src={process.env.PUBLIC_URL + `/${photo}`} alt="" className="card-photo clickable"/></Link>
+                    </> : <>
+                        <img src={process.env.PUBLIC_URL + `/${photo}`} alt="" className="card-photo"/>
+                    </>}
                     <ul className="infos">
                         <li>
                             <div className="sla">
                                 <span className="info-title">Nome</span>
-                                {context === "ref" && matchId ? <>
+                                {context === "ref" ? <>
                                     {nationality === "Espanha" ? <>
                                         <Link to={`/referee/${cardName}`}><span className="infoself">{referee.second_name}</span></Link>
                                     </> : <>

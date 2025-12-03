@@ -12,6 +12,7 @@ import { championships } from "../data/championships";
 import Jumbotron from "../components/Jumbotron";
 import { matches } from "../data/matches";
 import { teams } from "../data/teams";
+import InfoCards from "../components/InfoCards";
 
 export default function TournamentPage() {
     const[openedModal, setOpenedModal] = useState(false);
@@ -254,7 +255,7 @@ export default function TournamentPage() {
                 </div>
             </section>
 
-            <section className="recent-matches">
+            <section style={{marginTop: "50px"}}>
                 <h2 style={{textAlign: "center", marginBottom: "12px"}}>Partidas Recentes</h2>
                 <div className="recent-matches-container">
                     {matchesToDisplay.map((match) => {
@@ -346,6 +347,15 @@ export default function TournamentPage() {
                             </>
                         )
                     }
+                    )}
+                </div>
+            </section>
+
+            <section style={{marginTop: "30px"}}>
+                <h2 style={{textAlign: "center", marginBottom: "12px"}}>Todos os Árbitros</h2>
+                <div className="all-refs">
+                    {refereesInChampionship.map((ref) =>
+                        <InfoCards ref={ref.name} context={"ref"}/>
                     )}
                 </div>
             </section>

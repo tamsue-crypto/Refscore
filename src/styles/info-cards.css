@@ -1,6 +1,6 @@
 .info-card{
     width: 322px;
-    height: fit-content;
+    height: 236px;
     border: 2px solid #cecece;
     background-color: #fff;
     color: #000;
@@ -91,4 +91,10 @@
 
 a .infoself:hover{
     color: #f0a04b;
+}
+.card-photo.clickable{
+    transition: all 0.3s ease;
+}
+.card-photo.clickable:hover{
+    filter: brightness(0.9);
 }
