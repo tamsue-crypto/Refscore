@@ -101,20 +101,6 @@ export default function NavBar({onLoginClick}){
                                 </svg>
                             </li>
                         </Link>
-
-                        {/*Serie A*/}
-                        <Link to={`/championship/serie_a`}>
-                            <li id="sa-nav" className={currentChamp === "serie_a" ? "active" : ""}>
-                                <span className="sa">Serie A</span>
-                                <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.333328 14.3846H5.43215L8.66252 19.6662L0.333328 14.3846Z" />
-                                    <path d="M17 14.3846H11.8929L8.66251 19.6662L17 14.3846Z" />
-                                    <path d="M5.43212 14.3846H8.66249H11.8928L8.66249 5.85614L5.43212 14.3846Z" />
-                                    <path d="M8.66249 19.6662L11.8928 14.3846H5.43212L8.66249 19.6662Z" />
-                                    <path d="M8.66252 5.85614L10.0576 9.53493H8.29713L7.10131 12.7072H11.2618L11.8929 14.3846H17L10.9628 0.333801C9.42651 0.333801 7.89853 0.333801 6.36223 0.333801L0.333328 14.3846H5.44046L8.66252 5.85614Z" />
-                                </svg>
-                            </li>
-                        </Link>
                     </ul>
                 </nav>
             </section>
