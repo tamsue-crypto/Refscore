@@ -135,7 +135,7 @@ export default function TournamentPage() {
                                             <Link to={`/referee/${ref.name}`}><h4>{ref.name}</h4></Link>
                                         </>}
                                         <div className={`avg-rating ${getRatingClass(ref.compStats.average_score)}`} style={{transform: 'scale(0.6)', padding: '5px'}}>
-                                            {ref.compStats.average_score}
+                                            {ref.compStats.average_score.toFixed(1)}
                                         </div>
                                     </div>
                                 </div>

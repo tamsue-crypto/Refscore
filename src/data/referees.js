@@ -1351,7 +1351,7 @@ export const referees = [
                         "average_score": 7.1
                     },
                     {
-                        "competition_name": "Supercopa da Inglaterra",
+                        "competition_name": "Supercopa Inglesa",
                         "matches": 1,
                         "yellow_card": 3,
                         "second_yellow_card": 0,
@@ -2090,6 +2090,1234 @@ export const referees = [
                         "penalty": 0,
                         "average_score": 9.1
                     }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Felix Zwayer",
+        first_name: "Felix",
+        second_name: "Zwayer",
+        nationality: "Alemanha",
+        birthday: "19.05.1981",
+        fifa_debut: "2012",
+        d1_debut: "15.08.2009",
+        photo: "/images/referee_photos/germany/felix_zwayer_pfp.png",
+        "stats": [
+            {
+                "season": "2025/2026",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 7,
+                        "yellow_card": 39,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 2,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 3,
+                        "penalty": 4,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "UAE Pro League",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Benjamin Brand",
+        first_name: "Benjamin",
+        second_name: "Brand",
+        nationality: "Alemanha",
+        birthday: "10.07.1989",
+        fifa_debut: "Nunca",
+        d1_debut: "22.08.2015",
+        photo: "/images/referee_photos/germany/benjamin_brand_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 6,
+                        "yellow_card": 20,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.0
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.8
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 8.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Sven Jablonski",
+        first_name: "Sven",
+        second_name: "Jablonski",
+        nationality: "Alemanha",
+        birthday: "13.04.1990",
+        fifa_debut: "2022",
+        d1_debut: "17.09.2017",
+        photo: "/images/referee_photos/germany/sven_jablonski_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 6,
+                        "yellow_card": 17,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 2,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Daniel Schlager",
+        first_name: "Daniel",
+        second_name: "Schlager",
+        nationality: "Alemanha",
+        birthday: "08.12.1989",
+        fifa_debut: "2022",
+        d1_debut: "16.09.2018",
+        photo: "/images/referee_photos/germany/daniel_schlager_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 6,
+                        "yellow_card": 17,
+                        "second_yellow_card": 3,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 3,
+                        "yellow_card": 14,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Playoff L. Conferencia",
+                        "matches": 3,
+                        "yellow_card": 14,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Liga Conferência",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 9,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.2
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Deniz Aytekin",
+        first_name: "Deniz",
+        second_name: "Aytekin",
+        nationality: "Alemanha",
+        birthday: "21.07.1978",
+        fifa_debut: "2011 - 2022",
+        d1_debut: "27.09.2009",
+        photo: "/images/referee_photos/germany/deniz_aytekin_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 22,
+                        "second_yellow_card": 2,
+                        "red_card": 1,
+                        "penalty": 5,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 8,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 1,
+                        "yellow_card": 8,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Tobias Stieler",
+        first_name: "Tobias",
+        second_name: "Stieler",
+        nationality: "Alemanha",
+        birthday: "02.07.1981",
+        fifa_debut: "2014",
+        d1_debut: "17.02.2012",
+        photo: "/images/referee_photos/germany/tobias_stieler_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 15,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.8
+                    },
+                    {
+                        "competition_name": "Liga Conferência",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Robert Hartmann",
+        first_name: "Robert",
+        second_name: "Hartmann",
+        nationality: "Alemanha",
+        birthday: "08.09.1979",
+        fifa_debut: "Nunca",
+        d1_debut: "19.02.2011",
+        photo: "/images/referee_photos/germany/robert_hartmann_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 23,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 12,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Bastian Dankert",
+        first_name: "Bastian",
+        second_name: "Dankert",
+        nationality: "Alemanha",
+        birthday: "09.06.1980",
+        fifa_debut: "2014 - 2024",
+        d1_debut: "22.09.2012",
+        photo: "/images/referee_photos/germany/bastian_dankert_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 18,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 0,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.9
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Daniel Siebert",
+        first_name: "Daniel",
+        second_name: "Siebert",
+        nationality: "Alemanha",
+        birthday: "04.05.1984",
+        fifa_debut: "2015",
+        d1_debut: "01.09.2012",
+        photo: "/images/referee_photos/germany/daniel_siebert_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 13,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.7
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 18,
+                        "second_yellow_card": 1,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 9,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.9
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Harm Osmers",
+        first_name: "Harm",
+        second_name: "Osmers",
+        nationality: "Alemanha",
+        birthday: "28.01.1985",
+        fifa_debut: "2020",
+        d1_debut: "10.09.2016",
+        photo: "/images/referee_photos/germany/harm_osmers_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 21,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 3,
+                        "average_score": 6.5
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 3,
+                        "yellow_card": 16,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.0
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 6,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 8.3
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 2,
+                        "yellow_card": 12,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.5
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Supercopa Beckenbauer",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 5.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "M. Jollenbeck",
+        first_name: "Dr. Matthias",
+        second_name: "Jollenbeck",
+        nationality: "Alemanha",
+        birthday: "16.02.1987",
+        fifa_debut: "2025",
+        d1_debut: "07.11.2020",
+        photo: "/images/referee_photos/germany/dr_matthias_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 17,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 4,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.5
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.7
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "S. Stegemann",
+        first_name: "Sascha",
+        second_name: "Stegemann",
+        nationality: "Alemanha",
+        birthday: "06.12.1984",
+        fifa_debut: "2019",
+        d1_debut: "31.08.2014",
+        photo: "/images/referee_photos/germany/sascha_stagemann_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 17,
+                        "second_yellow_card": 0,
+                        "red_card": 2,
+                        "penalty": 2,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 2,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 2,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 8.7
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 8,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.4
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Super League 1",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 6.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Florian Exner",
+        first_name: "Florian",
+        second_name: "Exner",
+        nationality: "Alemanha",
+        birthday: "05.10.1990",
+        fifa_debut: "Nunca",
+        d1_debut: "07.04.2024",
+        photo: "/images/referee_photos/germany/florian_exner_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 5,
+                        "yellow_card": 30,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 9,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 16,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "3. Liga",
+                        "matches": 1,
+                        "yellow_card": 10,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Christian Dingert",
+        first_name: "Christian",
+        second_name: "Dingert",
+        nationality: "Alemanha",
+        birthday: "14.07.1980",
+        fifa_debut: "2013 - 2024",
+        d1_debut: "12.09.2010",
+        photo: "/images/referee_photos/germany/christian_dingert_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 12,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.8
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Tobias Welz",
+        first_name: "Tobias",
+        second_name: "Welz",
+        nationality: "Alemanha",
+        birthday: "11.07.1977",
+        fifa_debut: "2013 - 2019",
+        d1_debut: "28.08.2010",
+        photo: "/images/referee_photos/germany/tobias_welz_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 20,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 2,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 8,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.0
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 12,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Frank Willenborg",
+        first_name: "Frank",
+        second_name: "Willenborg",
+        nationality: "Alemanha",
+        birthday: "10.02.1979",
+        fifa_debut: "Nunca",
+        d1_debut: "20.09.2016",
+        photo: "/images/referee_photos/germany/frank_willenborg_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 13,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Timo Gerach",
+        first_name: "Timo",
+        second_name: "Gerach",
+        nationality: "Alemanha",
+        birthday: "30.11.1986",
+        fifa_debut: "Nunca",
+        d1_debut: "25.01.2023",
+        photo: "/images/referee_photos/germany/timo_gerach_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 18,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 3,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.0
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Tobias Reichel",
+        first_name: "Tobias",
+        second_name: "Reichel",
+        nationality: "Alemanha",
+        birthday: "18.08.1985",
+        fifa_debut: "Nunca",
+        d1_debut: "28.11.2020",
+        photo: "/images/referee_photos/germany/tobias_reichel_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 16,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "F. Badstübner",
+        first_name: "Florian",
+        second_name: "Badstübner",
+        nationality: "Alemanha",
+        birthday: "02.02.1991",
+        fifa_debut: "2025",
+        d1_debut: "03.10.2020",
+        photo: "/images/referee_photos/germany/florian_badstubner_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 11,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.9
+                    },
+                    {
+                        "competition_name": "Liga Conferência",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Saudi Pro League",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 5.6
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "Soren Storks",
+        first_name: "Soren",
+        second_name: "Storks",
+        nationality: "Alemanha",
+        birthday: "09.11.1988",
+        fifa_debut: "Nunca",
+        d1_debut: "19.09.2017",
+        photo: "/images/referee_photos/germany/soren_storks_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 22,
+                        "second_yellow_card": 2,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.9
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 9.4
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Robin Braun",
+        first_name: "Dr. Robin",
+        second_name: "Braun",
+        nationality: "Alemanha",
+        birthday: "12.02.1996",
+        fifa_debut: "Nunca",
+        d1_debut: "16.09.2018",
+        photo: "/images/referee_photos/germany/dr_robin_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 4,
+                        "yellow_card": 15,
+                        "second_yellow_card": 2,
+                        "red_card": 0,
+                        "penalty": 3,
+                        "average_score": 6.2
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 15,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Patrick Ittrich",
+        first_name: "Patrick",
+        second_name: "Ittrich",
+        nationality: "Alemanha",
+        birthday: "03.01.1979",
+        fifa_debut: "Nunca",
+        d1_debut: "13.02.2016",
+        photo: "/images/referee_photos/germany/patrick_ittrich_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 3,
+                        "yellow_card": 14,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.2
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Martin Petersen",
+        first_name: "Martin",
+        second_name: "Petersen",
+        nationality: "Alemanha",
+        birthday: "28.08.1985",
+        fifa_debut: "Nunca",
+        d1_debut: "20.09.2017",
+        photo: "/images/referee_photos/germany/martin_petersen_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Bundesliga",
+                        "matches": 3,
+                        "yellow_card": 17,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "2. Bundesliga",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "Copa da Alemanha",
+                        "matches": 2,
+                        "yellow_card": 13,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.2
+                    },
                 ]
             }
         ]

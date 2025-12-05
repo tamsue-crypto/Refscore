@@ -574,4 +574,22 @@ export const teams = [
         team_code: 'luf',
         badge: 'premier-league/leeds-united.png'
     },
+    {
+        name: 'Bayer 04 Leverkusen',
+        short_name: 'Bayer Leverkusen',
+        team_code: 'b04',
+        badge: 'bundesliga/bayer-leverkusen.png'
+    },
+    {
+        name: '1. FC Kaiserslauntern',
+        short_name: 'FC Kaiserslauntern',
+        team_code: 'fck',
+        badge: 'bundesliga/kaiserslautern.png'
+    },
+    {
+        name: 'Armina Bielefeld',
+        short_name: 'Armina Bielefeld',
+        team_code: 'abd',
+        badge: 'bundesliga/bielefeld.png'
+    },
 ];
