@@ -592,4 +592,46 @@ export const teams = [
         team_code: 'abd',
         badge: 'bundesliga/bielefeld.png'
     },
+    {
+        name: 'Getafe CF',
+        short_name: 'Getafe',
+        team_code: 'gcf',
+        badge: 'la-liga/getafe.png'
+    },
+    {
+        name: 'Elche CF',
+        short_name: 'Elche',
+        team_code: 'ecf',
+        badge: 'la-liga/elche.png'
+    },
+    {
+        name: 'Levante UD',
+        short_name: 'Levante',
+        team_code: 'lud',
+        badge: 'la-liga/levante.png'
+    },
+    {
+        name: 'Real Oviedo',
+        short_name: 'Real Oviedo',
+        team_code: 'rov',
+        badge: 'la-liga/oviedo.png'
+    },
+    {
+        name: 'Real Sociedad',
+        short_name: 'Real Sociedad',
+        team_code: 'rsd',
+        badge: 'la-liga/real-sociedad.png'
+    },
+    {
+        name: 'Celta de Vigo',
+        short_name: 'Celta de Vigo',
+        team_code: 'cdv',
+        badge: 'la-liga/celta-vigo.png'
+    },
+    {
+        name: 'RCD Espanyol',
+        short_name: 'Espanyol',
+        team_code: 'cde',
+        badge: 'la-liga/rcd-espanyol.png'
+    },
 ];

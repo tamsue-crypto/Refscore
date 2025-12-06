@@ -1,0 +1,50 @@
+.competition-container{
+    width: 854px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.competition-container:first-of-type{
+    margin-top: 50px;
+}
+
+.ref-page-refs-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid #cecece;
+}
+
+.ref-page-refs-card{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+    border: 2px solid #cecece;
+}
+
+.ref-page-refs-card img{
+    height: 80px;
+    vertical-align: bottom;
+}
+
+.ref-page-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.ref-page-infos-nat{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ref-page-infos-nat img{
+    height: 10px;
+}
+
+.ref-page-infos a:hover{
+    text-decoration: underline;
+}

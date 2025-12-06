@@ -24,7 +24,12 @@ export default function InfoCards({matchId, context, ref}){
         var header = "general"
         const referee = referees.find(r => r.name === match.referee.referee_name)
         var photo = referee.photo
-        var cardName = referee.name
+        if(referee.nationality === "Espanha"){
+            var cardName = referee.name
+            var seconCard = referee.second_name
+        } else {
+            var cardName = referee.name
+        }
         var nationality = referee.nationality
         var birthday = referee.birthday
         var fifa_debut = referee.fifa_debut
@@ -40,7 +45,12 @@ export default function InfoCards({matchId, context, ref}){
         var title = "Dados Pessoais"
         var header = "general"
         var photo = referee.photo
-        var cardName = referee.name
+        if(referee.nationality === "Espanha"){
+            var cardName = referee.name
+            var seconCard = referee.second_name
+        } else {
+            var cardName = referee.name
+        }
         var nationality = referee.nationality
         var birthday = referee.birthday
         var fifa_debut = referee.fifa_debut
@@ -84,13 +94,13 @@ export default function InfoCards({matchId, context, ref}){
                                 <span className="info-title">Nome</span>
                                 {context === "ref" ? <>
                                     {nationality === "Espanha" ? <>
-                                        <Link to={`/referee/${cardName}`}><span className="infoself">{referee.second_name}</span></Link>
+                                        <Link to={`/referee/${cardName}`}><span className="infoself">{seconCard}</span></Link>
                                     </> : <>
                                         <Link to={`/referee/${cardName}`}><span className="infoself">{cardName}</span></Link>
                                     </>}
                                 </>: <>
-                                    {nationality === "Espanha" ? <>
-                                        <span className="infoself">{referee.second_name}</span>
+                                    {context === "ref" && nationality === "Espanha" ? <>
+                                        <span className="infoself">{seconCard}</span>
                                     </> : <>
                                         <span className="infoself">{cardName}</span>
                                     </>}

@@ -8,6 +8,7 @@ import JournalistPage from "./pages/JournalistPage";
 import RefereePage from "./pages/RefereePage";
 import TournamentPage from "./pages/TournamentPage";
 import RankingPage from "./pages/RankingPage";
+import AllRefsPage from "./pages/AllRefsPage";
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
           <Route path="/referee/:refName" element={<RefereePage/>}></Route>
           <Route path="/championship/:championshipId" element={<TournamentPage/>}></Route>
           <Route path="/rankings/" element={<RankingPage/>}></Route>
+          <Route path="/referees/" element={<AllRefsPage/>}></Route>
         </Routes>
       </Router>
     </>

@@ -28,7 +28,6 @@ export default function MatchPage() {
     const awayTeam = match.away_team.team_name;
     const matchRef = match.referee.referee_name;
 
-
     const[openedModal, setOpenedModal] = useState(false);
 
     const openLogin = () => {

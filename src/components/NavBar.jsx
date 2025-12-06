@@ -36,7 +36,7 @@ export default function NavBar({onLoginClick}){
                 </div>*/}
 
                 <div id="actions-area" className="flex">
-                    {/*<button id="refs-btn"><span>Ver Árbitros</span></button>*/}
+                    <Link to={`/referees/`}><button id="refs-btn"><span>Ver Árbitros</span></button></Link>
                     <button id="login-btn" className="flex-center" onClick={onLoginClick}>
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.0042 3.5H21V21.5H12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
