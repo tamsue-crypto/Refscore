@@ -634,4 +634,28 @@ export const teams = [
         team_code: 'cde',
         badge: 'la-liga/rcd-espanyol.png'
     },
+    {
+        name: 'AFC Bournemouth',
+        short_name: 'Bournemouth',
+        team_code: 'fcb',
+        badge: 'premier-league/bournemouth.png'
+    },
+    {
+        name: 'FC Everton',
+        short_name: 'Everton',
+        team_code: 'efc',
+        badge: 'premier-league/everton.png'
+    },
+    {
+        name: 'Nottingham Forest',
+        short_name: 'Nottingham Forest',
+        team_code: 'ntf',
+        badge: 'premier-league/forest.png'
+    },
+    {
+        name: 'Brighton & Hove Albion',
+        short_name: 'Brighton',
+        team_code: 'bha',
+        badge: 'premier-league/brighton.png'
+    },
 ];

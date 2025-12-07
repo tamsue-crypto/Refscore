@@ -13,6 +13,20 @@ import TodayMatchesList from "../components/TodayMatchesList";
 import { Link } from "react-router-dom";
 
 export default function ArticlePage() {
+    const today = new Date();
+
+    // getting day, month and year
+    const day = today.getDate();
+    const month = today.getMonth() + 1;
+    const year = today.getFullYear();
+
+    // formatting to the 2 digits system
+    const formattedDay = String(day).padStart(2, '0');
+    const formattedMonth = String(month).padStart(2, '0');
+
+    // getting everything togheter to the xx.xx.xxxx system
+    const todayDate = `${formattedDay}.${formattedMonth}.${year}`;
+    
     const[openedModal, setOpenedModal] = useState(false);
 
     const openLogin = () => {
@@ -137,7 +151,7 @@ export default function ArticlePage() {
                             </div>
 
                             <div>
-                                <TodayMatchesList day={'06.10.2025'}/>
+                                <TodayMatchesList day={todayDate}/>
                                 
                                 {article.sideImages ? <>
                                     <div className="photos" style={{scale: '0.9'}}>

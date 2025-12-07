@@ -66,7 +66,8 @@ export default function MatchFormation({matchId}){
                             player.statistics.red_card ||
                             player.statistics.hooked ||
                             player.captain ||
-                            player.statistics.own_goal
+                            player.statistics.own_goal ||
+                            player.statistics.second_yellow
                         );
 
                         return(
@@ -114,6 +115,12 @@ export default function MatchFormation({matchId}){
                                             {player.statistics.red_card > 0 && (
                                                 <div className="player-event">
                                                     <img src={process.env.PUBLIC_URL + "/images/player_events/red_card.png"} alt="yellow" />
+                                                </div>
+                                            )}
+
+                                            {player.statistics.second_yellow > 0 && (
+                                                <div className="player-event">
+                                                    <img src={process.env.PUBLIC_URL + "/images/player_events/second_yellow.png"} alt="red" />
                                                 </div>
                                             )}
 
@@ -171,6 +178,12 @@ export default function MatchFormation({matchId}){
                                                                         {sub.statistics.red_card > 0 && (
                                                                             <div className="player-event">
                                                                                 <img src={process.env.PUBLIC_URL + "/images/player_events/red_card.png"} alt="red" />
+                                                                            </div>
+                                                                        )}
+
+                                                                        {sub.statistics.second_yellow > 0 && (
+                                                                            <div className="player-event">
+                                                                                <img src={process.env.PUBLIC_URL + "/images/player_events/second_yellow.png"} alt="red" />
                                                                             </div>
                                                                         )}
                                                                     </div>
