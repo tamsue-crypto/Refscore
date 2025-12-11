@@ -7,11 +7,11 @@ export default function LatestNews({context, homeTeam, awayTeam, match, referee,
     let filteredArticles = [];
 
     if (context === "match") {
-        filteredArticles = articles.filter(article => article.teamId?.includes(homeTeam) || article.teamId?.includes(awayTeam) || article.referee === referee || article.matchId === match._id).slice(0, 4);
+        filteredArticles = articles.filter(article => article.teamId?.includes(homeTeam) || article.teamId?.includes(awayTeam) || article.referee === referee || article.matchId === match._id).reverse().slice(0, 4);
     } else if(context === 'jour'){
-        filteredArticles = articles.filter(article => article.journalistId === jourId)
+        filteredArticles = articles.filter(article => article.journalistId === jourId).reverse().slice(0, 4);
     } else if(context === 'ref') {
-        filteredArticles = articles.filter(article => article.referee === referee)
+        filteredArticles = articles.filter(article => article.referee === referee).reverse().slice(0, 4);
     }else {
         filteredArticles = articles.filter(article => article.tag !== "Opinião" && article.tag !== "Análise").sort((a, b) => b._id - a._id).slice(0, 2);
     }

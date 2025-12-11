@@ -19,7 +19,7 @@ export const referees = [
                         second_yellow_card: 1,
                         red_card: 4,
                         penalty: 1,
-                        average_score: 7.5,
+                        average_score: 8.8,
                     },
                     {
                         competition_name: "Liga dos Campeões",
@@ -150,7 +150,7 @@ export const referees = [
         name: "Irfan Peljto",
         first_name: "Irfan",
         second_name: "Peljto",
-        nationality: "Bósnia",
+        nationality: "Bósnia-Herzgovina",
         birthday: "18.07.1984",
         fifa_debut: "2015",
         d1_debut: "17.11.2012",
@@ -228,7 +228,7 @@ export const referees = [
                             "second_yellow_card": 0,
                             "red_card": 1,
                             "penalty": 1,
-                            "average_score": 7.1
+                            "average_score": 7.5
                         },
                         {
                             "competition_name": "Quali. Liga Europa",
@@ -237,7 +237,7 @@ export const referees = [
                             "second_yellow_card": 0,
                             "red_card": 0,
                             "penalty": 0,
-                            "average_score": 6.3
+                            "average_score": 7.3
                         },
                         {
                             "competition_name": "Liga Europa",
@@ -265,7 +265,7 @@ export const referees = [
         name: "Rade Obrenovic",
         first_name: "Rade",
         second_name: "Obrenovic",
-        nationality: "Eslovenia",
+        nationality: "Eslovénia",
         birthday: "28.08.1990",
         fifa_debut: "2017",
         d1_debut: "10.06.2014",
@@ -554,7 +554,7 @@ export const referees = [
                         "second_yellow_card": 0,
                         "red_card": 1,
                         "penalty": 5,
-                        "average_score": 8.2
+                        "average_score": 6.2
                     },
                     {
                         "competition_name": "Quali. Liga Campeões",
@@ -580,7 +580,7 @@ export const referees = [
     },
     {
         name: "Ricardo De Burgos Bengoetxea",
-        first_name: "Ricardo De Burgos",
+        first_name: "Ricardo",
         second_name: "Bengoetxea",
         nationality: "Espanha",
         birthday: "16.03.1986",
@@ -589,7 +589,7 @@ export const referees = [
         photo: "/images/referee_photos/spain/bengoetxea_pfp.png",
         "stats": [
             {
-                "season": "2025/2026",
+                "season": "2025/26",
                 "competitions": [
                     {
                         "competition_name": "LaLiga",
@@ -1162,7 +1162,7 @@ export const referees = [
         photo: "/images/referee_photos/spain/cuadra_fernandez_pfp.png",
         "stats": [
             {
-                "season": "2025/2026",
+                "season": "2025/26",
                 "competitions": [
                     {
                         "competition_name": "LaLiga",
@@ -1215,7 +1215,7 @@ export const referees = [
         photo: "/images/referee_photos/spain/muniz_ruiz_pfp.png",
         "stats": [
             {
-                "season": "2025/2026",
+                "season": "2025/26",
                 "competitions": [
                     {
                         "competition_name": "LaLiga",
@@ -1277,7 +1277,7 @@ export const referees = [
         photo: "/images/referee_photos/spain/garcia_acosta_pfp.png",
         "stats": [
             {
-                "season": "2025/2026",
+                "season": "2025/26",
                 "competitions": [
                     {
                         "competition_name": "Segunda - Grupo 3",
@@ -1719,7 +1719,7 @@ export const referees = [
         name: "Jarred Gillet",
         first_name: "Jarred",
         second_name: "Gillet",
-        nationality: "Australia",
+        nationality: "Austrália",
         birthday: "01.11.1986",
         fifa_debut: "Nunca",
         d1_debut: "16.10.2010",
@@ -2105,7 +2105,7 @@ export const referees = [
         photo: "/images/referee_photos/germany/felix_zwayer_pfp.png",
         "stats": [
             {
-                "season": "2025/2026",
+                "season": "2025/26",
                 "competitions": [
                     {
                         "competition_name": "Bundesliga",
@@ -3317,6 +3317,609 @@ export const referees = [
                         "red_card": 0,
                         "penalty": 2,
                         "average_score": 7.2
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "Nick Walsh",
+        first_name: "Nick",
+        second_name: "Walsh",
+        nationality: "Escócia",
+        birthday: "30.11.1990",
+        fifa_debut: "Nunca",
+        d1_debut: "09.04.2016",
+        photo: "/images/referee_photos/nick_walsh_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Premiership",
+                        "matches": 9,
+                        "yellow_card": 44,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 3,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Copa da Liga",
+                        "matches": 3,
+                        "yellow_card": 16,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 2,
+                        "yellow_card": 9,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.9
+                    },
+                    {
+                        "competition_name": "Playoff L. Conferencia",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "João Pinheiro",
+        first_name: "João",
+        second_name: "Pinheiro",
+        nationality: "Portugal",
+        birthday: "04.01.1988",
+        fifa_debut: "2016",
+        d1_debut: "20.09.2015",
+        photo: "/images/referee_photos/joao_pinheiro_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Liga Portugal",
+                        "matches": 6,
+                        "yellow_card": 33,
+                        "second_yellow_card": 0,
+                        "red_card": 3,
+                        "penalty": 2,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 2,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Supercopa da UEFA",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 8.1
+                    },
+                    {
+                        "competition_name": "UAE League Cup",
+                        "matches": 1,
+                        "yellow_card": 1,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "King's Cup",
+                        "matches": 1,
+                        "yellow_card": 4,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.7
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "Danny Makkelie",
+        first_name: "Danny",
+        second_name: "Makkelie",
+        nationality: "Holanda",
+        birthday: "28.01.1983",
+        fifa_debut: "2011",
+        d1_debut: "19.09.2009",
+        photo: "/images/referee_photos/danny_makkelie_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Eredivisie",
+                        "matches": 11,
+                        "yellow_card": 38,
+                        "second_yellow_card": 2,
+                        "red_card": 0,
+                        "penalty": 7,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 4,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 4,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 6.5
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 5.7
+                    },
+                    {
+                        "competition_name": "KNVB Beker",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "King's Cup",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Davide Massa",
+        first_name: "Davide",
+        second_name: "Massa",
+        nationality: "Itália",
+        birthday: "15.07.1981",
+        fifa_debut: "2013",
+        d1_debut: "23.01.2011",
+        photo: "/images/referee_photos/davide_massa_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Serie A",
+                        "matches": 5,
+                        "yellow_card": 26,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 2,
+                        "average_score": 8.2
+                    },
+                    {
+                        "competition_name": "Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.3
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "Benoit Bastien",
+        first_name: "Benoit",
+        second_name: "Bastien",
+        nationality: "França",
+        birthday: "17.04.1983",
+        fifa_debut: "Nunca",
+        d1_debut: "07.10.2007",
+        photo: "/images/referee_photos/benoit_bastien_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Ligue 1",
+                        "matches": 8,
+                        "yellow_card": 27,
+                        "second_yellow_card": 2,
+                        "red_card": 2,
+                        "penalty": 3,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 4,
+                        "average_score": 6.2
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 11,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 6.8
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        name: "Ivan Kruzliak",
+        first_name: "Ivan",
+        second_name: "Kruzliak",
+        nationality: "Eslováquia",
+        birthday: "24.03.1984",
+        fifa_debut: "2011",
+        d1_debut: "15.08.2009",
+        photo: "/images/referee_photos/ivan_kruzliak_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Niké Liga",
+                        "matches": 8,
+                        "yellow_card": 39,
+                        "second_yellow_card": 0,
+                        "red_card": 3,
+                        "penalty": 3,
+                        "average_score": 7.7
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 4,
+                        "yellow_card": 16,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.9
+                    },
+                    {
+                        "competition_name": "UAE Pro League",
+                        "matches": 1,
+                        "yellow_card": 0,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 1,
+                        "average_score": 6.1
+                    },
+                    {
+                        "competition_name": "Slovnaft Cup",
+                        "matches": 1,
+                        "yellow_card": 10,
+                        "second_yellow_card": 1,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 6.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Clément Turpin",
+        first_name: "Clément",
+        second_name: "Turpin",
+        nationality: "França",
+        birthday: "16.05.1982",
+        fifa_debut: "2010",
+        d1_debut: "16.08.2008",
+        photo: "/images/referee_photos/clement_turpin_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Ligue 1",
+                        "matches": 7,
+                        "yellow_card": 20,
+                        "second_yellow_card": 0,
+                        "red_card": 2,
+                        "penalty": 2,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 16,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 6.9
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 2,
+                        "yellow_card": 10,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.4
+                    },
+                    {
+                        "competition_name": "Saudi Pro League",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 7.3
+                    },
+                    {
+                        "competition_name": "UAE Pro League",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "Slavko Vincic",
+        first_name: "Slavko",
+        second_name: "Vincic",
+        nationality: "Eslovénia",
+        birthday: "25.11.1979",
+        fifa_debut: "2010",
+        d1_debut: "26.05.2007",
+        photo: "/images/referee_photos/slavko_vincic_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Prva Liga",
+                        "matches": 7,
+                        "yellow_card": 41,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 4,
+                        "average_score": 7.6
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 4,
+                        "yellow_card": 8,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 5,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.7
+                    },
+                    {
+                        "competition_name": "Pokal Slovenije",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.9
+                    },
+                    {
+                        "competition_name": "UAE League Cup",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 2,
+                        "average_score": 7.2
+                    },
+                    {
+                        "competition_name": "King's Cup",
+                        "matches": 1,
+                        "yellow_card": 3,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        name: "S. Gözübüyük",
+        first_name: "Serdar",
+        second_name: "Gözübüyük",
+        nationality: "Holanda",
+        birthday: "29.10.1985",
+        fifa_debut: "2012",
+        d1_debut: "02.05.2010",
+        photo: "/images/referee_photos/serdar_pfp.png",
+        "stats": [
+            {
+                "season": "2025/26",
+                "competitions": [
+                    {
+                        "competition_name": "Eredivisie",
+                        "matches": 11,
+                        "yellow_card": 42,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 5,
+                        "average_score": 7.8
+                    },
+                    {
+                        "competition_name": "Liga dos Campeões",
+                        "matches": 3,
+                        "yellow_card": 13,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 7.5
+                    },
+                    {
+                        "competition_name": "Quali. Liga Europa",
+                        "matches": 1,
+                        "yellow_card": 6,
+                        "second_yellow_card": 0,
+                        "red_card": 1,
+                        "penalty": 0,
+                        "average_score": 7.1
+                    },
+                    {
+                        "competition_name": "Quali. Campeões",
+                        "matches": 1,
+                        "yellow_card": 8,
+                        "second_yellow_card": 1,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.4
+                    },
+                    {
+                        "competition_name": "Saudi Pro League",
+                        "matches": 1,
+                        "yellow_card": 2,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 1,
+                        "average_score": 6.6
+                    },
+                    {
+                        "competition_name": "UAE Pro League",
+                        "matches": 1,
+                        "yellow_card": 7,
+                        "second_yellow_card": 0,
+                        "red_card": 0,
+                        "penalty": 0,
+                        "average_score": 6.8
                     },
                 ]
             }

@@ -2083,7 +2083,7 @@ export const matches = [
                     "player": {
                         "name": "Amar Dedic",
                         "jersey_number": "17",
-                        "nationality": "Bósnia"
+                        "nationality": "Bósnia-Herzgovina"
                     },
                     "statistics": {
                         "minutes_played": 90
@@ -3791,7 +3791,7 @@ export const matches = [
         }
     },
     {
-        "competition_name": "Copa da Eslovenia",
+        "competition_name": "Copa da Eslovénia",
         "year": "19/20",
         "stage": "final",
         "date": "00.00.2000",
@@ -6193,6 +6193,1712 @@ export const matches = [
             "team_name": "FC Bayern Munique",
         }
     },
+    /* */
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Chelsea Football Club",
+        },
+        "away_team": {
+            "team_name": "FC Liverpool",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Anthony Taylor",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Arsenal",
+        },
+        "away_team": {
+            "team_name": "FC Fulham",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Darren England",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Liverpool",
+        },
+        "away_team": {
+            "team_name": "FC Everton",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Michael Oliver",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Brighton & Hove Albion",
+        },
+        "away_team": {
+            "team_name": "Leeds United",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Chris Kavanagh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Newcastle United",
+        },
+        "away_team": {
+            "team_name": "Wolverhampton Wanderers FC",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Everton",
+        },
+        "away_team": {
+            "team_name": "Tottenham Hotspur",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Brighton & Hove Albion",
+        },
+        "away_team": {
+            "team_name": "Newcastle United",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Craig Pawson",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Aston Villa FC",
+        },
+        "away_team": {
+            "team_name": "Newcastle United",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Andrew Madley",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Manchester City FC",
+        },
+        "away_team": {
+            "team_name": "Tottenham Hotspur",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Andrew Madley",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Leeds United",
+        },
+        "away_team": {
+            "team_name": "Newcastle United",
+        }
+    },
+    {
+        "competition_name": "Premier League",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Samuel Barrott",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Manchester United FC",
+        },
+        "away_team": {
+            "team_name": "FC Burnley",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Javier Alberola Rojas",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Valencia CF",
+        },
+        "away_team": {
+            "team_name": "FC Villarreal",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Javier Alberola Rojas",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Girona FC",
+        },
+        "away_team": {
+            "team_name": "Rayo Vallecano",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Ricardo De Burgos Bengoetxea",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Oviedo",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "César Soto Grado",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sevilla FC",
+        },
+        "away_team": {
+            "team_name": "FC Villarreal",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Miguel Ángel Ortiz Arias",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Oviedo",
+        },
+        "away_team": {
+            "team_name": "FC Barcelona",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Miguel Ángel Ortiz Arias",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Deportivo Alavés",
+        },
+        "away_team": {
+            "team_name": "Elche CF",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "CA Osasuna",
+        },
+        "away_team": {
+            "team_name": "Valencia CF",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Jesús Gil Manzano",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Real Betis Balompié",
+        },
+        "away_team": {
+            "team_name": "RCD Mallorca",
+        }
+    },
+    {
+        "competition_name": "La Liga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Alejandro Hernández",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Valencia CF",
+        },
+        "away_team": {
+            "team_name": "Getafe CF",
+        }
+    },
+    {
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Daniel Schlager",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Augsburg",
+        },
+        "away_team": {
+            "team_name": "1. FSV Mainz 05",
+        }
+    },
+    {
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "Rodada x",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Harm Osmers",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "4",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SG Eintracht Frankfurt",
+        },
+        "away_team": {
+            "team_name": "Werder Bremen",
+        }
+    },
+    {
+        "competition_name": "Copa da Escócia",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Nick Walsh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Celtic FC",
+        },
+        "away_team": {
+            "team_name": "Rangers FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga Escocesa",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Nick Walsh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Rangers FC",
+        },
+        "away_team": {
+            "team_name": "Celtic FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Escócia",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Nick Walsh",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "St. Johnstone FC",
+        },
+        "away_team": {
+            "team_name": "Hibernian FC",
+        }
+    },
+    {
+        "competition_name": "Liga Europa",
+        "year": "24/25",
+        "stage": "Rodada X",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Tottenham Hotspur",
+        },
+        "away_team": {
+            "team_name": "AZ Alkmaar",
+        }
+    },
+    {
+        "_id": "41",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 8.1,
+            "scores": {
+                "criteria_consistency": 8.1,
+                "control_discipline": 8.1,
+                "technical_decisions": 8.1,
+                "var_use": 8.1,
+                "posture_communication": 8.1
+            }
+        },
+        "date": "13.08.2025",
+        "time": "16:00",
+        "stadium": "Bluenergy Stadium",
+        "stadium_loc": "Udine",
+        "competition_name": "Supercopa da UEFA",
+        "year": "25/26",
+        "stage": "final",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "74%",
+                    "away": "26%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "12",
+                    "away": "13",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "3",
+                    "away": "5",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "7",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "12",
+                    "away": "12",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lucas Chevalier",
+                        "jersey_number": "30",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Achraf Hakimi",
+                        "jersey_number": "2",
+                        "nationality": "Marrocos"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Marquinhos",
+                        "jersey_number": "5",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Willian Pacho",
+                        "jersey_number": "51",
+                        "nationality": "Equador"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nuno Mendes",
+                        "jersey_number": "25",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Vitinha",
+                        "jersey_number": "17",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Désiré Doué",
+                        "jersey_number": "14",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 77,
+                        "hooked": 77
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Warren Zaïre-Emery",
+                        "jersey_number": "33",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 68,
+                        "hooked": 68
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Bradley Barcola",
+                        "jersey_number": "29",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 67,
+                        "hooked": 67,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/dembele_.png",
+                    "player": {
+                        "name": "O. Dembélé",
+                        "jersey_number": "10",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true,
+                        "goal_assist": 1,
+                        "motm_stat": {
+                            "Passes Chave": "3",
+                            "Chances Criadas": "1"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Khvicha Kvaratskhelia",
+                        "jersey_number": "7",
+                        "nationality": "Geórgia"
+                    },
+                    "statistics": {
+                        "minutes_played": 60,
+                        "hooked": 60
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Fabián Ruiz",
+                        "jersey_number": "8",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 30,
+                        "entered": 60
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lee Kang-in",
+                        "jersey_number": "19",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 22,
+                        "entered": 68,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ibrahim Mbaye",
+                        "jersey_number": "49",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 23,
+                        "entered": 67
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Gonçalo Ramos",
+                        "jersey_number": "9",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 13,
+                        "entered": 77,
+                        "goals": 1
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "Tottenham Hotspur",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Guglielmo Vicario",
+                        "jersey_number": "1",
+                        "nationality": "Itália"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pedro Porro",
+                        "jersey_number": "23",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Cristián Romero",
+                        "jersey_number": "17",
+                        "nationality": "Argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Micky van de Ven",
+                        "jersey_number": "37",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kevin Danso",
+                        "jersey_number": "4",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Djed Spence",
+                        "jersey_number": "24",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "João Palhinha",
+                        "jersey_number": "6",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "hooked": 72
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pape Sarr",
+                        "jersey_number": "29",
+                        "nationality": "Senegal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Rodrigo Bentancur",
+                        "jersey_number": "30",
+                        "nationality": "Uruguai"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mohammed Kudus",
+                        "jersey_number": "20",
+                        "nationality": "Gana"
+                    },
+                    "statistics": {
+                        "minutes_played": 79,
+                        "hooked": 79
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Richarlison",
+                        "jersey_number": "9",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "hooked": 72,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Archie Gray",
+                        "jersey_number": "14",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "entered": 72
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lucas Bergvall",
+                        "jersey_number": "15",
+                        "nationality": "Suécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Mathys Tel",
+                        "jersey_number": "11",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 11,
+                        "entered": 79
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Dominic Solanke",
+                        "jersey_number": "19",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "entered": 72
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "competition_name": "Allianz Cup",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sporting CP",
+        },
+        "away_team": {
+            "team_name": "SL Benfica",
+        }
+    },
+    {
+        "competition_name": "Supertaça de Portugal",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sporting CP",
+        },
+        "away_team": {
+            "team_name": "FC Porto",
+        }
+    },
+    {
+        "competition_name": "Taça de Portugal",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SC Braga",
+        },
+        "away_team": {
+            "team_name": "FC Porto",
+        }
+    },
+    {
+        "competition_name": "Allianz Cup",
+        "year": "22/23",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sporting CP",
+        },
+        "away_team": {
+            "team_name": "FC Porto",
+        }
+    },
+    {
+        "competition_name": "Supertaça de Portugal",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sporting CP",
+        },
+        "away_team": {
+            "team_name": "SC Braga",
+        }
+    },
+    {
+        "competition_name": "Allianz Cup",
+        "year": "18/19",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "João Pinheiro",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Porto",
+        },
+        "away_team": {
+            "team_name": "Sporting CP",
+        }
+    },
+    {
+        "competition_name": "Liga Europa",
+        "year": "19/20",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Danny Makkelie",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Sevilla FC",
+        },
+        "away_team": {
+            "team_name": "Inter de Milão",
+        }
+    },
+    {
+        "competition_name": "Copa da itália",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Davide Massa",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Atalanta BC",
+        },
+        "away_team": {
+            "team_name": "Juventus FC",
+        }
+    },
+    {
+        "competition_name": "Supercopa da itália",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Davide Massa",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "3",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Juventus FC",
+        },
+        "away_team": {
+            "team_name": "SS Lazio",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "24/25",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Benoit Bastien",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+        },
+        "away_team": {
+            "team_name": "Stade Reims",
+        }
+    },
+    {
+        "competition_name": "Supercopa da França",
+        "year": "19/20",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Benoit Bastien",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+        },
+        "away_team": {
+            "team_name": "Stade Rennais FC",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "16/17",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Benoit Bastien",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Angers SCO",
+        },
+        "away_team": {
+            "team_name": "FC Paris Saint-Germain",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga Francesa",
+        "year": "14/15",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Benoit Bastien",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SC Bastia",
+        },
+        "away_team": {
+            "team_name": "FC Paris Saint-Germain",
+        }
+    },
+    {
+        "competition_name": "Liga dos Campeões",
+        "year": "21/22",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Liverpool",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "Liga Europa",
+        "year": "20/21",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Villarreal",
+        },
+        "away_team": {
+            "team_name": "Manchester United FC",
+        }
+    },
+    {
+        "competition_name": "Copa da Liga Francesa",
+        "year": "17/18",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+        },
+        "away_team": {
+            "team_name": "AS Monaco",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "15/16",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "4",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Olympique Marselha",
+        },
+        "away_team": {
+            "team_name": "FC Paris Saint-Germain",
+        }
+    },
+    {
+        "competition_name": "Supercopa da França",
+        "year": "14/15",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Paris Saint-Germain",
+        },
+        "away_team": {
+            "team_name": "EA Guingamp",
+        }
+    },
+    {
+        "competition_name": "Copa da França",
+        "year": "10/11",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Clément Turpin",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "LOSC Lille",
+        },
+        "away_team": {
+            "team_name": "FC Paris Saint-Germain",
+        }
+    },
+    {
+        "competition_name": "Liga dos Campeões",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Slavko Vincic",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Borussia Dortmund",
+        },
+        "away_team": {
+            "team_name": "Real Madrid CF",
+        }
+    },
+    {
+        "competition_name": "Liga Europa",
+        "year": "23/24",
+        "stage": "final",
+        "date": "00.00.2000",
+        "referee": {
+            "referee_name": "Slavko Vincic",
+            "final_score": 7.8,
+        },
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SG Eintracht Frankfurt",
+        },
+        "away_team": {
+            "team_name": "Rangers FC",
+        }
+    },
     /*la liga*/
     {
         "_id": "9",
@@ -7779,7 +9485,7 @@ export const matches = [
                     "player": {
                         "name": "Mathew Ryan",
                         "jersey_number": "13",
-                        "nationality": "Australia"
+                        "nationality": "Austrália"
                     },
                     "statistics": {
                         "minutes_played": 90
@@ -8286,7 +9992,7 @@ export const matches = [
                     "player": {
                         "name": "Jan Oblak",
                         "jersey_number": "13",
-                        "nationality": "Eslovenia"
+                        "nationality": "Eslovénia"
                     },
                     "statistics": {
                         "minutes_played": 90
@@ -8705,13 +10411,13 @@ export const matches = [
         "_id": "14",
         "referee": {
             "referee_name": "César Soto Grado",
-            "final_score": 7.6,
+            "final_score": 7.2,
             "scores": {
-                "criteria_consistency": 7.6,
-                "control_discipline": 7.6,
-                "technical_decisions": 7.6,
-                "var_use": 7.6,
-                "posture_communication": 7.6
+                "criteria_consistency": 7.2,
+                "control_discipline": 7.2,
+                "technical_decisions": 7.2,
+                "var_use": 7.2,
+                "posture_communication": 7.2
             }
         },
         "date": "30.11.2025",
@@ -9227,13 +10933,13 @@ export const matches = [
         "_id": "15",
         "referee": {
             "referee_name": "José Luis Munuera Montero",
-            "final_score": 7.6,
+            "final_score": 7.1,
             "scores": {
-                "criteria_consistency": 7.6,
-                "control_discipline": 7.6,
-                "technical_decisions": 7.6,
-                "var_use": 7.6,
-                "posture_communication": 7.6
+                "criteria_consistency": 7.1,
+                "control_discipline": 7.1,
+                "technical_decisions": 7.1,
+                "var_use": 7.1,
+                "posture_communication": 7.1
             }
         },
         "date": "30.11.2025",
@@ -10242,13 +11948,13 @@ export const matches = [
         "_id": "17",
         "referee": {
             "referee_name": "Ricardo De Burgos Bengoetxea",
-            "final_score": 7.7,
+            "final_score": 6.6,
             "scores": {
-                "criteria_consistency": 7.7,
-                "control_discipline": 7.7,
-                "technical_decisions": 7.7,
-                "var_use": 7.7,
-                "posture_communication": 7.7
+                "criteria_consistency": 6.6,
+                "control_discipline": 6.6,
+                "technical_decisions": 6.6,
+                "var_use": 6.6,
+                "posture_communication": 6.6
             }
         },
         "date": "30.11.2025",
@@ -10739,13 +12445,13 @@ export const matches = [
         "_id": "18",
         "referee": {
             "referee_name": "Javier Alberola Rojas",
-            "final_score": 6.3,
+            "final_score": 8.3,
             "scores": {
-                "criteria_consistency": 6.3,
-                "control_discipline": 6.3,
-                "technical_decisions": 6.3,
-                "var_use": 6.3,
-                "posture_communication": 6.3
+                "criteria_consistency": 8.3,
+                "control_discipline": 8.3,
+                "technical_decisions": 8.3,
+                "var_use": 8.3,
+                "posture_communication": 8.3
             }
         },
         "date": "30.11.2025",
@@ -11244,13 +12950,13 @@ export const matches = [
         "_id": "19",
         "referee": {
             "referee_name": "Samuel Barrott",
-            "final_score": 8.8,
+            "final_score": 7.3,
             "scores": {
-                "criteria_consistency": 8.8,
-                "control_discipline": 8.8,
-                "technical_decisions": 8.8,
-                "var_use": 8.8,
-                "posture_communication": 8.8
+                "criteria_consistency": 7.3,
+                "control_discipline": 7.3,
+                "technical_decisions": 7.3,
+                "var_use": 7.3,
+                "posture_communication": 7.3
             }
         },
         "date": "29.11.2025",
@@ -16140,5 +17846,5980 @@ export const matches = [
                 }
             ]
         }
-    }
+    },
+    /*bundesliga*/
+    {
+        "_id": "29",
+        "referee": {
+            "referee_name": "Bastian Dankert",
+            "final_score": 7.9,
+            "scores": {
+                "criteria_consistency": 7.9,
+                "control_discipline": 7.9,
+                "technical_decisions": 7.9,
+                "var_use": 7.9,
+                "posture_communication": 7.9
+            }
+        },
+        "date": "08.11.2025",
+        "time": "11:30",
+        "stadium": "BayArena",
+        "stadium_loc": "Leverkusen",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "10. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "6",
+                    "away": "0",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "49%",
+                    "away": "51%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "17",
+                    "away": "10",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "4",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "4",
+                    "away": "0",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "11",
+                    "away": "11",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "1",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Bayer 04 Leverkusen",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mark Flekken",
+                        "jersey_number": "1",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Robert Andrich",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Loic Badé",
+                        "jersey_number": "5",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Edmond Tapsoba",
+                        "jersey_number": "12",
+                        "nationality": "Burkina Faso"
+                    },
+                    "statistics": {
+                        "minutes_played": 56,
+                        "hooked": 56,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "br_motm": true,
+                    "photo": "/images/motm_pics/arthurleverkusen_.png",
+                    "player": {
+                        "name": "Arthur Augusto",
+                        "jersey_number": "13",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46,
+                        "goal_assist": 1,
+                        "br_motm_stat": {
+                            "Assistências": 1,
+                            "Duelos (Vencidos)": "3 (2)"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aleix García",
+                        "jersey_number": "24",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 75,
+                        "hooked": 75,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/maza_.png",
+                    "player": {
+                        "name": "Ibrahim Maza",
+                        "jersey_number": "30",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 2,
+                        "motm_stat": {
+                            "Gols": 2,
+                            "Dribles Certos": "4"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Álex Grimaldo",
+                        "jersey_number": "20",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonas Hofmann",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Patrik Schick",
+                        "jersey_number": "14",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 56,
+                        "hooked": 56,
+                        "goals": 2
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ernest Poku",
+                        "jersey_number": "19",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46,
+                        "goals": 1,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jeanuël Belocian",
+                        "jersey_number": "44",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 34,
+                        "entered": 56
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Malik Tillman",
+                        "jersey_number": "10",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Eliesse Ben Seghir",
+                        "jersey_number": "17",
+                        "nationality": "Marrocos"
+                    },
+                    "statistics": {
+                        "minutes_played": 15,
+                        "entered": 75
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Alejo Sarco",
+                        "jersey_number": "18",
+                        "nationality": "Argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 34,
+                        "entered": 56
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Martin Terrier",
+                        "jersey_number": "11",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "1. FC Heidenheim 1846",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Diant Ramaj",
+                        "jersey_number": "41",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Omar Traorè",
+                        "jersey_number": "23",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Tim Siersleben",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Patrick Mainka",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonas Fohrenbach",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Niehues",
+                        "jersey_number": "16",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "hooked": 33
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marnon Busch",
+                        "jersey_number": "2",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 83,
+                        "hooked": 83
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jan Schöppner",
+                        "jersey_number": "3",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mathias Honsak",
+                        "jersey_number": "17",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 67,
+                        "hooked": 67
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Arijon Ibrahimovic",
+                        "jersey_number": "22",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Budu Zivzivadze",
+                        "jersey_number": "11",
+                        "nationality": "Geórgia"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "hooked": 33
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Benedikt Gimber",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "entered": 33
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Adam Kölle",
+                        "jersey_number": "28",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Niklas Dorsch",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "entered": 33
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Adrian Beck",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 7,
+                        "entered": 83
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Marvin Pieringer",
+                        "jersey_number": "18",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 23,
+                        "entered": 67
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "30",
+        "referee": {
+            "referee_name": "Bastian Dankert",
+            "final_score": 7.9,
+            "scores": {
+                "criteria_consistency": 7.9,
+                "control_discipline": 7.9,
+                "technical_decisions": 7.9,
+                "var_use": 7.9,
+                "posture_communication": 7.9
+            }
+        },
+        "date": "18.10.2025",
+        "time": "13:30",
+        "stadium": "Allianz Arena",
+        "stadium_loc": "Munique",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "7. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "61%",
+                    "away": "39%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "15",
+                    "away": "8",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "7",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "4",
+                    "away": "3",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "12",
+                    "away": "17",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "1",
+                    "away": "3",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Bayern Munique",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Manuel Neuer",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Sacha Boey",
+                        "jersey_number": "23",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 84,
+                        "hooked": 84
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Dayot Upamecano",
+                        "jersey_number": "2",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonathan Tah",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Konrad Laimer",
+                        "jersey_number": "27",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aleksandar Pavlovic",
+                        "jersey_number": "45",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Joshua Kimmich",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Michael Olise",
+                        "jersey_number": "17",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Harry Kane",
+                        "jersey_number": "9",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Luis Díaz",
+                        "jersey_number": "14",
+                        "nationality": "Colômbia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nicolas Jackson",
+                        "jersey_number": "11",
+                        "nationality": "Senegal"
+                    },
+                    "statistics": {
+                        "minutes_played": 61,
+                        "hooked": 61
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Kim Min-jae",
+                        "jersey_number": "3",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tom Bischof",
+                        "jersey_number": "20",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 6,
+                        "entered": 84
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Leon Goretzka",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 29,
+                        "entered": 61
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "Borussia Dortmund",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Gregor Kobel",
+                        "jersey_number": "1",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Niklas Sule",
+                        "jersey_number": "25",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Waldemar Anton",
+                        "jersey_number": "3",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "motm": true,
+                    'photo': "/images/motm_pics/nico_s_.png",
+                    "player": {
+                        "name": "N. Schlotterbeck",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "motm_stat": {
+                            "Duelos (Vencidos)": "10 (9)",
+                            "Bolas Longas": "13/20 (65%)" 
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Ryerson",
+                        "jersey_number": "26",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pascal Gross",
+                        "jersey_number": "13",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 84,
+                        "hooked": 84
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marcel Sabitzer",
+                        "jersey_number": "20",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Daniel Svensson",
+                        "jersey_number": "24",
+                        "nationality": "Suécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Karim Adeyemi",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 74,
+                        "hooked": 74
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Serhou Guirassy",
+                        "jersey_number": "9",
+                        "nationality": "Guiné"
+                    },
+                    "statistics": {
+                        "minutes_played": 84,
+                        "hooked": 84
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Felix Nmecha",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ramy Bensebaini",
+                        "jersey_number": "5",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Brandt",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 6,
+                        "entered": 84,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jobe Bellingham",
+                        "jersey_number": "7",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Maximilian Beier",
+                        "jersey_number": "14",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 16,
+                        "entered": 74
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Fábio Silva",
+                        "jersey_number": "21",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 6,
+                        "entered": 84
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "31",
+        "referee": {
+            "referee_name": "Bastian Dankert",
+            "final_score": 7.9,
+            "scores": {
+                "criteria_consistency": 7.9,
+                "control_discipline": 7.9,
+                "technical_decisions": 7.9,
+                "var_use": 7.9,
+                "posture_communication": 7.9
+            }
+        },
+        "date": "28.09.2025",
+        "time": "10:30",
+        "stadium": "Europa-Park Stadion",
+        "stadium_loc": "Freiburg",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "5. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "43%",
+                    "away": "57%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "6",
+                    "away": "15",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "1",
+                    "away": "4",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "6",
+                    "away": "8",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "9",
+                    "away": "15",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SC Freiburg",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Noah Atubolu",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lukas Kubler",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 38,
+                        "hooked": 38,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Matthias Ginter",
+                        "jersey_number": "28",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Anthony Jung",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jordy Makengo",
+                        "jersey_number": "33",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Patrick Osterhage",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Eggestein",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jan-Niklas Beste",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 84,
+                        "hooked": 84
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Eren Dinkci",
+                        "jersey_number": "18",
+                        "nationality": "Turquia"
+                    },
+                    "statistics": {
+                        "minutes_played": 84,
+                        "hooked": 84
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Vincenzo Grifo",
+                        "jersey_number": "32",
+                        "nationality": "Itália"
+                    },
+                    "statistics": {
+                        "minutes_played": 64,
+                        "hooked": 64
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Junior Adamu",
+                        "jersey_number": "20",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 64,
+                        "hooked": 64,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Philipp Treu",
+                        "jersey_number": "29",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 52,
+                        "entered": 38
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Rosenfelder",
+                        "jersey_number": "37",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 6,
+                        "entered": 84
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Igor Matanovic",
+                        "jersey_number": "31",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 26,
+                        "entered": 64
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Derry Scherhant",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 26,
+                        "entered": 64
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lucas Holer",
+                        "jersey_number": "9",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 6,
+                        "entered": 84
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "TSG 1899 Hoffenheim",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Oliver Baumann",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/coufal_.png",
+                    "player": {
+                        "name": "Vladimír Coufal",
+                        "jersey_number": "34",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1,
+                        "motm_stat": {
+                            "Duelos (Vencidos)": "10 (5)",
+                            "Assistências": "1"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Robin Hranác",
+                        "jersey_number": "2",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Arthur Chaves",
+                        "jersey_number": "35",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Bernardo Júnior",
+                        "jersey_number": "13",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Wouter Burger",
+                        "jersey_number": "18",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 85,
+                        "hooked": 85
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Leon Avdullahu",
+                        "jersey_number": "7",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Alexander Prass",
+                        "jersey_number": "22",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 59,
+                        "hooked": 59
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Andrej Kramaric",
+                        "jersey_number": "27",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Bazoumana Touré",
+                        "jersey_number": "29",
+                        "nationality": "Costa do Marfim"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Fisnik Asllani",
+                        "jersey_number": "11",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 85,
+                        "hooked": 85,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Momo Damar",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 31,
+                        "entered": 59
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Umut Tohumcu",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 5,
+                        "entered": 85
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Grischa Promel",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tim Lemperle",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ihlas Bebou",
+                        "jersey_number": "9",
+                        "nationality": "Togo"
+                    },
+                    "statistics": {
+                        "minutes_played": 5,
+                        "entered": 85
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "32",
+        "referee": {
+            "referee_name": "Timo Gerach",
+            "final_score": 7.1,
+            "scores": {
+                "criteria_consistency": 7.1,
+                "control_discipline": 7.1,
+                "technical_decisions": 7.1,
+                "var_use": 7.1,
+                "posture_communication": 7.1
+            }
+        },
+        "date": "28.11.2025",
+        "time": "16:30",
+        "stadium": "Stadion im Borussia-Park",
+        "stadium_loc": "Monchengladbach",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "42%",
+                    "away": "58%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "7",
+                    "away": "20",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "0",
+                    "away": "4",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "5",
+                    "away": "6",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "5",
+                    "away": "4",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "9",
+                    "away": "9",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "0",
+                    "away": "3",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Borussia Mönchengladbach",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Moritz Nicolas",
+                        "jersey_number": "33",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Joe Scally",
+                        "jersey_number": "29",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nico Elvedi",
+                        "jersey_number": "30",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kevin Diks",
+                        "jersey_number": "4",
+                        "nationality": "Indonésia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Luca Netz",
+                        "jersey_number": "20",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jens Castrop",
+                        "jersey_number": "17",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 83,
+                        "hooked": 83
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Rocco Reitz",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yannik Engelhardt",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Florian Neuhaus",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Haris Tabakovic",
+                        "jersey_number": "15",
+                        "nationality": "Bósnia-Herzgovina"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Franck Honorat",
+                        "jersey_number": "9",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Marvin Friedrich",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 7,
+                        "entered": 83
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Giovanni Reyna",
+                        "jersey_number": "13",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Shuto Machino",
+                        "jersey_number": "18",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tim Kleindienst",
+                        "jersey_number": "11",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "RB Leipzig",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Péter Gulácsi",
+                        "jersey_number": "1",
+                        "nationality": "Hungria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ridle Baku",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/lukeba_.png",
+                    "player": {
+                        "name": "Castello Lukeba",
+                        "jersey_number": "23",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "motm_stat": {
+                            "Recuperações": "8",
+                            "Passes Chave": '2'
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Willi Orbán",
+                        "jersey_number": "4",
+                        "nationality": "Hungria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "David Raum",
+                        "jersey_number": "22",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nicolas Seiwald",
+                        "jersey_number": "13",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Chris Baumgartner",
+                        "jersey_number": "14",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Xaver Schlager",
+                        "jersey_number": "24",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 66,
+                        "hooked": 66,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yan Diomande",
+                        "jersey_number": "49",
+                        "nationality": "Costa do Marfim"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Conrad Harder",
+                        "jersey_number": "11",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 82,
+                        "hooked": 82
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Antonio Nusa",
+                        "jersey_number": "7",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 66,
+                        "hooked": 66
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lukas Klostermann",
+                        "jersey_number": "16",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ezechiel Banzuzi",
+                        "jersey_number": "6",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 24,
+                        "entered": 66
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Johan Bakayoko",
+                        "jersey_number": "9",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 24,
+                        "entered": 66
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tidiam Gomis",
+                        "jersey_number": "27",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 8,
+                        "entered": 82
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "33",
+        "referee": {
+            "referee_name": "Felix Zwayer",
+            "final_score": 7.4,
+            "scores": {
+                "criteria_consistency": 7.4,
+                "control_discipline": 7.4,
+                "technical_decisions": 7.4,
+                "var_use": 7.4,
+                "posture_communication": 7.4
+            }
+        },
+        "date": "29.11.2025",
+        "time": "11:30",
+        "stadium": "Allianz Arena",
+        "stadium_loc": "Munique",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "80%",
+                    "away": "20%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "19",
+                    "away": "10",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "4",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "10",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "5",
+                    "away": "8",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "FC Bayern Munique",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Manuel Neuer",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Konrad Laimer",
+                        "jersey_number": "27",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kim Min-jae",
+                        "jersey_number": "3",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 77,
+                        "hooked": 77
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonathan Tah",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Tom Bischof",
+                        "jersey_number": "20",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aleksandar Pavlovic",
+                        "jersey_number": "45",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 83,
+                        "hooked": 83
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/kimmich_.png",
+                    "player": {
+                        "name": "Joshua Kimmich",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1,
+                        "motm_stat": {
+                            "Passes Chave": "4",
+                            "Passes Certos": "141/151 (93%)"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lennart Karl",
+                        "jersey_number": "42",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 65,
+                        "hooked": 65
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Raphaël Guerreiro",
+                        "jersey_number": "22",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 65,
+                        "hooked": 65,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Luis Díaz",
+                        "jersey_number": "14",
+                        "nationality": "Colômbia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Harry Kane",
+                        "jersey_number": "9",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Josip Stanisic",
+                        "jersey_number": "44",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 25,
+                        "entered": 65
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Leon Goretzka",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 13,
+                        "entered": 77
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Michael Olise",
+                        "jersey_number": "17",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Nicolas Jackson",
+                        "jersey_number": "11",
+                        "nationality": "Senegal"
+                    },
+                    "statistics": {
+                        "minutes_played": 7,
+                        "entered": 83,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Serge Gnabry",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 25,
+                        "entered": 65
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "FC St. Pauli",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nikola Vasilj",
+                        "jersey_number": "22",
+                        "nationality": "Bósnia-Herzgovina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Arkadiusz Pyrka",
+                        "jersey_number": "11",
+                        "nationality": "Polônia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lars Ritzka",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 68,
+                        "hooked": 68
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Karol Mets",
+                        "jersey_number": "3",
+                        "nationality": "Estônia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Hauke Wahl",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Eric Smith",
+                        "jersey_number": "8",
+                        "nationality": "Suécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Joel Fujita",
+                        "jersey_number": "16",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "James Sands",
+                        "jersey_number": "6",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Jackson Irvine",
+                        "jersey_number": "7",
+                        "nationality": "Austrália"
+                    },
+                    "statistics": {
+                        "minutes_played": 68,
+                        "hooked": 68
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mathias Pereira-Lage",
+                        "jersey_number": "28",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 87,
+                        "hooked": 87,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Andréas Hountondji",
+                        "jersey_number": "27",
+                        "nationality": "Benin"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "hooked": 18,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Louis Oppie",
+                        "jersey_number": "23",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 22,
+                        "entered": 68
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Connor Metcalfe",
+                        "jersey_number": "24",
+                        "nationality": "Austrália"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Danel Sinani",
+                        "jersey_number": "10",
+                        "nationality": "Luxemburgo"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "entered": 18
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Abdoulie Ceesay",
+                        "jersey_number": "9",
+                        "nationality": "Gâmbia"
+                    },
+                    "statistics": {
+                        "minutes_played": 22,
+                        "entered": 68
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "34",
+        "referee": {
+            "referee_name": "Bastian Dankert",
+            "final_score": 7.9,
+            "scores": {
+                "criteria_consistency": 7.9,
+                "control_discipline": 7.9,
+                "technical_decisions": 7.9,
+                "var_use": 7.9,
+                "posture_communication": 7.9
+            }
+        },
+        "date": "29.11.2025",
+        "time": "11:30",
+        "stadium": "Weserstadion",
+        "stadium_loc": "Bremen",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "49%",
+                    "away": "51%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "17",
+                    "away": "10",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "4",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "4",
+                    "away": "0",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "0",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "11",
+                    "away": "11",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "2",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Werder Bremen",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mio Backhaus",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yukinari Sugawara",
+                        "jersey_number": "3",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Karim Coulibaly",
+                        "jersey_number": "31",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Amos Pieper",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Marco Friedl",
+                        "jersey_number": "32",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Senne Lynen",
+                        "jersey_number": "14",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jens Stage",
+                        "jersey_number": "6",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Cameron Puertas",
+                        "jersey_number": "18",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 81,
+                        "hooked": 81
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Romano Schmid",
+                        "jersey_number": "20",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marco Grüll",
+                        "jersey_number": "17",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Keke Topp",
+                        "jersey_number": "9",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Niklas Stark",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46,
+                        "second_yellow": true,
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Victor Boniface",
+                        "jersey_number": "44",
+                        "nationality": "Nigéria"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Samuel Mbangula",
+                        "jersey_number": "7",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 9,
+                        "entered": 81
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "1. FC Colônia",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Marvin Schwabe",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Sebastian Sebulonsen",
+                        "jersey_number": "28",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Dominique Heintz",
+                        "jersey_number": "3",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 12,
+                        "hooked": 12
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Cenk Ozkacar",
+                        "jersey_number": "39",
+                        "nationality": "Turquia"
+                    },
+                    "statistics": {
+                        "minutes_played": 74,
+                        "hooked": 74
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jan Thielmann",
+                        "jersey_number": "29",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Isak Johannesson",
+                        "jersey_number": "18",
+                        "nationality": "Islândia"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Eric Martel",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 82,
+                        "hooked": 82,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Castro Montes",
+                        "jersey_number": "17",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jakub Kaminski",
+                        "jersey_number": "16",
+                        "nationality": "Polônia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marius Bulter",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/el_mala_.png",
+                    "player": {
+                        "name": "Said El Mala",
+                        "jersey_number": "13",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1,
+                        "motm_stat": {
+                            "Gols": "1",
+                            "Duelos (Vencidos)": "17 (9)"
+                        }
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Rav van den Berg",
+                        "jersey_number": "33",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 78,
+                        "entered": 12
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Kristoffer Lund",
+                        "jersey_number": "32",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Florian Kainz",
+                        "jersey_number": "11",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 8,
+                        "entered": 82
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tom Krauss",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Luca Waldschmidt",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 16,
+                        "entered": 74
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "35",
+        "referee": {
+            "referee_name": "Patrick Ittrich",
+            "final_score": 8.1,
+            "scores": {
+                "criteria_consistency": 8.1,
+                "control_discipline": 8.1,
+                "technical_decisions": 8.1,
+                "var_use": 8.1,
+                "posture_communication": 8.1
+            }
+        },
+        "date": "29.11.2025",
+        "time": "11:30",
+        "stadium": "Stadion An der Alten Försterei",
+        "stadium_loc": "Berlim",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "43%",
+                    "away": "57%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "9",
+                    "away": "10",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "2",
+                    "away": "2",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "5",
+                    "away": "5",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "13",
+                    "away": "10",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "3",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "1. FC Union Berlin",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Frederik Ronnow",
+                        "jersey_number": "1",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Danilho Doekhi",
+                        "jersey_number": "5",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Leopold Querfeld",
+                        "jersey_number": "14",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Diogo Leite",
+                        "jersey_number": "4",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Chris Trimmel",
+                        "jersey_number": "28",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 79,
+                        "hooked": 79
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aljoscha Kemlein",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 79,
+                        "hooked": 79,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Rani Khedira",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Derrick Köhn",
+                        "jersey_number": "39",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jeong Woo-yeong",
+                        "jersey_number": "11",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Oliver Burke",
+                        "jersey_number": "7",
+                        "nationality": "Escócia"
+                    },
+                    "statistics": {
+                        "minutes_played": 61,
+                        "hooked": 61,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ilyas Ansah",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Tom Rothe",
+                        "jersey_number": "15",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Alex Král",
+                        "jersey_number": "33",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Janik Haberer",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 11,
+                        "entered": 79
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "András Schäfer",
+                        "jersey_number": "13",
+                        "nationality": "Hungria"
+                    },
+                    "statistics": {
+                        "minutes_played": 11,
+                        "entered": 79
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Andrej Ilic",
+                        "jersey_number": "23",
+                        "nationality": "Sérvia"
+                    },
+                    "statistics": {
+                        "minutes_played": 29,
+                        "entered": 61
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "1. FC Heidenheim 1846",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Diant Ramaj",
+                        "jersey_number": "41",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Thomas Keller",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Patrick Mainka",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Benedikt Gimber",
+                        "jersey_number": "5",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "hooked": 57,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marnon Busch",
+                        "jersey_number": "2",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 76,
+                        "hooked": 76
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Niehues",
+                        "jersey_number": "16",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Niklas Dorsch",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "hooked": 57
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonas Fohrenbach",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mathias Honsak",
+                        "jersey_number": "17",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 76,
+                        "hooked": 76
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marvin Pieringer",
+                        "jersey_number": "18",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Adrian Beck",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "hooked": 57
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Omar Traorè",
+                        "jersey_number": "23",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 14,
+                        "entered": 76
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Arijon Ibrahimovic",
+                        "jersey_number": "22",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "entered": 57,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/schoppner_.png",
+                    "player": {
+                        "name": "Jan Schöppner",
+                        "jersey_number": "3",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "entered": 57,
+                        "goals": 1,
+                        "motm_stat": {
+                            "Gols": "1",
+                            "Duelos (Vencidos)": "5 (4)"
+                        }
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Stefan Schimmer",
+                        "jersey_number": "9",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "entered": 57,
+                        "yellow_card": true,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Yannik Wagner",
+                        "jersey_number": "38",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 14,
+                        "entered": 76
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "36",
+        "referee": {
+            "referee_name": "Christian Dingert",
+            "final_score": 7.2,
+            "scores": {
+                "criteria_consistency": 7.2,
+                "control_discipline": 7.2,
+                "technical_decisions": 7.2,
+                "var_use": 7.2,
+                "posture_communication": 7.2
+            }
+        },
+        "date": "29.11.2025",
+        "time": "11:30",
+        "stadium": "PreZero Arena",
+        "stadium_loc": "Sinsheim",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "3",
+                    "away": "0",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "60%",
+                    "away": "40%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "17",
+                    "away": "14",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "3",
+                    "away": "4",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "7",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "3",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "17",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "TSG 1899 Hoffenheim",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Oliver Baumann",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Vladimír Coufal",
+                        "jersey_number": "34",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Robin Hranác",
+                        "jersey_number": "2",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Albian Hajdari",
+                        "jersey_number": "21",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "br_motm": true,
+                    "photo": "/images/motm_pics/bernardo_.png",
+                    "player": {
+                        "name": "Bernardo Júnior",
+                        "jersey_number": "13",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "hooked": 72,
+                        "br_motm_stat": {
+                            "Passes no 1/3 Final": "23/26 (88%)",
+                            "Recuperações": "4"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/burguer_.png",
+                    "player": {
+                        "name": "Wouter Burger",
+                        "jersey_number": "18",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1,
+                        "goal_assist": 1,
+                        "motm_stat": {
+                            "Gols": "1",
+                            "Passes Chave": "3"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Grischa Promel",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "hooked": 72
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Leon Avdullahu",
+                        "jersey_number": "7",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Fisnik Asllani",
+                        "jersey_number": "11",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 59,
+                        "hooked": 59
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Tim Lemperle",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 85,
+                        "hooked": 85
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Bazoumana Touré",
+                        "jersey_number": "29",
+                        "nationality": "Costa do Marfim"
+                    },
+                    "statistics": {
+                        "minutes_played": 59,
+                        "hooked": 59,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ozan Kabak",
+                        "jersey_number": "5",
+                        "nationality": "Turquia"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "entered": 72
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Alexander Prass",
+                        "jersey_number": "22",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "entered": 72
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Momo Damar",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 5,
+                        "entered": 85
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Moerstedt",
+                        "jersey_number": "33",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 31,
+                        "entered": 59,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Andrej Kramaric",
+                        "jersey_number": "27",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 31,
+                        "entered": 59
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "FC Augsburg",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Finn Dahmen",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Noahkai Banks",
+                        "jersey_number": "40",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Chrislain Matsima",
+                        "jersey_number": "5",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Cédric Zesiger",
+                        "jersey_number": "16",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71,
+                        "own_goal": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Anton Kade",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 82,
+                        "hooked": 82
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Robin Fellhauer",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Han Massengo",
+                        "jersey_number": "4",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Dimitrios Giannoulis",
+                        "jersey_number": "13",
+                        "nationality": "Grécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Fabian Rieder",
+                        "jersey_number": "32",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Samuel Essende",
+                        "jersey_number": "9",
+                        "nationality": "Rep. Dem. do Congo"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mert Komur",
+                        "jersey_number": "36",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Marius Wolf",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Kristijan Jakic",
+                        "jersey_number": "17",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Elvis Rexhbecaj",
+                        "jersey_number": "8",
+                        "nationality": "Kosovo"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Phillip Tietz",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Claude-Maurice",
+                        "jersey_number": "20",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 8,
+                        "entered": 82
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "37",
+        "referee": {
+            "referee_name": "Tobias Welz",
+            "final_score": 7.1,
+            "scores": {
+                "criteria_consistency": 7.1,
+                "control_discipline": 7.1,
+                "technical_decisions": 7.1,
+                "var_use": 7.1,
+                "posture_communication": 7.1
+            }
+        },
+        "date": "29.11.2025",
+        "time": "14:30",
+        "stadium": "BayArena",
+        "stadium_loc": "Leverkusen",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "2",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "63%",
+                    "away": "37%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "14",
+                    "away": "7",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "4",
+                    "away": "4",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "7",
+                    "away": "9",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "3",
+                    "away": "1",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "7",
+                    "away": "9",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "3",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Bayer 04 Leverkusen",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mark Flekken",
+                        "jersey_number": "1",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Robert Andrich",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 88,
+                        "hooked": 88
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Loic Badé",
+                        "jersey_number": "5",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Edmond Tapsoba",
+                        "jersey_number": "12",
+                        "nationality": "Burkina Faso"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jonas Hofmann",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 74,
+                        "hooked": 74
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aleix García",
+                        "jersey_number": "24",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ibrahim Maza",
+                        "jersey_number": "30",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Álex Grimaldo",
+                        "jersey_number": "20",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Malik Tillman",
+                        "jersey_number": "10",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 74,
+                        "hooked": 74,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Patrik Schick",
+                        "jersey_number": "14",
+                        "nationality": "Rep. Tcheca"
+                    },
+                    "statistics": {
+                        "minutes_played": 63,
+                        "hooked": 63
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ernest Poku",
+                        "jersey_number": "19",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 88,
+                        "hooked": 88
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jarell Quansah",
+                        "jersey_number": "4",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 2,
+                        "entered": 88
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Nathan Tella",
+                        "jersey_number": "23",
+                        "nationality": "Nigéria"
+                    },
+                    "statistics": {
+                        "minutes_played": 2,
+                        "entered": 88
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Martin Terrier",
+                        "jersey_number": "11",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 16,
+                        "entered": 74
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Christian Kofane",
+                        "jersey_number": "35",
+                        "nationality": "Camarões"
+                    },
+                    "statistics": {
+                        "minutes_played": 27,
+                        "entered": 63,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Claudio Echeverri",
+                        "jersey_number": "9",
+                        "nationality": "Argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 16,
+                        "entered": 74
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "Borussia Dortmund",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/kobel_.png",
+                    "player": {
+                        "name": "Gregor Kobel",
+                        "jersey_number": "1",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "motm_stat": {
+                            "Defesas": "3",
+                            "Gols Prevenidos": "0.97"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aaron Anselmino",
+                        "jersey_number": "28",
+                        "nationality": "Argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Waldemar Anton",
+                        "jersey_number": "3",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Nico Schlotterbeck",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Ryerson",
+                        "jersey_number": "26",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 80,
+                        "hooked": 80,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Marcel Sabitzer",
+                        "jersey_number": "20",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Felix Nmecha",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Daniel Svensson",
+                        "jersey_number": "24",
+                        "nationality": "Suécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Karim Adeyemi",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 80,
+                        "hooked": 80,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Serhou Guirassy",
+                        "jersey_number": "9",
+                        "nationality": "Guiné"
+                    },
+                    "statistics": {
+                        "minutes_played": 61,
+                        "hooked": 61
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Julian Brandt",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Yan Couto",
+                        "jersey_number": "2",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 10,
+                        "entered": 80,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ramy Bensebaini",
+                        "jersey_number": "5",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jobe Bellingham",
+                        "jersey_number": "7",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 10,
+                        "entered": 80
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Carney Chukwuemeka",
+                        "jersey_number": "17",
+                        "nationality": "Inglaterra"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Fábio Silva",
+                        "jersey_number": "21",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 29,
+                        "entered": 61,
+                        "yellow_card": true,
+                        "goal_assist": 1
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "38",
+        "referee": {
+            "referee_name": "Soren Storks",
+            "final_score": 7.2,
+            "scores": {
+                "criteria_consistency": 7.2,
+                "control_discipline": 7.2,
+                "technical_decisions": 7.2,
+                "var_use": 7.2,
+                "posture_communication": 7.2
+            }
+        },
+        "date": "30.11.2025",
+        "time": "11:30",
+        "stadium": "Volksparkstadion",
+        "stadium_loc": "Hamburgo",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "2",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "34%",
+                    "away": "66%",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "9",
+                    "away": "14",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "2",
+                    "away": "3",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "4",
+                    "away": "6",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "16",
+                    "away": "12",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "2",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "1",
+                    "away": "0",
+                    "statistic_type": "negative"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "Hamburguer SV",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Daniel Heuer Fernandes",
+                        "jersey_number": "1",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Nicolás Capaldo",
+                        "jersey_number": "24",
+                        "nationality": "Argentina"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Luka Vuskovic",
+                        "jersey_number": "44",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jordan Torunarigha",
+                        "jersey_number": "25",
+                        "nationality": "Nigéria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "William Mikelbrencis",
+                        "jersey_number": "2",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 67,
+                        "hooked": 67
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nicolai Remberg",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Sambi Lokonga",
+                        "jersey_number": "6",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 67,
+                        "hooked": 67
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Miro Muheim",
+                        "jersey_number": "28",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Rayan Philippe",
+                        "jersey_number": "14",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 68,
+                        "hooked": 68
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Robert Glatzel",
+                        "jersey_number": "9",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 34,
+                        "hooked": 34,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Alexander Rossing",
+                        "jersey_number": "38",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "second_yellow": true,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Giorgi Gocholeishvili",
+                        "jersey_number": "16",
+                        "nationality": "Geórgia"
+                    },
+                    "statistics": {
+                        "minutes_played": 23,
+                        "entered": 67
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Guilherme Ramos",
+                        "jersey_number": "13",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Ransford Königsdörffer",
+                        "jersey_number": "11",
+                        "nationality": "Gana"
+                    },
+                    "statistics": {
+                        "minutes_played": 56,
+                        "entered": 34
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/f_vieira_.png",
+                    "player": {
+                        "name": "Fábio Vieira",
+                        "jersey_number": "20",
+                        "nationality": "Portugal"
+                    },
+                    "statistics": {
+                        "minutes_played": 23,
+                        "entered": 67,
+                        "goals": 1,
+                        "motm_stat": {
+                            "Gols": "1",
+                            "Recuperações": "2"
+                        }
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Fábio Baldé",
+                        "jersey_number": "45",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 22,
+                        "entered": 68,
+                        "goal_assist": 1
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "Vfb Stuttgart",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Alexander Nübel",
+                        "jersey_number": "33",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ameen Al-Dakhil",
+                        "jersey_number": "2",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Julian Chabot",
+                        "jersey_number": "24",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ramon Hendriks",
+                        "jersey_number": "3",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 87,
+                        "hooked": 87
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Josha Vagnoman",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nikolas Nartey",
+                        "jersey_number": "28",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 57,
+                        "hooked": 57
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Chema Andrés",
+                        "jersey_number": "30",
+                        "nationality": "Espanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Pascal Stenzel",
+                        "jersey_number": "15",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 46,
+                        "hooked": 46,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Bilal El Khannouss",
+                        "jersey_number": "11",
+                        "nationality": "Marrocos"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Badredine Bouanani",
+                        "jersey_number": "27",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 87,
+                        "hooked": 87
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Chris Fuhrich",
+                        "jersey_number": "10",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 40,
+                        "hooked": 40
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Mittelstadt",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Angelo Stiller",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 33,
+                        "entered": 57
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lazar Jovanovic",
+                        "jersey_number": "45",
+                        "nationality": "Sérvia"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Deniz Undav",
+                        "jersey_number": "26",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 50,
+                        "entered": 40,
+                        "yellow_card": true,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jamie Leweling",
+                        "jersey_number": "18",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 44,
+                        "entered": 46
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "39",
+        "referee": {
+            "referee_name": "Harm Osmers",
+            "final_score": 6.4,
+            "scores": {
+                "criteria_consistency": 6.4,
+                "control_discipline": 6.4,
+                "technical_decisions": 6.4,
+                "var_use": 6.4,
+                "posture_communication": 6.4
+            }
+        },
+        "date": "30.11.2025",
+        "time": "13:30",
+        "stadium": "Deutsche Bank Park",
+        "stadium_loc": "Frankfurt",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "1",
+                    "away": "1",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "54%",
+                    "away": "46%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "15",
+                    "away": "10",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "3",
+                    "away": "3",
+                    "statistic_type": "null"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "14",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "2",
+                    "away": "3",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "7",
+                    "away": "9",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "1",
+                    "away": "4",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "0",
+                    "statistic_type": "null"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SG Eintracht Frankfurt",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Michael Zetterer",
+                        "jersey_number": "23",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Rasmus Kristensen",
+                        "jersey_number": "13",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/theate_.png",
+                    "player": {
+                        "name": "Arthur Theate",
+                        "jersey_number": "3",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "motm_stat": {
+                            "Cortes": "7",
+                            "Duelos (Vencidos)": "9 (6)"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Robin Koch",
+                        "jersey_number": "4",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Nathaniel Brown",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ellyes Skhiri",
+                        "jersey_number": "15",
+                        "nationality": "Tunísia"
+                    },
+                    "statistics": {
+                        "minutes_played": 76,
+                        "hooked": 76
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Farès Chaïbi",
+                        "jersey_number": "8",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ritsu Doan",
+                        "jersey_number": "20",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mario Götze",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 62,
+                        "hooked": 62
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jean-Mattéo Bahoya",
+                        "jersey_number": "19",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 62,
+                        "hooked": 62
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Ansgar Knauff",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 82,
+                        "hooked": 82
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Nnamdi Collins",
+                        "jersey_number": "34",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 28,
+                        "entered": 62
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Mahmoud Dahoud",
+                        "jersey_number": "18",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 14,
+                        "entered": 76
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Michy Batshuayi",
+                        "jersey_number": "30",
+                        "nationality": "Bélgica"
+                    },
+                    "statistics": {
+                        "minutes_played": 28,
+                        "entered": 62,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Jessic Ngankam",
+                        "jersey_number": "32",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 8,
+                        "entered": 82
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "Vfl Wolfsburg",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kamil Grabara",
+                        "jersey_number": "1",
+                        "nationality": "Polônia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Saël Kumbedi",
+                        "jersey_number": "26",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jenson Seelt",
+                        "jersey_number": "14",
+                        "nationality": "Holanda"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kostas Koulierakis",
+                        "jersey_number": "4",
+                        "nationality": "Grécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Aaron Zehnter",
+                        "jersey_number": "25",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Maximilian Arnold",
+                        "jersey_number": "27",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yannick Gerhardt",
+                        "jersey_number": "31",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 86,
+                        "hooked": 86
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Christian Eriksen",
+                        "jersey_number": "24",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 86,
+                        "hooked": 86
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lovro Majer",
+                        "jersey_number": "10",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "hooked": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Patrick Wimmer",
+                        "jersey_number": "39",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Mohamed Amoura",
+                        "jersey_number": "9",
+                        "nationality": "Argélia"
+                    },
+                    "statistics": {
+                        "minutes_played": 71,
+                        "hooked": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Denis Vavro",
+                        "jersey_number": "3",
+                        "nationality": "Eslováquia"
+                    },
+                    "statistics": {
+                        "minutes_played": 4,
+                        "entered": 86,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Vinicius Souza",
+                        "jersey_number": "5",
+                        "nationality": "Brasil"
+                    },
+                    "statistics": {
+                        "minutes_played": 4,
+                        "entered": 86
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Mattias Svanberg",
+                        "jersey_number": "32",
+                        "nationality": "Suécia"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Pharell Hensel",
+                        "jersey_number": "37",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 0,
+                        "entered": 90
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Dzenan Pejcinovic",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 19,
+                        "entered": 71
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "_id": "40",
+        "referee": {
+            "referee_name": "Daniel Schlager",
+            "final_score": 7.9,
+            "scores": {
+                "criteria_consistency": 7.9,
+                "control_discipline": 7.9,
+                "technical_decisions": 7.9,
+                "var_use": 7.9,
+                "posture_communication": 7.9
+            }
+        },
+        "date": "30.11.2025",
+        "time": "15:30",
+        "stadium": "Europa-Park Stadion",
+        "stadium_loc": "Freiburg",
+        "competition_name": "Bundesliga",
+        "year": "25/26",
+        "stage": "12. Rodada",
+        "statistics": {
+            "item": [
+                {
+                    "group_name": "Gols",
+                    "home": "4",
+                    "away": "0",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Posse de Bola",
+                    "home": "75%",
+                    "away": "25%",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes",
+                    "home": "23",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Chutes no Alvo",
+                    "home": "10",
+                    "away": "1",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Escanteio",
+                    "home": "6",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Impedimentos",
+                    "home": "4",
+                    "away": "0",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Faltas",
+                    "home": "9",
+                    "away": "12",
+                    "statistic_type": "negative"
+                },
+                {
+                    "group_name": "Cartões Amarelos",
+                    "home": "0",
+                    "away": "2",
+                    "statistic_type": "positive"
+                },
+                {
+                    "group_name": "Cartões Vermelhos",
+                    "home": "0",
+                    "away": "1",
+                    "statistic_type": "positive"
+                }
+            ]
+        },
+        "home_team": {
+            "team_name": "SC Freiburg",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Noah Atubolu",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lukas Kubler",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 69,
+                        "hooked": 69,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Matthias Ginter",
+                        "jersey_number": "28",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Philipp Lienhart",
+                        "jersey_number": "3",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Philipp Treu",
+                        "jersey_number": "29",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 87,
+                        "hooked": 87
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Jan-Niklas Beste",
+                        "jersey_number": "19",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 81,
+                        "hooked": 81
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Vincenzo Grifo",
+                        "jersey_number": "32",
+                        "nationality": "Itália"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "motm": true,
+                    "photo": "/images/motm_pics/manzambi_.png",
+                    "player": {
+                        "name": "Johan Manzambi",
+                        "jersey_number": "44",
+                        "nationality": "Suíça"
+                    },
+                    "statistics": {
+                        "minutes_played": 81,
+                        "hooked": 81,
+                        "goals": 1,
+                        "motm_stat": {
+                            "Chances Criadas": "1",
+                            "Duelos Vencidos": "11 (8)"
+                        }
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Eggestein",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Yuito Suzuki",
+                        "jersey_number": "14",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 69,
+                        "hooked": 69,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lucas Holer",
+                        "jersey_number": "9",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "goal_assist": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Max Rosenfelder",
+                        "jersey_number": "37",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 3,
+                        "entered": 87
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Christian Günter",
+                        "jersey_number": "30",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Patrick Osterhage",
+                        "jersey_number": "6",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 9,
+                        "entered": 81,
+                        "goals": 1
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Igor Matanovic",
+                        "jersey_number": "31",
+                        "nationality": "Croácia"
+                    },
+                    "statistics": {
+                        "minutes_played": 21,
+                        "entered": 69
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Derry Scherhant",
+                        "jersey_number": "7",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 9,
+                        "entered": 81
+                    }
+                }
+            ]
+        },
+        "away_team": {
+            "team_name": "1. FSV Mainz 05",
+            "players": [
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lasse Riess",
+                        "jersey_number": "1",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Danny da Costa",
+                        "jersey_number": "21",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": true,
+                    "player": {
+                        "name": "Stefan Bell",
+                        "jersey_number": "16",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kacper Potulski",
+                        "jersey_number": "48",
+                        "nationality": "Polônia"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Sota Kawasaki",
+                        "jersey_number": "24",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "yellow_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Kaishu Sano",
+                        "jersey_number": "6",
+                        "nationality": "Japão"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Lee Jae-sung",
+                        "jersey_number": "7",
+                        "nationality": "Coreia do Sul"
+                    },
+                    "statistics": {
+                        "minutes_played": 72,
+                        "hooked": 72
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Phillipp Mwene",
+                        "jersey_number": "2",
+                        "nationality": "Áustria"
+                    },
+                    "statistics": {
+                        "minutes_played": 90
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Paul Nebel",
+                        "jersey_number": "8",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 90,
+                        "red_card": true
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Arnaud Nordin",
+                        "jersey_number": "9",
+                        "nationality": "França"
+                    },
+                    "statistics": {
+                        "minutes_played": 54,
+                        "hooked": 54
+                    }
+                },
+                {
+                    "substitute": false,
+                    "captain": false,
+                    "player": {
+                        "name": "Benedict Hollerbach",
+                        "jersey_number": "17",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 73,
+                        "hooked": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Andreas Olsen",
+                        "jersey_number": "25",
+                        "nationality": "Noruega"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Lennard Maloney",
+                        "jersey_number": "15",
+                        "nationality": "Estados Unidos"
+                    },
+                    "statistics": {
+                        "minutes_played": 36,
+                        "entered": 54
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "William Boving",
+                        "jersey_number": "14",
+                        "nationality": "Dinamarca"
+                    },
+                    "statistics": {
+                        "minutes_played": 18,
+                        "entered": 72
+                    }
+                },
+                {
+                    "substitute": true,
+                    "captain": false,
+                    "player": {
+                        "name": "Armindo Sieb",
+                        "jersey_number": "11",
+                        "nationality": "Alemanha"
+                    },
+                    "statistics": {
+                        "minutes_played": 17,
+                        "entered": 73
+                    }
+                }
+            ]
+        }
+    },
+    /* UCL nova rodada */
 ];

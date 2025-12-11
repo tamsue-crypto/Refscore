@@ -7,7 +7,7 @@ import MatchPage from "./pages/MatchPage";
 import JournalistPage from "./pages/JournalistPage";
 import RefereePage from "./pages/RefereePage";
 import TournamentPage from "./pages/TournamentPage";
-import RankingPage from "./pages/RankingPage";
+import RankingsPage from "./pages/RankingsPage";
 import AllRefsPage from "./pages/AllRefsPage";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/journalist-page/:id" element={<JournalistPage/>}></Route>
           <Route path="/referee/:refName" element={<RefereePage/>}></Route>
           <Route path="/championship/:championshipId" element={<TournamentPage/>}></Route>
-          <Route path="/rankings/" element={<RankingPage/>}></Route>
+          <Route path="/rankings/" element={<RankingsPage/>}></Route>
           <Route path="/referees/" element={<AllRefsPage/>}></Route>
         </Routes>
       </Router>

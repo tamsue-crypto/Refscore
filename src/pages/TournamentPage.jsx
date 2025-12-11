@@ -5,7 +5,6 @@ import AuthModal from "../components/AuthModal";
 import '../styles/global.css'
 import '../styles/article-page.css'
 import '../styles/tournament-page.css'
-import TodayMatchesList from "../components/TodayMatchesList";
 import { Link, useParams } from "react-router-dom";
 import { referees } from "../data/referees";
 import { championships } from "../data/championships";
@@ -100,7 +99,7 @@ export default function TournamentPage() {
     const topRedCards = getTop5(refereesInChampionship, "red_card");
     const topYellowCards = getTop5(refereesInChampionship, "yellow_card");
 
-    const matchesToDisplay = matches.filter(c => c.competition_name ===championship.name).slice(0, 10)
+    const matchesToDisplay = matches.filter(c => c.competition_name ===championship.name).reverse().slice(0, 10)
     function getTeam(id) {
         return teams.find(t => t.name === id);
     }

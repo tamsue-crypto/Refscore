@@ -11,19 +11,21 @@ export default function NavBar({onLoginClick}){
     return(
         <>
             <header id="main-header">
-                <Link to={`/`}>
-                    <div className="logo-area flex-center">
-                        <img src={process.env.PUBLIC_URL + "/images/refscore-icon.png"} alt=""/>
-                        <span>Refscore</span>
-                    </div>
-                </Link>
+                <div style={{display: "flex", gap: "50px", alignItems: "center"}}>
+                    <Link to={`/`}>
+                        <div className="logo-area flex-center">
+                            <img src={process.env.PUBLIC_URL + "/images/refscore-icon.png"} alt="" />
+                            <span>Refscore</span>
+                        </div>
+                    </Link>
 
-                {/*
-                <div id="main-nav">
-                    <ul>
-                        <Link to={'/rankings/'}><li>Rankings</li></Link>
-                    </ul>
-                </div>*/}
+
+                    <div id="main-nav">
+                        <ul>
+                            <Link to={'/rankings/'}><li>Rankings</li></Link>
+                        </ul>
+                    </div>
+                </div>
 
                 {/*
                 <div id="search-area" className="flex">

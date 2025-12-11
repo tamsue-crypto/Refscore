@@ -152,20 +152,6 @@ export default function ArticlePage() {
 
                             <div>
                                 <TodayMatchesList day={todayDate}/>
-                                
-                                {article.sideImages ? <>
-                                    <div className="photos" style={{scale: '0.9'}}>
-                                        {Object.values(article.sideImages).map((p, index) =>
-                                            <div className="side-photos" key={index}>
-                                                <img src={process.env.PUBLIC_URL + `/${p}`} alt="imagem lateral" key={index} />
-                                            </div>
-                                        )}
-                                    </div>
-                                </> : <>
-                                    <div>
-
-                                    </div>
-                                </>}
                             </div>
                         </div>
                     )

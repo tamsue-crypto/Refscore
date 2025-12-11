@@ -12,7 +12,7 @@ export default function MatchesList({context, team, referee}) {
     }
 
     if(context === 'match' && team){
-        matchesToDisplay = matches.filter((m) => m.home_team.team_name === team || m.away_team.team_name === team).filter(r => r.referee.referee_name === referee).slice(0, 10);
+        matchesToDisplay = matches.filter((m) => m.home_team.team_name === team || m.away_team.team_name === team).filter(r => r.referee.referee_name === referee).reverse().slice(0, 10);
         ThisTeam = getTeam(team);
     } else if (context === 'referee'){
         matchesToDisplay = matches.filter((r) => r.referee.referee_name === referee).filter((s) => s.stage === "final").slice(0, 10);
