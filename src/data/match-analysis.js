@@ -1662,4 +1662,504 @@ export const analysis = [
             },
         ]
     },
+    {
+        "matchId": "41",
+        "analysis": [
+            {
+                "journalistId": "8",
+                "final-score": 8.1,
+                "scores": {
+                    "Critério e Consistência": 8.1,
+                    "Controle e Disciplina": 8.1,
+                    "Decisões Técnicas": 8.1,
+                    "Uso do Var": 8.1,
+                    "Postura e Comunicação": 8.1
+                }
+            },
+            {
+                "journalistId": "2",
+                "final-score": 8.1,
+                "scores": {
+                    "Critério e Consistência": 8.1,
+                    "Controle e Disciplina": 8.1,
+                    "Decisões Técnicas": 8.1,
+                    "Uso do Var": 8.1,
+                    "Postura e Comunicação": 8.1
+                }
+            },
+            {
+                "journalistId": "12",
+                "final-score": 8.1,
+                "scores": {
+                    "Critério e Consistência": 8.1,
+                    "Controle e Disciplina": 8.1,
+                    "Decisões Técnicas": 8.1,
+                    "Uso do Var": 8.1,
+                    "Postura e Comunicação": 8.1
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "42",
+        "analysis": [
+            {
+                "journalistId": "9",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "11",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "5",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "43",
+        "analysis": [
+            {
+                "journalistId": "6",
+                "final-score": 6.9,
+                "scores": {
+                    "Critério e Consistência": 6.9,
+                    "Controle e Disciplina": 6.9,
+                    "Decisões Técnicas": 6.9,
+                    "Uso do Var": 6.9,
+                    "Postura e Comunicação": 6.9
+                }
+            },
+            {
+                "journalistId": "1",
+                "final-score": 6.9,
+                "scores": {
+                    "Critério e Consistência": 6.9,
+                    "Controle e Disciplina": 6.9,
+                    "Decisões Técnicas": 6.9,
+                    "Uso do Var": 6.9,
+                    "Postura e Comunicação": 6.9
+                }
+            },
+            {
+                "journalistId": "12",
+                "final-score": 6.9,
+                "scores": {
+                    "Critério e Consistência": 6.9,
+                    "Controle e Disciplina": 6.9,
+                    "Decisões Técnicas": 6.9,
+                    "Uso do Var": 6.9,
+                    "Postura e Comunicação": 6.9
+                }
+            },
+            {
+                "journalistId": "11",
+                "final-score": 6.9,
+                "scores": {
+                    "Critério e Consistência": 6.9,
+                    "Controle e Disciplina": 6.9,
+                    "Decisões Técnicas": 6.9,
+                    "Uso do Var": 6.9,
+                    "Postura e Comunicação": 6.9
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "44",
+        "analysis": [
+            {
+                "journalistId": "8",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "3",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "2",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "11",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "45",
+        "analysis": [
+            {
+                "journalistId": "11",
+                "final-score": 6.2,
+                "scores": {
+                    "Critério e Consistência": 6.2,
+                    "Controle e Disciplina": 6.2,
+                    "Decisões Técnicas": 6.2,
+                    "Uso do Var": 6.2,
+                    "Postura e Comunicação": 6.2
+                }
+            },
+            {
+                "journalistId": "2",
+                "final-score": 6.2,
+                "scores": {
+                    "Critério e Consistência": 6.2,
+                    "Controle e Disciplina": 6.2,
+                    "Decisões Técnicas": 6.2,
+                    "Uso do Var": 6.2,
+                    "Postura e Comunicação": 6.2
+                }
+            },
+            {
+                "journalistId": "7",
+                "final-score": 6.2,
+                "scores": {
+                    "Critério e Consistência": 6.2,
+                    "Controle e Disciplina": 6.2,
+                    "Decisões Técnicas": 6.2,
+                    "Uso do Var": 6.2,
+                    "Postura e Comunicação": 6.2
+                }
+            },
+            {
+                "journalistId": "9",
+                "final-score": 6.2,
+                "scores": {
+                    "Critério e Consistência": 6.2,
+                    "Controle e Disciplina": 6.2,
+                    "Decisões Técnicas": 6.2,
+                    "Uso do Var": 6.2,
+                    "Postura e Comunicação": 6.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "46",
+        "analysis": [
+            {
+                "journalistId": "3",
+                "final-score": 7.6,
+                "scores": {
+                    "Critério e Consistência": 7.6,
+                    "Controle e Disciplina": 7.6,
+                    "Decisões Técnicas": 7.6,
+                    "Uso do Var": 7.6,
+                    "Postura e Comunicação": 7.6
+                }
+            },
+            {
+                "journalistId": "8",
+                "final-score": 7.6,
+                "scores": {
+                    "Critério e Consistência": 7.6,
+                    "Controle e Disciplina": 7.6,
+                    "Decisões Técnicas": 7.6,
+                    "Uso do Var": 7.6,
+                    "Postura e Comunicação": 7.6
+                }
+            },
+            {
+                "journalistId": "6",
+                "final-score": 7.6,
+                "scores": {
+                    "Critério e Consistência": 7.6,
+                    "Controle e Disciplina": 7.6,
+                    "Decisões Técnicas": 7.6,
+                    "Uso do Var": 7.6,
+                    "Postura e Comunicação": 7.6
+                }
+            },
+            {
+                "journalistId": "7",
+                "final-score": 7.6,
+                "scores": {
+                    "Critério e Consistência": 7.6,
+                    "Controle e Disciplina": 7.6,
+                    "Decisões Técnicas": 7.6,
+                    "Uso do Var": 7.6,
+                    "Postura e Comunicação": 7.6
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "47",
+        "analysis": [
+            {
+                "journalistId": "3",
+                "final-score": 6.3,
+                "scores": {
+                    "Critério e Consistência": 6.3,
+                    "Controle e Disciplina": 6.3,
+                    "Decisões Técnicas": 6.3,
+                    "Uso do Var": 6.3,
+                    "Postura e Comunicação": 6.3
+                }
+            },
+            {
+                "journalistId": "9",
+                "final-score": 6.3,
+                "scores": {
+                    "Critério e Consistência": 6.3,
+                    "Controle e Disciplina": 6.3,
+                    "Decisões Técnicas": 6.3,
+                    "Uso do Var": 6.3,
+                    "Postura e Comunicação": 6.3
+                }
+            },
+            {
+                "journalistId": "4",
+                "final-score": 6.3,
+                "scores": {
+                    "Critério e Consistência": 6.3,
+                    "Controle e Disciplina": 6.3,
+                    "Decisões Técnicas": 6.3,
+                    "Uso do Var": 6.3,
+                    "Postura e Comunicação": 6.3
+                }
+            },
+            {
+                "journalistId": "5",
+                "final-score": 6.3,
+                "scores": {
+                    "Critério e Consistência": 6.3,
+                    "Controle e Disciplina": 6.3,
+                    "Decisões Técnicas": 6.3,
+                    "Uso do Var": 6.3,
+                    "Postura e Comunicação": 6.3
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "48",
+        "analysis": [
+            {
+                "journalistId": "11",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "4",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "8",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "49",
+        "analysis": [
+            {
+                "journalistId": "9",
+                "final-score": 7.8,
+                "scores": {
+                    "Critério e Consistência": 7.8,
+                    "Controle e Disciplina": 7.8,
+                    "Decisões Técnicas": 7.8,
+                    "Uso do Var": 7.8,
+                    "Postura e Comunicação": 7.8
+                }
+            },
+            {
+                "journalistId": "10",
+                "final-score": 7.8,
+                "scores": {
+                    "Critério e Consistência": 7.8,
+                    "Controle e Disciplina": 7.8,
+                    "Decisões Técnicas": 7.8,
+                    "Uso do Var": 7.8,
+                    "Postura e Comunicação": 7.8
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "50",
+        "analysis": [
+            {
+                "journalistId": "2",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "3",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "51",
+        "analysis": [
+            {
+                "journalistId": "2",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "7",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "3",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
+    {
+        "matchId": "52",
+        "analysis": [
+            {
+                "journalistId": "7",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "9",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "12",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+            {
+                "journalistId": "2",
+                "final-score": 7.2,
+                "scores": {
+                    "Critério e Consistência": 7.2,
+                    "Controle e Disciplina": 7.2,
+                    "Decisões Técnicas": 7.2,
+                    "Uso do Var": 7.2,
+                    "Postura e Comunicação": 7.2
+                }
+            },
+        ]
+    },
 ]

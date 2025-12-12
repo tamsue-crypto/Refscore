@@ -934,7 +934,7 @@ export const referees = [
     {
         name: "Juan Martínez Munuera",
         first_name: "Juan",
-        second_name: "Munuera",
+        second_name: "M. Munuera",
         nationality: "Espanha",
         birthday: "13.07.1982",
         fifa_debut: "Nunca",
